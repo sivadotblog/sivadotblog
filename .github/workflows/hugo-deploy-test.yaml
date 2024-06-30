@@ -78,18 +78,18 @@ jobs:
       - name: Install lftp
         run: sudo apt-get update && sudo apt-get install lftp
 
-      - name: Deploy to FTP Server with lftp
-        env:
-          FTP_SERVER: ${{ secrets.SERVER }}
-          FTP_USER: ${{ secrets.FTP_USER }}
-          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-        run: |
-          lftp -c "
-          set ftp:list-options -a;
-          set ssl:verify-certificate no;
-          open ftp://$FTP_USER:$FTP_PASSWORD@$FTP_SERVER;
-          lcd ./public/;
-          cd test.siva.blog/;
-          mirror --reverse --delete --verbose ./ ./
-          bye;
-          "
+      # - name: Deploy to FTP Server with lftp
+      #   env:
+      #     FTP_SERVER: ${{ secrets.SERVER }}
+      #     FTP_USER: ${{ secrets.FTP_USER }}
+      #     FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+      #   run: |
+      #     lftp -c "
+      #     set ftp:list-options -a;
+      #     set ssl:verify-certificate no;
+      #     open ftp://$FTP_USER:$FTP_PASSWORD@$FTP_SERVER;
+      #     lcd ./public/;
+      #     cd test.siva.blog/;
+      #     mirror --reverse --delete --verbose ./ ./
+      #     bye;
+      #     "
