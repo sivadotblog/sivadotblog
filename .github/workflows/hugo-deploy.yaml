@@ -71,7 +71,7 @@ jobs:
           server: ${{ secrets.SERVER }}
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./test.siva.blog/
+          server-dir: test.siva.blog/
           log-level: verbose
   # Deployment job
   deploy:
