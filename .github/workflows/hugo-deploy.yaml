@@ -68,10 +68,11 @@ jobs:
       - name: Deploy to FTP Server
         uses: SamKirkland/FTP-Deploy-Action@4.2.0
         with:
-          server: ftp://${{ secrets.SERVER }}/
+          server: ftp.${{ secrets.SERVER }}
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: /test.siva.blog/
+          log-level: verbose
   # Deployment job
   deploy:
     environment:
