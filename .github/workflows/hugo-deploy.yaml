@@ -65,12 +65,14 @@ jobs:
       #   uses: actions/upload-pages-artifact@v3
       #   with:
       #     path: ./public
+      - run: ls -l
+
       - name: Deploy to FTP Server
         uses: SamKirkland/FTP-Deploy-Action@4.2.0
         with:
           server: ${{ secrets.SERVER }}
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: /public/
+          local-dir: ./public/
           server-dir: test.siva.blog/
           log-level: verbose
