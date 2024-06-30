@@ -1,23 +1,24 @@
 ---
 title: "Traditional CoEs are a bottleneck! Turn to Federated CoE"
-description: "Here’s a step-by-step guide, filled with a healthy dose of sarcasm and a pinch of merciless humor"
-summary: "You can use blog posts for announcing product updates and features."
-date: 2023-09-07T16:27:22+02:00
-lastmod: 2023-09-07T16:27:22+02:00
+description: "Explore the shift from traditional Centers of Excellence (CoEs) to a Federated CoE model to overcome bottlenecks and enhance organizational agility."
+summary: "Dive into the evolution from traditional CoEs to Federated CoEs, a move that promises to dismantle bottlenecks and foster a more agile, responsive organization."
+date: 2022-12-15T10:00:00+02:00
+lastmod: 2022-12-20T10:00:00+02:00
 draft: false
 weight: 50
 categories: ["Enterprise Strategies"]
-tags: []
+tags: ["CoE", "Federated CoE", "Organizational Agility"]
 contributors: []
 pinned: false
 homepage: false
 type: blog
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
+  title: "From Bottleneck to Breakthrough: The Rise of Federated CoEs"
+  description: "Unveil the transformative potential of transitioning to a Federated Center of Excellence model for overcoming traditional bottlenecks and driving organizational agility."
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
+
 
 I have been in COEs for about 14 years, and to be honest here, nobody likes working with a COE or being in a COE. I am speaking for myself too. Today we will cover a trending concept called Federated CoE.
 

@@ -1,9 +1,9 @@
 ---
 title: "The Power of WHY – How to think like a Kid"
-description: "Here’s a step-by-step guide, filled with a healthy dose of sarcasm and a pinch of merciless humor"
-summary: "You can use blog posts for announcing product updates and features."
-date: 2023-09-07T16:27:22+02:00
-lastmod: 2023-09-07T16:27:22+02:00
+description: "Delve into the 'Five Whys' technique, a simple yet powerful approach to problem-solving that encourages thinking with the curiosity and simplicity of a child."
+summary: "Explore the 'Five Whys' method to uncover the root cause of problems by embracing a child-like curiosity, a technique that fosters deep understanding and innovative solutions."
+date: 2019-12-15T10:00:00+02:00
+lastmod: 2019-12-20T10:00:00+02:00
 draft: false
 weight: 50
 categories: ["reflections"]
@@ -13,11 +13,12 @@ pinned: false
 homepage: false
 type: blog
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
+  title: "The Power of WHY: Solving Problems with the Curiosity of a Child"
+  description: "Discover how the 'Five Whys' technique can transform your approach to problem-solving, learning, and innovation by thinking like a kid."
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
+
 
 
 Five Whys

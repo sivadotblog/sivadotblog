@@ -1,23 +1,24 @@
 ---
 title: "Woman with a Dream – A Family Fable"
-description: "Here’s a step-by-step guide, filled with a healthy dose of sarcasm and a pinch of merciless humor"
-summary: "You can use blog posts for announcing product updates and features."
-date: 2023-09-07T16:27:22+02:00
-lastmod: 2023-09-07T16:27:22+02:00
+description: "Dive into the heartwarming story of Anu, a talented cook whose culinary skills bring joy to her family and colleagues, and her journey towards realizing her dream."
+summary: "Explore the tale of Anu, whose exceptional cooking not only delights those around her but also serves as a stepping stone towards her larger aspirations."
+date: 2019-12-15T10:00:00+02:00
+lastmod: 2019-12-20T10:00:00+02:00
 draft: false
 weight: 50
 categories: ["reflections"]
-tags: []
+tags: ["Family", "Dreams", "Culinary Skills"]
 contributors: []
 pinned: false
 homepage: false
 type: blog
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
+  title: "Woman with a Dream: Culinary Delights and Aspirations"
+  description: "Join Anu on her journey from being a beloved family cook to chasing her dreams, a story that celebrates culinary passion and the pursuit of dreams."
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
+
 
 
 Anu was one of the best cooks I ever came across. Her recipes were so delicious that our office colleagues line up when she opens her lunch bag. Sruthi and Thaman are her lucky kids, always got their food served fresh & delicious. And so was their dad. Anu always cooks a little extra, just like my mom. She didn’t want to run out of food when someone wanted a little extra. I was so curious to know what she would do with the leftovers.

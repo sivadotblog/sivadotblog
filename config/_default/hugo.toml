@@ -57,7 +57,7 @@ copyRight = "Copyright (c) 2020-2024 Siva's Blog"
   tag = "tags"
 
 [permalinks]
-  post = "/post/:slug/"
+#  post = "/post/:slug/"
   docs = "/docs/:sections[1:]/:slug/"
 # docs = "/docs/1.0/:sections[1:]/:slug/"
 

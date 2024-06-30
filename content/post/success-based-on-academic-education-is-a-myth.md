@@ -1,9 +1,9 @@
 ---
-title: "Success Based on Academic Education is a Myth!"
-description: "Here’s a step-by-step guide, filled with a healthy dose of sarcasm and a pinch of merciless humor"
-summary: "You can use blog posts for announcing product updates and features."
-date: 2023-09-07T16:27:22+02:00
-lastmod: 2023-09-07T16:27:22+02:00
+title: "Debunking the Myth: Success Beyond Academic Education"
+description: "Explore the nuanced relationship between academic education and real-world success, challenging the conventional wisdom that formal education is the only path to achievement."
+summary: "Unravel the myth that academic education is the sole pathway to success, with insights into alternative routes that lead to personal and professional fulfillment."
+date: 2020-01-15T10:00:00+02:00
+lastmod: 2020-01-20T10:00:00+02:00
 draft: false
 weight: 50
 categories: ["reflections"]
@@ -13,8 +13,8 @@ pinned: false
 homepage: false
 type: blog
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
+  title: "Redefining Success: Beyond the Classroom"
+  description: "Dive into the debate on the importance of academic education in achieving success, presenting a broader perspective on learning and personal development."
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---

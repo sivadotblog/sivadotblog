@@ -1,9 +1,9 @@
 ---
-title: "CI/CD Methods for Databricks Notebooks"
-description: "Here’s a step-by-step guide, filled with a healthy dose of sarcasm and a pinch of merciless humor"
-summary: "You can use blog posts for announcing product updates and features."
-date: 2023-09-07T16:27:22+02:00
-lastmod: 2023-09-07T16:27:22+02:00
+title: "Databricks CI/CD Methods- A Comprehensive Guide"
+description: "Explore the seamless integration of Databricks notebooks with CI/CD pipelines using GitHub Actions and Azure DevOps, complete with expert insights"
+summary: "Explore the seamless integration of Databricks notebooks with CI/CD pipelines using GitHub Actions and Azure DevOps, complete with expert insights"
+date: 2024-01-15T10:00:00+02:00
+lastmod: 2024-01-20T10:00:00+02:00
 draft: false
 weight: 50
 categories: ["Data Platforms"]
@@ -13,8 +13,8 @@ pinned: false
 homepage: false
 type: blog
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
+  title: "Databricks CI/CD Methods- A Comprehensive Guide"
+  description: "Explore the seamless integration of Databricks notebooks with CI/CD pipelines using GitHub Actions and Azure DevOps, complete with expert insights"
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---

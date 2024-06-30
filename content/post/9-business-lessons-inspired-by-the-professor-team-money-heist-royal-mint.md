@@ -1,9 +1,9 @@
 ---
 title: "9 Business Lessons inspired by the Professor & Team – Money Heist"
-description: "Here’s a step-by-step guide, filled with a healthy dose of sarcasm and a pinch of merciless humor"
-summary: "You can use blog posts for announcing product updates and features."
-date: 2023-09-07T16:27:22+02:00
-lastmod: 2023-09-07T16:27:22+02:00
+description: "Dive into the strategic minds behind the Money Heist crew with our analysis of 9 key business lessons that can revolutionize your approach to challenges and leadership."
+summary: "Uncover the strategic genius of the Money Heist crew with our breakdown of 9 essential business lessons for innovative leadership and problem-solving."
+date: 2019-02-12T10:00:00+02:00
+lastmod: 2019-02-18T10:00:00+02:00
 draft: false
 weight: 50
 categories: ["Enterprise Strategies"]
@@ -13,8 +13,8 @@ pinned: false
 homepage: false
 type: blog
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
+  title: "9 Revolutionary Business Lessons from Money Heist's Masterminds"
+  description: "Explore how the cunning strategies and unbreakable team dynamics of the Money Heist crew can inspire groundbreaking approaches in business leadership and innovation."
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---

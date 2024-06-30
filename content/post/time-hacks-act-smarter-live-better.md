@@ -1,23 +1,24 @@
 ---
-title: "Time Hacks – Act smarter live better"
-description: "Here’s a step-by-step guide, filled with a healthy dose of sarcasm and a pinch of merciless humor"
-summary: "You can use blog posts for announcing product updates and features."
-date: 2023-09-07T16:27:22+02:00
-lastmod: 2023-09-07T16:27:22+02:00
+title: "Time Hacks – Act smarter, live better"
+description: "Explore the pivotal role of timing in various professions and how mastering it can lead to success and improved quality of life."
+summary: "Discover the universal truth that 'Timing is everything' across different walks of life, and learn how to harness it to act smarter and live better."
+date: 2020-03-15T10:00:00+02:00
+lastmod: 2020-03-20T10:00:00+02:00
 draft: false
 weight: 50
 categories: ["reflections"]
-tags: []
+tags: ["Timing", "Success", "Quality of Life"]
 contributors: []
 pinned: false
 homepage: false
 type: blog
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
+  title: "Mastering the Art of Timing: A Key to Success and Better Living"
+  description: "Uncover the critical importance of timing in achieving success and enhancing life quality, with insights from various professions."
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
+
 
 
 Ask a chef, a cricketer, a runner a comedian, A journalist, a marketer or an entrepreneur and they will all say the same thing “Timing is everything”.The year you pass out of college, the year you get a job, the year you change jobs, The time you go to office the time you attended meeting the time you get back home and the time you hit the bed, timing plays a key aspect.

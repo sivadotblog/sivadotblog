@@ -1,9 +1,9 @@
 ---
 title: "Simplifying Technical Documentation: A Comprehensive Guide"
-description: "Here’s a step-by-step guide, filled with a healthy dose of sarcasm and a pinch of merciless humor"
-summary: "You can use blog posts for announcing product updates and features."
-date: 2023-09-07T16:27:22+02:00
-lastmod: 2023-09-07T16:27:22+02:00
+description: "Explore the landscape of technical documentation tools and strategies for maintaining effective, accessible, and up-to-date documentation without the clutter."
+summary: "Dive into the world of technical documentation with our guide, exploring tools like Word, SharePoint, Confluence, and more, to keep your documentation effective and updated."
+date: 2023-09-15T10:00:00+02:00
+lastmod: 2023-09-20T10:00:00+02:00
 draft: false
 weight: 50
 categories: ["Enterprise Strategies", "Platform Engineering"]
@@ -13,8 +13,8 @@ pinned: false
 homepage: false
 type: blog
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
+  title: "Simplifying Technical Documentation: Strategies for Efficiency"
+  description: "Unlock the secrets to streamlined technical documentation with our comprehensive guide, covering the best tools and practices for keeping your documentation clear, current, and useful."
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---

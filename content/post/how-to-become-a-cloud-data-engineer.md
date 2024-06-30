@@ -1,9 +1,9 @@
 ---
 title: "How to become a Cloud Data Engineer?"
-description: "Here’s a step-by-step guide, filled with a healthy dose of sarcasm and a pinch of merciless humor"
-summary: "You can use blog posts for announcing product updates and features."
-date: 2023-09-07T16:27:22+02:00
-lastmod: 2023-09-07T16:27:22+02:00
+description: "Embark on the journey to becoming a Cloud Data Engineer with our comprehensive guide, featuring expert insights, a healthy dose of sarcasm, and a pinch of merciless humor."
+summary: "Discover the path to becoming a Cloud Data Engineer with our step-by-step guide, enriched with professional insights and seasoned with sarcasm and humor."
+date: 2022-01-15T10:00:00+02:00
+lastmod: 2022-01-20T10:00:00+02:00
 draft: false
 weight: 50
 categories: ["Data Platforms"]
@@ -13,8 +13,8 @@ pinned: false
 homepage: false
 type: blog
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
+  title: "The Ultimate Guide to Becoming a Cloud Data Engineer"
+  description: "Step into the world of Cloud Data Engineering with our expert guide, blending technical know-how with sarcasm and humor for an engaging and informative read."
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---

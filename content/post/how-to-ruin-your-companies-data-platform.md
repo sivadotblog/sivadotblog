@@ -1,9 +1,9 @@
 ---
-title: "How To Ruin Your Companies Data Platforms"
-description: "Here’s a step-by-step guide, filled with a healthy dose of sarcasm and a pinch of merciless humor"
-summary: "You can use blog posts for announcing product updates and features."
-date: 2023-09-07T16:27:22+02:00
-lastmod: 2023-09-07T16:27:22+02:00
+title: "How To Ruin Your Company's Data Platforms"
+description: "Dive into the art of creating chaos within your company's data platform stack with our tongue-in-cheek guide, brimming with sarcasm and humor."
+summary: "Learn how to masterfully disrupt your company's data platform stack with our satirical step-by-step guide, filled with sarcasm and humor."
+date: 2023-01-15T10:00:00+02:00
+lastmod: 2023-01-20T10:00:00+02:00
 draft: false
 weight: 50
 categories: ["Data Platforms", "Enterprise Strategies"]
@@ -13,8 +13,8 @@ pinned: false
 homepage: false
 type: blog
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
+  title: "Mastering Chaos: A Guide to Ruining Your Company's Data Platforms"
+  description: "Embark on a journey of disruption with our guide on how to ruin your company's data platforms, featuring a blend of expert sarcasm and humor."
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---

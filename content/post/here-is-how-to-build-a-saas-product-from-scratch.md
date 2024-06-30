@@ -1,9 +1,9 @@
 ---
 title: "Here is how to build a SaaS product from scratch"
-description: "Here’s a step-by-step guide, filled with a healthy dose of sarcasm and a pinch of merciless humor"
-summary: "You can use blog posts for announcing product updates and features."
-date: 2023-09-07T16:27:22+02:00
-lastmod: 2023-09-07T16:27:22+02:00
+description: "Embark on the journey of building a SaaS product with our comprehensive guide, featuring a blend of technical insights, sarcasm, and humor."
+summary: "Dive into the essentials of creating a SaaS product from the ground up with our detailed guide, enriched with sarcasm and humor for an engaging read."
+date: 2019-03-15T10:00:00+02:00
+lastmod: 2019-03-20T10:00:00+02:00
 draft: false
 weight: 50
 categories: ["Techno Bytes"]
@@ -13,8 +13,8 @@ pinned: false
 homepage: false
 type: blog
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
+  title: "Building a SaaS Product: A Step-by-Step Guide with a Twist"
+  description: "Learn how to build a SaaS product from scratch with our unique guide, combining expert advice with a dose of sarcasm and humor for a memorable learning experience."
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
