@@ -74,7 +74,7 @@ Ensure communication is as fragmented as possible. It adds to the fun!
 Choose Data mesh but create a centralized team to boss everyone around. Because nothing says "teamwork" like a good dose of micromanagement. People may ask, "But data mesh is all about decentralization". You got to say everything but the truth,
 Say little and be ambiguous, leaving the meaning to others to interpret. The less you say, the more intimidating and powerful you are.
 
-{{< callout context="tip" title="Pro Tip" icon="outline/secret" >}}
+{{< callout context="tip" title="Pro Tip" icon="outline/lock" >}}
 Make sure the team has no actual experience with Data mesh. The blind leading the blind is a classic!
 {{< /callout >}}
 

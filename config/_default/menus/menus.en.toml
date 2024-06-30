@@ -10,43 +10,48 @@
   identifier = "lorem"
   url = "/tutorial/lorem/"
 
-[[main]]
-  name = "Docs"
-  url = "/docs/guides/example-guide/"
-  weight = 10
-
 
 [[main]]
-  name = "Categories"
+  name = "My Articles"
   url = "/post/"
   weight = 30
-  identifier = "categories"
+  identifier = "articles"
 
 
 [[main]]
-  name = "Cloud Platforms"
-  url = "/categories/cloud-platforms/"
+  name = "Enterprise Strategies"
+  url = "/categories/enterprise-strategies/"
   weight = 10
-  parent = "categories"
-
+  parent = "articles"
 
 [[main]]
   name = "Data Platforms"
   url = "/categories/data-platforms/"
   weight = 20
-  parent = "categories"
+  parent = "articles"
 
 [[main]]
-  name = "enterprise-strategies"
-  url = "/categories/data-platforms/"
+  name = "Platform Engineering"
+  url = "/categories/platform-engineering/"
   weight = 30
-  parent = "categories"
+  parent = "articles"
+
 
 [[main]]
   name = "Techno Bytes"
   url = "/categories/techno-bytes/"
   weight = 40
-  parent = "categories"
+  parent = "articles"
+
+[[main]]
+  name = "My Reflections"
+  url = "/categories/reflections/"
+  weight = 50
+
+[[main]]
+  name = "My Experiments"
+  url = "/experiments/intro/getting-started/"
+  weight = 60
 
 [[main]]
   name = "About"

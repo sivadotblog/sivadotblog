@@ -1,11 +1,12 @@
 ---
-title: "Privacy Policy"
+title: "Introduction"
 description: ""
 summary: ""
-date: 2023-09-07T17:19:07+02:00
-lastmod: 2023-09-07T17:19:07+02:00
+date: 2023-09-07T16:06:50+02:00
+lastmod: 2023-09-07T16:06:50+02:00
 draft: false
-type: "legal"
+weight: 800
+toc: true
 seo:
   title: "" # custom title (optional)
   description: "" # custom description (recommended)
