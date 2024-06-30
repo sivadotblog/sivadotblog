@@ -76,6 +76,9 @@ jobs:
       #     local-dir: ./public/
       #     server-dir: test.siva.blog/
       #     log-level: verbose
+      - name: Install lftp
+        run: sudo apt-get update && sudo apt-get install lftp
+
       - name: Deploy to FTP Server with lftp
         env:
           FTP_SERVER: ${{ secrets.SERVER }}
