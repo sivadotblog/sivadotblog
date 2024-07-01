@@ -26,7 +26,7 @@ Let’s reflect on the past for a moment before we see the current & future of t
 
 The purpose of ETL/ETL has not changed for decades i.e. **“Moving and transforming data”**. What has continually changed and evolved are the *type(s) of data*, *data sources*, *data targets* and t*he way data move*. Unfortunately, those traditional behemoths such as IBM or Informatica are not evolving fast enough to catch up. That is where these newcomers have filled the gap and have flooded the market. All this in less than a decade’s time.
 
-![Data-and-AI-Landscape-2021-v3-small](https://siva.blog/wp-content/uploads/2022/08/Data-and-AI-Landscape-2021-v3-small1-1024x530.jpg)[*Matt Turk’s Machine Learning, AI and Data (MAD) Landscape*](https://mattturck.com/data2021/)
+![Data-and-AI-Landscape-2021-v3-small](/images/Data-and-AI-Landscape-2021-v3-small.jpg)[*Matt Turk’s Machine Learning, AI and Data (MAD) Landscape*](https://mattturck.com/data2021/)
 
 Has the purpose changed? NO. So why do we have 100(s) of ETL tools today? How to choose the best ETL tool for your modern data stack? Am I going to miss something if I don’t use a particular tool? It’s time to deep dive.
 
