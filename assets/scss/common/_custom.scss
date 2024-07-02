@@ -1,1 +1,59 @@
 // Put your custom SCSS code here
+
+@font-face {
+  font-family: 'FSMePro-Regular';
+  font-style: normal;
+  font-weight: 200;
+  src: url("/fonts/FSMePro-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FSMePro-Regular';
+  font-style: normal;
+  font-weight: 300;
+  src: url("/fonts/FSMePro-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'FSMePro-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/FSMePro-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'FSMePro-Bold';
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/FSMePro-Bold.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: 'FSMePro-Light';
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/FSMePro-Light.ttf") format("truetype");
+  font-display: swap;
+}
+//fontface for code MonaspaceKrypton-Regular.otf
+@font-face {
+  font-family: 'MonaspaceKrypton-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/MonaspaceKrypton-Regular.otf") format("opentype");
+  font-display: swap;
+}
+
+body {
+  font-family: 'FSMePro-Regular', sans-serif;
+}
+
+// Title fonts
+h1, h2 {
+  font-family: 'FSMePro-Light', sans-serif;
+}
