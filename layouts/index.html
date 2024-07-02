@@ -29,10 +29,25 @@
           <div class="card-list">
           {{ range first 3 (where .Site.RegularPages.ByDate.Reverse "Section" "post")  -}}
           <div class="card">
+            {{ if site.Params.doks.imageList -}}
+              {{- $images := .Resources.ByType "image" -}}
+              {{- $featured := $images.GetMatch "*feature*" -}}
+              {{- if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
+              {{- if $featured -}}
+                {{ partial "img" (dict
+                "page" .
+                "src" $featured
+                "alt" .Title
+                "class" "rounded-top-1"
+                )}}
+              {{ end -}}
+            {{ end -}}
             <div class="card-body">
-              <h3><a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a></h3>
-              <p>{{ .Params.lead | safeHTML }}</p>
-              {{ partial "main/blog-meta.html" . -}}
+              <article>
+                <h2 class="h3"><a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a></h2>
+                <p>{{ .Params.summary | safeHTML }}</p>
+                {{ partial "main/blog-meta.html" . -}}
+              </article>
             </div>
           </div>
           {{ end -}}
