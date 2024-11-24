@@ -4,7 +4,7 @@ name: Deploy Hugo site to Pages
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["test"]
+    branches-ignore: ["main"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -36,7 +36,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20"
 
       - name: Install Hugo CLI
         run: |
@@ -60,36 +60,5 @@ jobs:
         run: |
           hugo \
             --minify
-      # - name: Upload artifact
-      #   uses: actions/upload-pages-artifact@v3
-      #   with:
-      #     path: ./public
+
       - run: ls -l
-
-      # - name: Deploy to FTP Server
-      #   uses: SamKirkland/FTP-Deploy-Action@4.3.0
-      #   with:
-      #     server: ${{ secrets.SERVER }}
-      #     username: ${{ secrets.FTP_USER }}
-      #     password: ${{ secrets.FTP_PASSWORD }}
-      #     local-dir: ./public/
-      #     server-dir: test.siva.blog/
-      #     log-level: verbose
-      - name: Install lftp
-        run: sudo apt-get update && sudo apt-get install lftp
-
-      # - name: Deploy to FTP Server with lftp
-      #   env:
-      #     FTP_SERVER: ${{ secrets.SERVER }}
-      #     FTP_USER: ${{ secrets.FTP_USER }}
-      #     FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-      #   run: |
-      #     lftp -c "
-      #     set ftp:list-options -a;
-      #     set ssl:verify-certificate no;
-      #     open ftp://$FTP_USER:$FTP_PASSWORD@$FTP_SERVER;
-      #     lcd ./public/;
-      #     cd test.siva.blog/;
-      #     mirror --reverse --delete --verbose ./ ./
-      #     bye;
-      #     "
