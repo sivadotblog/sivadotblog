@@ -2,94 +2,91 @@
 ## archetypes
 
 [[mounts]]
-  source = "node_modules/@hyas/doks-core/archetypes"
-  target = "archetypes"
+source = "node_modules/@thulite/doks-core/archetypes"
+target = "archetypes"
 
 [[mounts]]
-  source = "archetypes"
-  target = "archetypes"
+source = "archetypes"
+target = "archetypes"
 
 ## assets
 [[mounts]]
-  source = "node_modules/@hyas/core/assets"
-  target = "assets"
+source = "node_modules/@thulite/core/assets"
+target = "assets"
 
 [[mounts]]
-  source = "node_modules/@hyas/images/assets"
-  target = "assets"
+source = "node_modules/@thulite/images/assets"
+target = "assets"
 
 [[mounts]]
-  source = "node_modules/@hyas/doks-core/assets"
-  target = "assets"
+source = "node_modules/@thulite/doks-core/assets"
+target = "assets"
 
 [[mounts]]
-  source = "node_modules/@tabler/icons/icons"
-  target = "assets/svgs/tabler-icons"
+source = "node_modules/@tabler/icons/icons"
+target = "assets/svgs/tabler-icons"
 
 [[mounts]]
-  source = "assets"
-  target = "assets"
+source = "assets"
+target = "assets"
 
 ## content
 [[mounts]]
-  source = "content"
-  target = "content"
+source = "content"
+target = "content"
 
 ## data
 [[mounts]]
-  source = "node_modules/@hyas/doks-core/data"
-  target = "data"
+source = "node_modules/@thulite/doks-core/data"
+target = "data"
 
 [[mounts]]
-  source = "data"
-  target = "data"
+source = "data"
+target = "data"
 
 ## i18n
 [[mounts]]
-  source = "node_modules/@hyas/doks-core/i18n"
-  target = "i18n"
+source = "node_modules/@thulite/doks-core/i18n"
+target = "i18n"
 
 [[mounts]]
-  source = "i18n"
-  target = "i18n"
+source = "i18n"
+target = "i18n"
 
 ## layouts
 [[mounts]]
-  source = "node_modules/@hyas/core/layouts"
-  target = "layouts"
+source = "node_modules/@thulite/core/layouts"
+target = "layouts"
 
 [[mounts]]
-  source = "node_modules/@hyas/seo/layouts"
-  target = "layouts"
+source = "node_modules/@thulite/seo/layouts"
+target = "layouts"
 
 [[mounts]]
-  source = "node_modules/@hyas/images/layouts"
-  target = "layouts"
+source = "node_modules/@thulite/images/layouts"
+target = "layouts"
 
 [[mounts]]
-  source = "node_modules/@hyas/doks-core/layouts"
-  target = "layouts"
+source = "node_modules/@thulite/doks-core/layouts"
+target = "layouts"
 
 [[mounts]]
-  source = "node_modules/@hyas/inline-svg/layouts"
-  target = "layouts"
+source = "node_modules/@thulite/inline-svg/layouts"
+target = "layouts"
 
 [[mounts]]
-  source = "layouts"
-  target = "layouts"
+source = "layouts"
+target = "layouts"
 
 ## static
 [[mounts]]
-  source = "node_modules/@hyas/doks-core/static"
-  target = "static"
+source = "node_modules/@thulite/doks-core/static"
+target = "static"
 
 [[mounts]]
-  source = "static"
-  target = "static"
+source = "static"
+target = "static"
 
 [[mounts]]
-  source = 'images'
-  target = 'assets/images'
-
-
-
+source = 'images'
+target = 'assets/images'
