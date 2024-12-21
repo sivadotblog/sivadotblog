@@ -37,8 +37,8 @@ jobs:
             thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
 
             const branchesToDelete = branches.filter(branch => {
-              const branchCommit = branch.commit.committer.date;
-              return mergedBranches.includes(branch.name) && new Date(branchCommit) < thirtyDaysAgo;
+              const branchCommitDate = branch.commit?.committer?.date;
+              return mergedBranches.includes(branch.name) && branchCommitDate && new Date(branchCommitDate) < thirtyDaysAgo;
             });
 
             console.log('Branches to Delete:', branchesToDelete);
