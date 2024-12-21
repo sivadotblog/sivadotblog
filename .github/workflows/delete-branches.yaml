@@ -16,6 +16,7 @@ jobs:
         uses: actions/github-script@v4
         with:
           script: |
+            const mergedBranches = [];
             const { data: branches } = await github.repos.listBranches({
               owner: context.repo.owner,
               repo: context.repo.repo,
@@ -41,3 +42,4 @@ jobs:
                 ref: `heads/${branch.name}`
               });
             }
+
