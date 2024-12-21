@@ -16,17 +16,6 @@ jobs:
         uses: actions/github-script@v4
         with:
           script: |
-            const { data: pullRequests } = await github.pulls.list({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              state: 'closed',
-              per_page: 100
-            });
-
-            const mergedBranches = pullRequests
-              .filter(pr => pr.merged_at)
-              .map(pr => pr.head.ref);
-
             const { data: branches } = await github.repos.listBranches({
               owner: context.repo.owner,
               repo: context.repo.repo,
@@ -36,6 +25,9 @@ jobs:
             const branchesToDelete = branches
               .filter(branch => mergedBranches.includes(branch.name))
               .filter(branch => {
+                if (!branch.commit || !branch.commit.commit || !branch.commit.commit.author) {
+                  return false;
+                }
                 const lastCommitDate = new Date(branch.commit.commit.author.date);
                 const thirtyDaysAgo = new Date();
                 thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
@@ -48,18 +40,4 @@ jobs:
                 repo: context.repo.repo,
                 ref: `heads/${branch.name}`
               });
-              console.log(`Deleted branch: ${branch.name}`);
-            }
-
-            const unusableBranches = branches
-              .filter(branch => !mergedBranches.includes(branch.name))
-              .filter(branch => {
-                const lastCommitDate = new Date(branch.commit.commit.author.date);
-                const thirtyDaysAgo = new Date();
-                thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
-                return lastCommitDate < thirtyDaysAgo;
-              });
-
-            for (const branch of unusableBranches) {
-              console.log(`Unusable branch: ${branch.name}`);
             }
