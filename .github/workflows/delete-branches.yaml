@@ -1,8 +1,9 @@
 name: Delete Merged Branches
 
 on:
+  # Runs on pushes targeting the default branch
   push:
-    delete-branch
+    branches: ["delete-branch"]
 
 jobs:
   delete-branches:
