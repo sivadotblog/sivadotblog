@@ -31,7 +31,7 @@ jobs:
             const { data: branches } = await github.repos.listBranches({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              ref: branch.commit.sha
+
 
             });
 
@@ -43,7 +43,7 @@ jobs:
                 const { data: commit } = await github.repos.getCommit({
                   owner: context.repo.owner,
                   repo: context.repo.repo,
-                  ref: branch.commit.sha
+
                 });
                 const branchCommitDate = commit.commit.committer.date;
                 if (new Date(branchCommitDate) < thirtyDaysAgo) {
