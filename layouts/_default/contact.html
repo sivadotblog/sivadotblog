@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="row justify-content-center">
+  <div class="col-md-12 col-lg-10 col-xl-8">
+    <h1 class="text-center">{{ .Title }}</h1>
+    {{ with .Params.summary -}}<p class="lead text-center">{{ . }}</p>{{ end -}}
+    <div class="text-center">{{ .Content }}</div>
+    <form class="contact-form" action="/submit-form" method="post">
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+</div>
+{{ end }}
