@@ -26,27 +26,24 @@ jobs:
             const mergedBranches = pullRequests
               .filter(pr => pr.merged_at)
               .map(pr => pr.head.ref);
-
-
+            console.log('Merged Branches:', mergedBranches);
 
             const { data: branches } = await github.repos.listBranches({
               owner: context.repo.owner,
-              repo: context.repo.repo,
-              protected: false
+              repo: context.repo.repo
             });
-            console.log('All Branches:', branches.map(branch => branch.name));
 
-            const branchesToDelete = branches
-              .filter(branch => mergedBranches.includes(branch.name))
-              .filter(branch => {
-                if (!branch.commit || !branch.commit.commit || !branch.commit.commit.author) {
-                  return false;
-                }
-                const lastCommitDate = new Date(branch.commit.commit.author.date);
-                const thirtyDaysAgo = new Date();
-                thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
-                return lastCommitDate < thirtyDaysAgo;
-              });
+            const thirtyDaysAgo = new Date();
+            thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
+
+            const branchesToDelete = branches.filter(branch => {
+              const branchCommit = branch.commit.committer.date;
+              return mergedBranches.includes(branch.name) && new Date(branchCommit) < thirtyDaysAgo;
+            });
+
+            console.log('Branches to Delete:', branchesToDelete);
+
+
 
             for (const branch of branchesToDelete) {
               await github.git.deleteRef({
