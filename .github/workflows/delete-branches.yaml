@@ -22,6 +22,7 @@ jobs:
               state: 'closed',
               per_page: 100
             });
+            console.log('All Pull Requests:', pullRequests.map(pr => pr.head.ref));
             const mergedBranches = pullRequests
               .filter(pr => pr.merged_at)
               .map(pr => pr.head.ref);
@@ -33,6 +34,7 @@ jobs:
               repo: context.repo.repo,
               protected: false
             });
+            console.log('All Branches:', branches.map(branch => branch.name));
 
             const branchesToDelete = branches
               .filter(branch => mergedBranches.includes(branch.name))
