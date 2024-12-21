@@ -1,5 +1,5 @@
 ---
-title: "How to choose the best ETL tool for your modern data stack?"
+title: "How to Choose the Best ETL Tool for Your Modern Data Stack?"
 description: "Navigate the complex landscape of ETL tools with our guide, designed to help you make an informed decision amidst a sea of options."
 summary: "Cut through the clutter of the ETL tool market with our insights, helping you select the perfect tool for your data stack in the ever-evolving data landscape."
 date: 2021-12-15T10:00:00+02:00
@@ -19,12 +19,11 @@ seo:
   noindex: false # false (default) or true
 ---
 
+*In this blog, we break down the paradox of choice to help you pick the right ETL tool! If you have seen the* [*2021 MAD*](https://mattturck.com/data2021/) *(Machine Learning, AI & Data) chart by Matt Turks, there are countless tools already available and growing furiously. But how do you choose the best ETL tool that works for you? Here is the ultimate guide.*
 
-*In this blog, we break down the Paradox of choice to help you pick the right ETL tool! If you have seen the* [*2021 MAD*](https://mattturck.com/data2021/) *(Machine Learning, AI & Data) chart by Matt Turks, there are countless tools already available and is growing furiously. But how do you* choose the best ETL tool that works for you*? Here is the ultimate guide.*
+Let’s reflect on the past for a moment before we see the current & future of these ETL/ELT tools. Around the 2000s, hardly any organization realized a need for such tools. Most developers would write pages of TSQL or Perl or SAS programs. When they realized that this was becoming unmanageable, they turned to ETL tools such as IBM Information Server (Datastage & Quality Stage), SSIS, Informatica, or ABINITIO. That's it. Most orgs had just one of them, maybe a few had more than one. All these tools have **one purpose**, **moving and transforming the data**.
 
-Let’s reflect on the past for a moment before we see the current & future of these ETL/ELT tools. Around the 2000s, hardly any organization realized a need for such tools. Most developers would write pages of TSQL or Perl or SAS programs. When they realized that this was becoming unmanageable, they turned to ETL tools such as IBM Information Server (Datastage & Quality Stage), SSIS, Informatica or ABINITIO. Thats it. Most orgs had just one of them, maybe a few had more than one. All these tools have **one purpose**, **moving and transforming the data**.
-
-The purpose of ETL/ETL has not changed for decades i.e. **“Moving and transforming data”**. What has continually changed and evolved are the *type(s) of data*, *data sources*, *data targets* and t*he way data move*. Unfortunately, those traditional behemoths such as IBM or Informatica are not evolving fast enough to catch up. That is where these newcomers have filled the gap and have flooded the market. All this in less than a decade’s time.
+The purpose of ETL/ELT has not changed for decades i.e. **“Moving and transforming data”**. What has continually changed and evolved are the *type(s) of data*, *data sources*, *data targets* and *the way data move*. Unfortunately, those traditional behemoths such as IBM or Informatica are not evolving fast enough to catch up. That is where these newcomers have filled the gap and have flooded the market. All this in less than a decade’s time.
 
 ![Data-and-AI-Landscape-2021-v3-small](/images/Data-and-AI-Landscape-2021-v3-small.jpg)[*Matt Turk’s Machine Learning, AI and Data (MAD) Landscape*](https://mattturck.com/data2021/)
 
@@ -42,15 +41,15 @@ Here are some of the common trends amongst the players in the marketplace today:
 
 ### 1# Open Source monetized by managed service
 
-Many companies start with an open-source project, then commercialize the product. Talend, started as an OSS project, that still offers a free version of their tool, but caters enterprises with cloud and enterprise versions. The trend is to start or pick an open-source project, add support, and offer them as a managed service. [Databricks](https://databricks.com/solutions/data-engineering), [Elastic Search](https://www.elastic.co/enterprise-search/), [Airbyte ](https://airbyte.com/why-airbyte)and 100s of other companies fall under that category. They offer SaaS or PaaS without the hassle of having to manage those software packages.
+Many companies start with an open-source project, then commercialize the product. Talend started as an OSS project, that still offers a free version of their tool, but caters enterprises with cloud and enterprise versions. The trend is to start or pick an open-source project, add support, and offer them as a managed service. [Databricks](https://databricks.com/solutions/data-engineering), [Elastic Search](https://www.elastic.co/enterprise-search/), [Airbyte](https://airbyte.com/why-airbyte) and 100s of other companies fall under that category. They offer SaaS or PaaS without the hassle of having to manage those software packages.
 
 ### 2# Differentiate by building specialization in a specific area.
 
-Other small players identify a niche and build their product around it to fill that specific gap. [Streamsets ](https://streamsets.com/solutions/cloud-data-warehouse-integration/)for example, is good at streaming small volumes, processing Change Data Captures events. dbt, is specialized in transformation, and does not offer E (extract) or L (load) or [FiveTran](https://www.fivetran.com/extract-load), which offers only data ingestion. Another example is [Xplenty ](https://www.integrate.io/product/etl/)and [HighTouch ](https://hightouch.com/blog/reverse-etl/)which market their product as “Reverse ETL”.
+Other small players identify a niche and build their product around it to fill that specific gap. [Streamsets](https://streamsets.com/solutions/cloud-data-warehouse-integration/) for example, is good at streaming small volumes, processing Change Data Captures events. dbt, is specialized in transformation, and does not offer E (extract) or L (load) or [FiveTran](https://www.fivetran.com/extract-load), which offers only data ingestion. Another example is [Xplenty](https://www.integrate.io/product/etl/) and [HighTouch](https://hightouch.com/blog/reverse-etl/) which market their product as “Reverse ETL”.
 
 ### 3# Upselling Capability
 
-This category annoys me the most. Many tools such as Astronomer aka Apache Airflow and Prefect upsell their products as ETL tool. No, they are not ETL tools rather, they are meant for orchestration. Atlas Mongo DB sells themselves as a search db as well as a data lake now, oh please! [SingleStore ](https://www.singlestore.com/solutions/#use-cases)Database, I still couldn’t wrap my head on what it is specialized for. They claim it can be used for anything from microservices to analytics.
+This category annoys me the most. Many tools such as Astronomer aka Apache Airflow and Prefect upsell their products as ETL tool. No, they are not ETL tools rather, they are meant for orchestration. Atlas Mongo DB sells themselves as a search db as well as a data lake now, oh please! [SingleStore](https://www.singlestore.com/solutions/#use-cases) Database, I still couldn’t wrap my head on what it is specialized for. They claim it can be used for anything from microservices to analytics.
 
 ### 4# Complex Pricing
 
@@ -159,4 +158,4 @@ Google Cloud Platform (GCP) Data Engineering Stack- Batch ELT Data FLow (Managed
 
 **Would you like to contact me for ideas, questions or for collaboration?**
 
-I am passionate about data and have been[ working with and exploring tools](https://www.siva.blog/about) for over 16 years now. Data technologies amazes me, and I continue learning every day. Happy to help!
+I am passionate about data and have been [working with and exploring tools](https://www.siva.blog/about) for over 16 years now. Data technologies amazes me, and I continue learning every day. Happy to help!
