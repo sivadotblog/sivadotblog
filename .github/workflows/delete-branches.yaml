@@ -16,7 +16,9 @@ jobs:
         uses: actions/github-script@v4
         with:
           script: |
-            const mergedBranches = [];
+            const mergedBranches = pullRequests
+              .filter(pr => pr.merged_at)
+              .map(pr => pr.head.ref);
             const { data: branches } = await github.repos.listBranches({
               owner: context.repo.owner,
               repo: context.repo.repo,
