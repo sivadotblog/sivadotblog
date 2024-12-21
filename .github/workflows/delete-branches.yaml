@@ -32,7 +32,7 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               ref: branch.commit.sha
-              commit_date: branch.commit.committer.date
+
             });
 
             const thirtyDaysAgo = new Date();
