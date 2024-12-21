@@ -138,5 +138,6 @@ Create a slideshow of how you saved millions of dollars and 95% of the effort bu
 Keep your audience focused on the big, flashy numbers and they'll miss the sleight of hand happening in the background. It's not deception, it's redirection. After all, isn't that what magic is all about?
 {{< /callout >}}
 
-Conclusion
+## Conclusion
+
 And there you have it, a foolproof guide to ruining your company's data platform stack. Remember, this is all in good fun. In reality, we should strive for efficiency, clarity, and cooperation in our data platforms. But a little humor can help us see where we might be going wrong and guide us toward better practices.

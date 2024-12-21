@@ -1,7 +1,7 @@
 ---
-title: "Databricks CI/CD Methods- A Comprehensive Guide"
-description: "Explore the seamless integration of Databricks notebooks with CI/CD pipelines using GitHub Actions and Azure DevOps, complete with expert insights"
-summary: "Explore the seamless integration of Databricks notebooks with CI/CD pipelines using GitHub Actions and Azure DevOps, complete with expert insights"
+title: "Databricks CI/CD Methods - A Comprehensive Guide"
+description: "Explore the seamless integration of Databricks notebooks with CI/CD pipelines using GitHub Actions and Azure DevOps, complete with expert insights."
+summary: "Explore the seamless integration of Databricks notebooks with CI/CD pipelines using GitHub Actions and Azure DevOps, complete with expert insights."
 date: 2024-01-15T10:00:00+02:00
 lastmod: 2024-01-20T10:00:00+02:00
 draft: false
@@ -13,25 +13,24 @@ pinned: false
 homepage: false
 type: blog
 seo:
-  title: "Databricks CI/CD Methods- A Comprehensive Guide"
-  description: "Explore the seamless integration of Databricks notebooks with CI/CD pipelines using GitHub Actions and Azure DevOps, complete with expert insights"
+  title: "Databricks CI/CD Methods - A Comprehensive Guide"
+  description: "Explore the seamless integration of Databricks notebooks with CI/CD pipelines using GitHub Actions and Azure DevOps, complete with expert insights."
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
 ## Overview
 
-Hey there! Let's talk about deploying Databricks notebooks through CI/CD pipelines and Github actions or Azure DevOps. There are multiple methods available to deploy Databricks notebooks and jobs. here are multiple methods available to deploy Databricks notebooks, and we'll cover some of these methods, along with their pros and cons. We'll also provide our recommendation on the best method to deploy Databricks notebooks.
+Hey there! Let's talk about deploying Databricks notebooks through CI/CD pipelines and GitHub Actions or Azure DevOps. There are multiple methods available to deploy Databricks notebooks and jobs. We'll cover some of these methods, along with their pros and cons. We'll also provide our recommendation on the best method to deploy Databricks notebooks.
 
 ## Methods
 
-### 1. Using Github/Azure DevOps repo pull (Recommended)
+### 1. Using GitHub/Azure DevOps Repo Pull (Recommended)
 
-The first method we recommend is using Github/Azure DevOps repo pull. It's the simplest and cleanest method of all. In this method, we'll create a Databricks job that will pull the notebooks from the Github/Azure DevOps repo and run them. There are no additional CI/CD setups required to achieve this, and all the touchpoints such as the git repo, workspace, and notebooks are isolated. There is no complex token management required either.
+The first method we recommend is using GitHub/Azure DevOps repo pull. It's the simplest and cleanest method of all. In this method, we'll create a Databricks job that will pull the notebooks from the GitHub/Azure DevOps repo and run them. There are no additional CI/CD setups required to achieve this, and all the touchpoints such as the git repo, workspace, and notebooks are isolated. There is no complex token management required either.
 
-Databricks Jobs API, accepts `git_source` as an argument when you can pass the repo url, branch/tag etc. The job will then pull the notebooks from the git repo and run them. Refer to the [Databricks Jobs API documentation](https://docs.databricks.com/api/workspace/jobs/create) for more details.
+Databricks Jobs API accepts `git_source` as an argument where you can pass the repo URL, branch/tag, etc. The job will then pull the notebooks from the git repo and run them. Refer to the [Databricks Jobs API documentation](https://docs.databricks.com/api/workspace/jobs/create) for more details.
 
-Databricks Workflows, Prefect and Airflow also supports Repo pull method. However, its important to note that, repo pull heavily relies on the availability of the git provider (Github/Azure DevOps). If the git provider is down, then the Databricks jobs will fail. Lets assume a GIT token expires, or the organizational policy resets system accounts token, pretty much all jobs that rely on the git token will fail.
-
+Databricks Workflows, Prefect, and Airflow also support the repo pull method. However, it's important to note that repo pull heavily relies on the availability of the git provider (GitHub/Azure DevOps). If the git provider is down, then the Databricks jobs will fail. Let's assume a GIT token expires, or the organizational policy resets system accounts token, pretty much all jobs that rely on the git token will fail.
 
 ![Repo Pull](https://sivastech42fp1.blob.core.windows.net/images/databricks-cicd-repo-pull.png)
 
@@ -43,14 +42,13 @@ Databricks Workflows, Prefect and Airflow also supports Repo pull method. Howeve
 
 ### Cons
 
-1. Collaboration is difficult as all developers work in silo within their own branch.
-2. Code review can be difficult as most reviews happen in Github and not in Databricks Workspace.
-3. Downtime of Github/AzureDevOps will impact Databricks jobs.
+1. Collaboration is difficult as all developers work in silos within their own branch.
+2. Code review can be difficult as most reviews happen in GitHub and not in Databricks Workspace.
+3. Downtime of GitHub/Azure DevOps will impact Databricks jobs.
 
 ### Dependencies
 
 1. The actor who is deploying the notebooks (typically Azure Service Principal) needs to set up a git token in the Databricks workspace.
-
 
 ## 2. Using Repos API
 
@@ -68,7 +66,7 @@ Databricks offers the Repos API to manage the notebooks in the workspace. We can
 ### Cons
 
 1. Additional CI/CD setup required to pull the notebooks from git.
-2. Anyone having manage access can alter the notebooks in the workspace. Access Control needs to be governed properly.
+2. Anyone having manage access can alter the notebooks in the workspace. Access control needs to be governed properly.
 3. Switching between release branches is difficult as you will have to create separate repos for each release.
 4. Adding more notebooks to the workspace counts towards the storage limit of the workspace.
 
@@ -81,6 +79,7 @@ Databricks offers the Repos API to manage the notebooks in the workspace. We can
 This is a traditional way of CI/CD where you import notebooks from the git repo to the workspace and create folders under the workspace directory. You can then create a Databricks job to run the notebooks from the workspace directory. This is the least recommended method.
 
 ![Using Workspace API](https://sivastech42fp1.blob.core.windows.net/images/databricks-cicd-workspace-api.png)
+
 ### Pros
 
 1. Collaboration is easy as all developers' work is available in the workspace under Repos.
@@ -88,7 +87,7 @@ This is a traditional way of CI/CD where you import notebooks from the git repo 
 ### Cons
 
 1. Additional CI/CD setup required to pull the notebooks from git.
-2. Anyone having manage access can alter the notebooks in the workspace. Access Control needs to be governed properly.
+2. Anyone having manage access can alter the notebooks in the workspace. Access control needs to be governed properly.
 3. Folders and notebooks could eventually grow and become unmanageable. It's possible that you end up importing too many release folders or notebooks can become stale.
 
 ## Conclusion
