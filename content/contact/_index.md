@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-description: "Happy to help, just drop a message."
+description: "Reach out to us for any inquiries or assistance."
 summary: ""
 date: 2023-09-07T16:21:44+02:00
 lastmod: 2023-09-07T16:21:44+02:00
@@ -12,8 +12,8 @@ contributors: []
 pinned: false
 homepage: false
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
+  title: "Contact Us - Siva's Blog"
+  description: "Get in touch with us for any questions, feedback, or assistance. We are here to help!"
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---

@@ -8,13 +8,13 @@ draft: false
 weight: 910
 toc: true
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
+  title: "Comprehensive Example Reference"
+  description: "A detailed example reference page outlining how things work in clear and concise terms."
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
 
-Reference pages are ideal for outlining how things work in terse and clear terms. Less concerned with telling a story or addressing a specific use case, they should give a comprehensive outline of what your documenting.
+Reference pages are ideal for outlining how things work in clear and concise terms. They should provide a comprehensive outline of what you are documenting, without focusing on storytelling or specific use cases.
 
 ## Further reading
 
