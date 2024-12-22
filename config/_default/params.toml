@@ -17,7 +17,7 @@ colorModeToggler = true # true (default) or false (this setting is only relevant
 
 # Navbar
 navbarSticky = true        # true (default) or false
-containerBreakpoint = "lg" # "", "sm", "md", "lg" (default), "xl", "xxl", or "fluid"
+containerBreakpoint = "fluid" # "", "sm", "md", "lg" (default), "xl", "xxl", or "fluid"
 
 ## Button
 navBarButton = false                             # false (default) or true

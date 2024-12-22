@@ -1,64 +1,102 @@
-name: Delete Merged Branches
+name: Delete Stale Merged and Never-Committed Branches
 
 on:
-  # Runs on pushes targeting the default branch
+  schedule:
+    - cron: "0 0 * * *" # Runs daily at midnight UTC
+  workflow_dispatch:
+
   push:
-    branches: ["delete-branch"]
+    branches:
+      - delete-branch
 
 jobs:
   delete-branches:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: read
+
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
-      - name: Delete merged branches
-        uses: actions/github-script@v4
+      - name: Get merged branches
+        id: merged-branches
+        run: |
+          merged_branches=$(git branch --merged origin/main --format '%(refname:short)')
+          echo "merged_branches=$merged_branches" >> $GITHUB_OUTPUT
+
+      - name: Get never-committed branches
+        id: never-committed-branches
+        run: |
+          never_committed_branches=$(git for-each-ref --format '%(refname:short)' refs/heads --count=1000 --no-merged)
+          echo "never_committed_branches=$never_committed_branches" >> $GITHUB_OUTPUT
+
+      - name: Delete stale merged branches
+        uses: actions/github-script@v6
         with:
           script: |
-            const { data: pullRequests } = await github.pulls.list({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              state: 'closed',
-              per_page: 100
-            });
-            console.log('All Pull Requests:', pullRequests.map(pr => pr.head.ref));
-            const mergedBranches = pullRequests
-              .filter(pr => pr.merged_at)
-              .map(pr => pr.head.ref);
-            console.log('Merged Branches:', mergedBranches);
-
-            const { data: branches } = await github.repos.listBranches({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-
-
-            });
-
+            const mergedBranches = '${{ steps.merged-branches.outputs.merged_branches }}'.split('\n').filter(Boolean);
             const thirtyDaysAgo = new Date();
             thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
-            const branchesToDelete = []
-            for (const branch of branches) {
-              if (mergedBranches.includes(branch.name)) {
-                const { data: commit } = await github.repos.getCommit({
+            const branchesToDelete = [];
+
+            for (const branch of mergedBranches) {
+              console.log(`Checking merged branch: ${branch}`);
+              try {
+                const { data: commits } = await github.rest.repos.listCommits({
                   owner: context.repo.owner,
                   repo: context.repo.repo,
-
+                  sha: branch,
+                  per_page: 1,
                 });
-                const branchCommitDate = commit.commit.committer.date;
-                if (new Date(branchCommitDate) < thirtyDaysAgo) {
-                  branchesToDelete.push(branch);
+
+                if (commits.length > 0) {
+                  const lastCommitDate = new Date(commits[0].commit.committer.date);
+                  console.log(`Last commit date: ${lastCommitDate}`);
+                  if (lastCommitDate < thirtyDaysAgo) {
+                    branchesToDelete.push(branch);
+                  }
                 }
+              } catch (error) {
+                console.error(`Error checking branch ${branch}: ${error}`);
               }
             }
 
-            console.log('Branches to Delete:', branchesToDelete);
-
+            console.log('Stale merged branches to delete:', branchesToDelete);
             for (const branch of branchesToDelete) {
-              await github.git.deleteRef({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                ref: `heads/${branch.name}`
-              });
+              console.log(`Deleting branch: ${branch}`);
+              try {
+                await github.git.deleteRef({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  ref: `refs/heads/${branch}`,
+                });
+                console.log(`Deleted branch: ${branch}`);
+              } catch (error) {
+                console.error(`Error deleting branch ${branch}: ${error}`);
+              }
+            }
+
+      - name: Delete never-committed branches
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const neverCommittedBranches = '${{ steps.never-committed-branches.outputs.never_committed_branches }}'.split('\n').filter(Boolean);
+            console.log('Never committed branches:', neverCommittedBranches);
+            for (const branch of neverCommittedBranches) {
+              console.log(`Deleting never-committed branch: ${branch}`);
+              try {
+                await github.git.deleteRef({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  ref: `refs/heads/${branch}`,
+                });
+                console.log(`Deleted never-committed branch: ${branch}`);
+              } catch (error) {
+                console.error(`Error deleting branch ${branch}: ${error}`);
+              }
             }
 
