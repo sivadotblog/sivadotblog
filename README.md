@@ -31,3 +31,16 @@ Hello there! I'm a passionate technologist and a leader in the realm of cloud da
 
 Feel free to reach out to me for collaborations, questions, or just to share your thoughts. I'm always open to connecting with fellow enthusiasts and professionals in the field!
 Thank you for stopping by my profile. Let's explore the possibilities and make a difference together!
+
+### 🗑️ GitHub Action Workflow for Deleting Branches
+
+We have implemented a new GitHub action workflow to automatically delete branches that are already merged and have not been touched for 30 days. This helps in keeping the repository clean and manageable.
+
+#### How to Configure and Use the Workflow
+
+1. **Create the Workflow File**: Add a new file named `delete-branches.yaml` in the `.github/workflows` directory of your repository.
+2. **Define the Schedule**: The workflow is set to run daily to check for branches that meet the criteria.
+3. **Use GitHub Script**: The workflow uses `actions/github-script` to delete branches that are merged and not touched for 30 days.
+4. **Log Unusable Branches**: The workflow will also log and state unusable branches.
+
+By following these steps, you can ensure that your repository remains clean and free of stale branches.

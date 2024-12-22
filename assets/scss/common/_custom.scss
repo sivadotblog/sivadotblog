@@ -56,6 +56,29 @@ h1, h2 {
   font-family: 'FSMePro-Light', sans-serif;
 }
 
+// Card typography adjustments
+.card {
+  .h3 {
+    font-size: 1.35rem;
+    line-height: 1.4;
+    margin-bottom: 0.75rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #4a5568;
+  }
+}
+
+// Blog section title
+.section h2.h3 {
+  font-family: 'FSMePro-Bold', sans-serif;
+  font-size: 1.35rem;
+  margin-bottom: 2rem;
+
+}
+
 /* Pe112 */
 .contact-form {
   max-width: 600px;

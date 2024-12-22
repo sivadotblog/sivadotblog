@@ -21,14 +21,15 @@
   </div>
   {{ end -}}
   {{ if eq $.Site.Language.LanguageName "English" }}
-  <section class="section section-sm mt-1 pt-1">
-    <div class="container-xl">
+  <section class="section section-sm mt-1 pt-1 pb-5 mb-4">
+    <div class="container-fluid px-4">
       <div class="row justify-content-center">
-        <div class="col-md-12 col-lg-10 col-xl-8">
+        <div class="col-12">
           <h2 class="h3 mt-3 text-center">Latest from my blog</h2>
-          <div class="card-list">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           {{ range first 3 (where .Site.RegularPages.ByDate.Reverse "Section" "post")  -}}
-          <div class="card">
+          <div class="col">
+            <div class="card h-100">
             {{ if site.Params.doks.imageList -}}
               {{- $images := .Resources.ByType "image" -}}
               {{- $featured := $images.GetMatch "*feature*" -}}
@@ -48,6 +49,7 @@
                 <p>{{ .Params.summary | safeHTML }}</p>
                 {{ partial "main/blog-meta.html" . -}}
               </article>
+            </div>
             </div>
           </div>
           {{ end -}}
