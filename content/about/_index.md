@@ -24,34 +24,38 @@ seo:
 
 <div class="card about-me">
   <div class="card-body">
-    <h2 class="card-title">My Journey</h2>
-    From tinkering with databases in my early teens to leading data platform initiatives at a Fortune 40 company, my journey with data has been nothing short of exhilarating. I'm passionate about data platforms, data engineering, and AI – the very topics that have defined my 16-year career. The platforms we build today are empowering hundreds of talented individuals, and honestly, being at the forefront of this Gen AI revolution is a dream come true.
+    <h2 class="card-title">Siva Rajadurai: Architect of Data Dreams</h2>
+    Greetings! I'm Siva Rajadurai, currently navigating the exciting world as a Principal Data Platform Enterprise Architect. Think of me as a digital architect, but instead of bricks and mortar, I build with data and cloud!
+    <br>
+    <br>
+    For over 16 years, I've been diving deep into the fascinating realm of technology leadership, passionately crafting scalable data and cloud platforms. My mission? To drive real business value and push the boundaries of innovation. It's about transforming how organizations operate, one ingenious solution at a time.
+    <br>
+    <br>
+    My fascination with data and tech sparked early – picture a school kid already building applications and coding away! This early passion has fueled my career, driving me to design software architectures that not only cut costs but also make a positive impact on people's lives.
+    <br>
+    <br>
+    Throughout my journey, I've had the privilege of architecting and delivering numerous data platform solutions, intricate integration designs, and innovative cloud services. These aren't just abstract concepts; they're the engines that power organizational change. Currently, at Humana, I spearhead the enterprise cloud data platforms, wielding tools like Databricks, Snowflake, Prefect Workflow Orchestration, Azure Synapse, and Azure Data Factory. Together with my amazing team, we've achieved significant milestones: real cost savings, boosted efficiency, and groundbreaking data solutions.
+
   </div>
 </div>
 
 <div class="card about-me">
   <div class="card-body">
-    <h2 class="card-title">What I Do</h2>
-    I have witnessed the astounding transformation of the data platform stack over the last two decades. And I don't see that transformation stopping anytime soon. In fact, I predict the pace of change is about to accelerate even further. One of the perks of being in data integration in the early days gave me a peek at every possible technology out there. I can talk about things as legacy as AS/400, or the most recent developments around uniform delta 3.0 formats. Oh, remember those mainframe VSAM files?
+    <h2 class="card-title">A Glimpse into the Dataverse</h2>
+    The evolution of the data platform stack in the last two decades has been mind-blowing, and trust me, the revolution isn't slowing down!  One of the cool things about being in data integration early on was getting a sneak peek at practically every tech out there. Want to chat about the ancient mysteries of AS/400 or the cutting-edge magic of uniform delta 3.0 formats?  Or perhaps reminisce about the days of mainframe VSAM files? I've seen it all! My adventures in data platforms have taken me through some incredible companies: Humana, L.L. Bean, Tata Consultancy Services, and Target Corporation.
 
-    My 16-year journey in data platforms has been fulfilling, and I've had the opportunity to work for some great companies along the way:
-
-    - Humana
-    - L.L. Bean
-    - Tata Consultancy Services
-    - Target Corporation
-
-    I am passionate about designing and building software architectures to reduce costs and improve the lives of others. Throughout my career, I have architected and delivered several data platform solutions, integration designs, and cloud services that have transformed the way organizations operate.
   </div>
 </div>
 
 <div class="card about-me">
   <div class="card-body">
-    <h2 class="card-title">Fun Fact</h2>
-    Fun fact about me: I designed an entire website using just HTML and JavaScript when I was a 12-year-old. I actually got caught by the tutors because I joined the computer institute for learning Microsoft Office 2000. Well, curious minds, I guess.
-
-    Through my blog, I hope to share my knowledge and experience with you and learn from you. Don't hesitate to write to me at hello@siva.blog.
-
-    Join me, together, let's innovate, inspire, and invigorate.
+    <h2 class="card-title">Fun Fact & Invitation</h2>
+    Here's a fun tidbit: Back in my 12-year-old days, fueled by pure curiosity, I designed an entire website using just HTML and JavaScript. The funny part? I was supposed to be learning Microsoft Office 2000 at the computer institute!  Oops!  Curiosity does lead to interesting detours, doesn't it?
+    <br>
+    <br>
+    Through this blog, I'm excited to share my knowledge, learn from your experiences, and explore the ever-evolving world of data and technology together. Got thoughts or ideas?  Don't hesitate to drop me a line at hello@siva.blog.
+    <br>
+    <br>
+    Let's connect, innovate, inspire, and invigorate!
   </div>
 </div>
