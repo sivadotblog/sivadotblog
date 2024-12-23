@@ -23,7 +23,7 @@ seo:
 
 Let’s reflect on the past for a moment before we see the current & future of these ETL/ELT tools. Around the 2000s, hardly any organization realized a need for such tools. Most developers would write pages of TSQL or Perl or SAS programs. When they realized that this was becoming unmanageable, they turned to ETL tools such as IBM Information Server (Datastage & Quality Stage), SSIS, Informatica, or ABINITIO. That's it. Most orgs had just one of them, maybe a few had more than one. All these tools have **one purpose**, **moving and transforming the data**.
 
-The purpose of ETL/ELT has not changed for decades i.e. **“Moving and transforming data”**. What has continually changed and evolved are the *type(s) of data*, *data sources*, *data targets* and *the way data move*. Unfortunately, those traditional behemoths such as IBM or Informatica are not evolving fast enough to catch up. That is where these newcomers have filled the gap and have flooded the market. All this in less than a decade’s time.
+The purpose of ETL/ELT has not changed for decades i.e. **"Moving and transforming data”**. What has continually changed and evolved are the *type(s) of data*, *data sources*, *data targets* and *the way data move*. Unfortunately, those traditional behemoths such as IBM or Informatica are not evolving fast enough to catch up. That is where these newcomers have filled the gap and have flooded the market. All this in less than a decade’s time.
 
 ![Data-and-AI-Landscape-2021-v3-small](/images/Data-and-AI-Landscape-2021-v3-small.jpg)[*Matt Turk’s Machine Learning, AI and Data (MAD) Landscape*](https://mattturck.com/data2021/)
 
@@ -45,7 +45,7 @@ Many companies start with an open-source project, then commercialize the product
 
 ### 2# Differentiate by building specialization in a specific area.
 
-Other small players identify a niche and build their product around it to fill that specific gap. [Streamsets](https://streamsets.com/solutions/cloud-data-warehouse-integration/) for example, is good at streaming small volumes, processing Change Data Captures events. dbt, is specialized in transformation, and does not offer E (extract) or L (load) or [FiveTran](https://www.fivetran.com/extract-load), which offers only data ingestion. Another example is [Xplenty](https://www.integrate.io/product/etl/) and [HighTouch](https://hightouch.com/blog/reverse-etl/) which market their product as “Reverse ETL”.
+Other small players identify a niche and build their product around it to fill that specific gap. [Streamsets](https://streamsets.com/solutions/cloud-data-warehouse-integration/) for example, is good at streaming small volumes, processing Change Data Captures events. dbt, is specialized in transformation, and does not offer E (extract) or L (load) or [FiveTran](https://www.fivetran.com/extract-load), which offers only data ingestion. Another example is [Xplenty](https://www.integrate.io/product/etl/) and [HighTouch](https://hightouch.com/blog/reverse-etl/) which market their product as "Reverse ETL”.
 
 ### 3# Upselling Capability
 
@@ -57,7 +57,7 @@ Another common pitfall is pricing. Each provider comes up with their own termino
 
 ### 5# Partnering with competitors
 
-Databricks introduced integration partners and it included [dtb](https://www.getdbt.com/product/what-is-dbt/), fiveTran, Tableau and a lot other ETL/ELT tool. Yet they advertise their tool as “All your data, analytics and AI on one platform”. So why do we need the other tools then?
+Databricks introduced integration partners and it included [dtb](https://www.getdbt.com/product/what-is-dbt/), fiveTran, Tableau and a lot other ETL/ELT tool. Yet they advertise their tool as "All your data, analytics and AI on one platform”. So why do we need the other tools then?
 
 ## **Ultimate Guide: Choose the best ETL Tool**
 
@@ -106,7 +106,7 @@ At some point, you need to settle down on a toolset that works for you. One way 
 5. How much time should i spend if there is a) minor upgrade b) major upgrade?
 6. Will the tool help achieve our strategic goals?
 
-I should come up with a tool kit for evaluating softwares. But for today, I would like to wind down with a couple of architectural rules from “Fundamentals of Software Architecture”.
+I should come up with a tool kit for evaluating softwares. But for today, I would like to wind down with a couple of architectural rules from "Fundamentals of Software Architecture”.
 
 > There are no bad decisions, only expensive ones.
 >

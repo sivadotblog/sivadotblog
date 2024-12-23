@@ -21,9 +21,9 @@ seo:
 
 ## 1. Find Your Niche
 
-Choose a problem that you have overcome or are passionate about solving. Ask yourself if others have faced the same problem. Are you passionate enough to work on it 24/7 for at least two years, overcoming many barriers? 
+Choose a problem that you have overcome or are passionate about solving. Ask yourself if others have faced the same problem. Are you passionate enough to work on it 24/7 for at least two years, overcoming many barriers?
 
-“37 Signals” was looking to manage all their internal projects in one place. They couldn’t find the right platform, so they built their own tool and called it “Basecamp.” Today, it is used by over 100,000 customers.
+"37 Signals” was looking to manage all their internal projects in one place. They couldn’t find the right platform, so they built their own tool and called it "Basecamp.” Today, it is used by over 100,000 customers.
 
 ## 2. Look for Competitors
 
@@ -45,7 +45,7 @@ The notion that someone will steal your idea is naive. You are the only one who 
 
 ## 5. Get to Work
 
-Once you have the market insight, start working on it. Remember, “there is no better time than NOW.” You don’t need the best equipment, talent, workplace, or lots of investors to get started. Most successful entrepreneurs started from their garage, closet, or basement. You don’t need a lot of money or resources to start your business; you just need perseverance.
+Once you have the market insight, start working on it. Remember, "there is no better time than NOW.” You don’t need the best equipment, talent, workplace, or lots of investors to get started. Most successful entrepreneurs started from their garage, closet, or basement. You don’t need a lot of money or resources to start your business; you just need perseverance.
 
 Salman Khan, the founder of Khan Academy, started recording video tutorials from a small walk-in closet using a blackboard and a mobile camera.
 
@@ -67,6 +67,6 @@ Zappos customer service never goes through a phone tree. There is always a human
 
 ## 9. Be Lean
 
-Most entrepreneurs make this mistake: once they see a flow of cash and customer growth, they double down on the team, recruitment, and think that their overall growth will double. NO. The company “37 Signals” operates with only 54 employees, and their annual revenue is over $78 million as of 2018. Keep your team and expenses lean.
+Most entrepreneurs make this mistake: once they see a flow of cash and customer growth, they double down on the team, recruitment, and think that their overall growth will double. NO. The company "37 Signals” operates with only 54 employees, and their annual revenue is over $78 million as of 2018. Keep your team and expenses lean.
 
 Your goal must not be to create a product; create a brand that has a sense of purpose.
