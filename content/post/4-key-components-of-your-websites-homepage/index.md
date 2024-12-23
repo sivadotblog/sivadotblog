@@ -27,7 +27,7 @@ As a disclaimer, I am not selling any service. I am sharing my thoughts and know
 
 ### Start with the WHY
 
-Why do you exist? Why you? – Let’s talk about TalkSpace, a company that offers online therapy to their patients. Their message is strong and clear: “Feeling better starts with a single message.” They are speaking directly to their customers who are looking to feel better.
+Why do you exist? Why you? – Let’s talk about TalkSpace, a company that offers online therapy to their patients. Their message is strong and clear: "Feeling better starts with a single message.” They are speaking directly to their customers who are looking to feel better.
 
 ![Image Description](/images/talkspace-why-do-you-exist.webp)
 
@@ -35,7 +35,7 @@ Compare it with your message.
 
 Is your message clear to your customers/clients? Does your brand message directly target your customer base? Let's say you are running a workout studio and your customers are working moms.
 
-Your message should look like “Short, meaningful workouts for wonderful moms like you! Join us!”
+Your message should look like "Short, meaningful workouts for wonderful moms like you! Join us!”
 
 This translates into your brand message:
 

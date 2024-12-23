@@ -93,7 +93,7 @@ He could have been stopped way earlier. Businesses need to pay attention to such
 
 ## 9. The Golden Circle – Why, What & How
 
-Dressed in red jumpsuits with a mask of the Spanish painter, what was their message? I mean, “WHY”? They had a clear WHY, WHAT, and HOW.
+Dressed in red jumpsuits with a mask of the Spanish painter, what was their message? I mean, "WHY”? They had a clear WHY, WHAT, and HOW.
 
 ### WHY – RESISTANCE
 
@@ -107,7 +107,7 @@ They wanted to print their own money, just like how the European central bank di
 
 By engaging a group of talented but broke individuals who wanted to become rich and escape from all of this.
 
-No business without a clear WHY, WHAT, and HOW has ever succeeded. Steve Jobs didn’t sell beautiful Apple devices; instead, he “challenged the status quo.” Take a step back and use “why” to think about your own business.
+No business without a clear WHY, WHAT, and HOW has ever succeeded. Steve Jobs didn’t sell beautiful Apple devices; instead, he "challenged the status quo.” Take a step back and use "why” to think about your own business.
 
 ## Closing Notes
 
