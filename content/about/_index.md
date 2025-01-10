@@ -18,6 +18,10 @@ seo:
   noindex: false # false (default) or true
 ---
 
+<div class="about-me">
+  <img src="about-me.jpg" class="about-me-photo img-fluid rounded-circle" alt="Your Photo" width="200">
+</div>
+
 <div class="card">
   <div class="card-body">
     <h2 class="card-title">About Me</h2>
