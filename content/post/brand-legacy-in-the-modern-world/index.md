@@ -27,5 +27,7 @@ a lots of lessons,
 you dont have to modernize if you dont need to. Pargle g was designed and marked to meet a low income blue collar people who had kids. the produce was cheap, delicious and met the needs of a cranky kid. the market still exists today. why should they rebrand or invest in modernization?
 
 
-Simplicity - the product itself
+Simplicity - the product itself doesnt have anything fancy or complex. its a simple biscut with a simple message for the targtted audience
+
+As a parent
 
