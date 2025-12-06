@@ -4,23 +4,9 @@
     <h1 class="text-center">{{ .Title }}</h1>
     {{ with .Params.summary -}}<p class="lead text-center">{{ . }}</p>{{ end -}}
     <div class="text-center">{{ .Content }}</div>
-    <form class="contact-form">
-      <div>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-      </div>
-      <div>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-      </div>
-      <div>
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
-      </div>
-      <div>
-        <button type="submit">Submit</button>
-      </div>
-    </form>
+
+    <!-- Zoho Form Integration via iframe -->
+    <iframe aria-label='Contact Us' frameborder="0" scrolling="no" style="height:650px;width:99%;border:none;overflow:hidden;" src='https://forms.zohopublic.com/vriksha1/form/ContactUs/formperma/hUQLNLFVEYPs-5-_yF19o-97e4XvUtE09zWLj_osMsA'></iframe>
   </div>
 </div>
 {{ end }}
