@@ -27,7 +27,7 @@ Hello there! I'm a passionate technologist and a leader in the realm of cloud da
 #### 📫 Connect with Me
 
 - **Website**: [https://siva.blog](https://siva.blog)
-- **Email**: [hello@siva.blog](mailto:hello@siva.blog)
+- **Email**: [sivanandha@gmail.com](mailto:sivanandha@gmail.com)
 
 Feel free to reach out to me for collaborations, questions, or just to share your thoughts. I'm always open to connecting with fellow enthusiasts and professionals in the field!
 Thank you for stopping by my profile. Let's explore the possibilities and make a difference together!
