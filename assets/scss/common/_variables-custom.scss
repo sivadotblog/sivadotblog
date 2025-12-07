@@ -1,19 +1,50 @@
 // Put your custom SCSS variables here
-// Dark color mode variables
-// Updated custom SCSS variables for a calm and creative dark theme
-$light-bg-subtle-dark: hsl(210, 15%, 20%); // A slightly lighter background for elements
-$light-border-subtle-dark: hsl(210, 15%, 25%); // Soft border color
+// ============================================
+// Brand Colors - Light & Dark Theme Variables
+// Evidence-based color system for optimal readability
+// ============================================
 
-$body-bg-dark: hsl(210, 20%, 15%); // Main body background, dark but not too harsh
-$body-overlay-dark: hsl(210, 25%, 20%); // For overlays or modal backgrounds
-$border-dark: hsl(210, 15%, 25%); // Border color for elements
-$body-color-dark: hsl(210, 10%, 75%); // Main text color, ensuring readability
-$headings-color-dark: hsl(210, 20%, 85%); // Lighter color for headings to stand out
-$dots-dark: darken($body-color-dark, 30%); // For less prominent elements, like dots or icons
-$link-color-dark: hsl(210, 80%, 60%); // A calm yet noticeable color for links
-$button-color-dark: $link-color-dark; // Matching button color to link color for consistency
-$focus-color-dark: lighten($link-color-dark, 5%); // Slightly lighter for focus states
+// Light Theme Variables (Default)
+$body-bg: #F9FAFB; // Background main - maximizes polarity while softening extremes
+$body-color: #111827; // Primary text - high contrast with reduced glare
+$headings-color: #111827; // Headings use primary text color
+$card-bg: #FFFFFF; // Card/article background - maintains separation
+$text-muted: #6B7280; // Secondary/meta text - clear hierarchy
+$border-light: #6B7280; // Border color for light theme
 
+// Primary accent colors (green tones - less fatiguing on dark backgrounds)
+$primary: #4CB648; // Primary accent green
+$link-color: #4CB648; // Links use primary accent
+$secondary: #1F7A3A; // Secondary accent - darker green for depth
+$button-color: $primary; // Buttons use primary accent
+$focus-color: darken($primary, 5%); // Slightly darker for focus states
+
+// Plum highlight (used sparingly for emphasis)
+$plum-accent: #B0127D; // High-contrast highlight
+
+// Dark Theme Variables
+$light-bg-subtle-dark: #111827; // Card background in dark mode
+$light-border-subtle-dark: #6B7280; // Soft border color
+
+$body-bg-dark: #020617; // Background main - dark theme
+$body-overlay-dark: #111827; // For overlays or modal backgrounds
+$border-dark: #9CA3AF; // Border color for dark theme
+$body-color-dark: #F9FAFB; // Primary text - inverted for dark mode
+$headings-color-dark: #F9FAFB; // Headings color - matches primary text
+$text-muted-dark: #9CA3AF; // Secondary text in dark mode
+$dots-dark: darken($body-color-dark, 30%); // For less prominent elements
+
+// Primary accent colors for dark theme
+$primary-dark: #22C55E; // Primary accent green - brighter for dark backgrounds
+$link-color-dark: #22C55E; // Links in dark mode
+$secondary-dark: #16A34A; // Secondary accent in dark mode
+$button-color-dark: $primary-dark; // Buttons in dark mode
+$focus-color-dark: lighten($primary-dark, 5%); // Focus state in dark mode
+
+// Plum highlight for dark theme
+$plum-accent-dark: #E879F9; // Plum highlight - brighter for dark mode
+
+// Navbar colors
 $navbar-dark-color: $body-color-dark; // Navbar text color
-$navbar-dark-hover-color: $link-color-dark; // Hover color for navbar items
-$navbar-dark-active-color: $link-color-dark; // Active state color for navbar items
+$navbar-dark-hover-color: $primary-dark; // Hover color for navbar items
+$navbar-dark-active-color: $primary-dark; // Active state color for navbar items
