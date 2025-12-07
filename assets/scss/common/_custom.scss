@@ -193,6 +193,36 @@ article .col-md-12.col-lg-10 .lead {
   color: $text-muted-dark;
 }
 
+// ============================================
+// Plum Color for Bold Text in Body Content
+// Testing: Makes bold text stand out with plum accent
+// ============================================
+
+// Apply plum color to bold/strong text in paragraphs, lists, blockquotes
+article .col-md-12.col-lg-10 {
+  p strong,
+  p b,
+  li strong,
+  li b,
+  blockquote strong,
+  blockquote b {
+    color: $plum-accent; // #B0127D in light mode
+    font-weight: 700;
+  }
+}
+
+// Dark theme for bold text - brighter plum
+[data-bs-theme="dark"] article .col-md-12.col-lg-10 {
+  p strong,
+  p b,
+  li strong,
+  li b,
+  blockquote strong,
+  blockquote b {
+    color: $plum-accent-dark; // #E879F9 in dark mode
+  }
+}
+
 /* Pe112 */
 .contact-form {
   max-width: 600px;
