@@ -84,22 +84,47 @@ body {
   font-weight: 400;
 }
 
-// Title fonts - Heavy weight for main headings
+// ============================================
+// Heading Colors - Evidence-based hierarchy
+// ============================================
+
+// H1 - Primary text color (maximum readability)
 h1 {
   font-family: 'FS Me Pro', sans-serif;
   font-weight: 900;
+  color: $headings-color;
 }
 
-// Subheadings - Bold weight
-h2, h3, h4 {
+// H2 - Secondary accent color (dark green for depth)
+h2 {
   font-family: 'FS Me Pro', sans-serif;
   font-weight: 700;
+  color: $secondary;
 }
 
-// Smaller headings
-h5, h6 {
+// H3 - Primary accent color (green for visual interest)
+h3 {
   font-family: 'FS Me Pro', sans-serif;
   font-weight: 700;
+  color: $primary;
+}
+
+// H4-H6 - Primary text color
+h4, h5, h6 {
+  font-family: 'FS Me Pro', sans-serif;
+  font-weight: 700;
+  color: $headings-color;
+}
+
+// Dark theme heading color overrides
+[data-bs-theme="dark"] {
+  h2 {
+    color: $secondary-dark;
+  }
+
+  h3 {
+    color: $primary-dark;
+  }
 }
 
 // ============================================
@@ -132,6 +157,40 @@ h5, h6 {
   font-weight: 700;
   font-size: 1.35rem;
   margin-bottom: 2rem;
+}
+
+// ============================================
+// Blog Post Content Card Overlay
+// Creates a card-like container for blog content
+// Matching the POC design system
+// ============================================
+
+article .col-md-12.col-lg-10 {
+  background-color: $card-bg; // White (#FFFFFF) in light mode
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  margin-bottom: 2rem;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+// Dark theme override for content card
+[data-bs-theme="dark"] article .col-md-12.col-lg-10 {
+  background-color: $light-bg-subtle-dark; // #111827 in dark mode
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+// Ensure proper spacing for lead paragraph
+article .col-md-12.col-lg-10 .lead {
+  font-size: 1.15rem;
+  font-weight: 300;
+  color: $text-muted;
+  margin-bottom: 2rem;
+}
+
+// Dark theme for lead text
+[data-bs-theme="dark"] article .col-md-12.col-lg-10 .lead {
+  color: $text-muted-dark;
 }
 
 /* Pe112 */
