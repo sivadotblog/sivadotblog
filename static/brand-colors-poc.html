@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brand Colors POC - Light vs Dark Theme</title>
+    <link rel="stylesheet" href="brand-colors-poc.css">
+</head>
+<body>
+    <button class="theme-toggle" onclick="toggleTheme()">
+        <span id="theme-icon">🌙</span> Toggle Theme
+    </button>
+
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>Brand Colors Proof of Concept</h1>
+            <p class="subtitle">Evidence-based color system for light and dark themes</p>
+        </header>
+
+        <!-- Color Palette Section -->
+        <section class="section">
+            <h2 class="section-title">Color Palette Overview</h2>
+            <div class="color-palette">
+                <!-- Background Main -->
+                <div class="color-card">
+                    <h3>Background Main</h3>
+                    <div class="color-swatch" style="background-color: var(--bg-main);"></div>
+                    <div class="color-info">
+                        <span class="label">Light Theme</span>
+                        <span class="value">#F9FAFB</span>
+                        <span class="label">Dark Theme</span>
+                        <span class="value">#020617</span>
+                    </div>
+                </div>
+
+                <!-- Card/Article Background -->
+                <div class="color-card">
+                    <h3>Card/Article Background</h3>
+                    <div class="color-swatch" style="background-color: var(--bg-card);"></div>
+                    <div class="color-info">
+                        <span class="label">Light Theme</span>
+                        <span class="value">#FFFFFF</span>
+                        <span class="label">Dark Theme</span>
+                        <span class="value">#111827</span>
+                    </div>
+                </div>
+
+                <!-- Primary Text -->
+                <div class="color-card">
+                    <h3>Primary Text</h3>
+                    <div class="color-swatch" style="background-color: var(--text-primary);"></div>
+                    <div class="color-info">
+                        <span class="label">Light Theme</span>
+                        <span class="value">#111827</span>
+                        <span class="label">Dark Theme</span>
+                        <span class="value">#F9FAFB</span>
+                    </div>
+                </div>
+
+                <!-- Secondary Text -->
+                <div class="color-card">
+                    <h3>Secondary/Meta Text</h3>
+                    <div class="color-swatch" style="background-color: var(--text-secondary);"></div>
+                    <div class="color-info">
+                        <span class="label">Light Theme</span>
+                        <span class="value">#6B7280</span>
+                        <span class="label">Dark Theme</span>
+                        <span class="value">#9CA3AF</span>
+                    </div>
+                </div>
+
+                <!-- Primary Accent -->
+                <div class="color-card">
+                    <h3>Primary Accent (Green)</h3>
+                    <div class="color-swatch" style="background-color: var(--accent-primary);"></div>
+                    <div class="color-info">
+                        <span class="label">Light Theme</span>
+                        <span class="value">#4CB648</span>
+                        <span class="label">Dark Theme</span>
+                        <span class="value">#22C55E</span>
+                    </div>
+                </div>
+
+                <!-- Secondary Accent -->
+                <div class="color-card">
+                    <h3>Secondary Accent (Dark Green)</h3>
+                    <div class="color-swatch" style="background-color: var(--accent-secondary);"></div>
+                    <div class="color-info">
+                        <span class="label">Light Theme</span>
+                        <span class="value">#1F7A3A</span>
+                        <span class="label">Dark Theme</span>
+                        <span class="value">#16A34A</span>
+                    </div>
+                </div>
+
+                <!-- Plum Highlight -->
+                <div class="color-card">
+                    <h3>Plum Highlight</h3>
+                    <div class="color-swatch" style="background-color: var(--accent-plum);"></div>
+                    <div class="color-info">
+                        <span class="label">Light Theme</span>
+                        <span class="value">#B0127D</span>
+                        <span class="label">Dark Theme</span>
+                        <span class="value">#E879F9</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Typography Examples -->
+        <section class="section">
+            <h2 class="section-title">Typography Hierarchy</h2>
+            <div class="typography-demo">
+                <h1>Heading 1 - Primary Text</h1>
+                <h2>Heading 2 - Secondary Accent Color</h2>
+                <h3>Heading 3 - Primary Accent Color</h3>
+                <p>This is body text using the primary text color. It should be highly readable with sufficient contrast against the background in both light and dark themes. The rationale is to provide high contrast while reducing glare compared to pure black on white or pure white on black.</p>
+                <p class="secondary-text">This is secondary text or meta information using the secondary text color. It maintains clear hierarchy without undermining legibility. Perfect for timestamps, author names, or auxiliary information.</p>
+                <p class="plum-highlight">This is a plum highlight used sparingly for special emphasis and hierarchy. Not recommended for large blocks of body text, but excellent for callouts and important notices.</p>
+            </div>
+        </section>
+
+        <!-- Card Examples -->
+        <section class="section">
+            <h2 class="section-title">Content Cards</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Article Title One</h3>
+                    <p class="meta">Published on December 6, 2025 • 5 min read</p>
+                    <p>This card demonstrates how content blocks maintain separation in both light and dark modes. The card background contrasts with the main background, creating clear visual boundaries.</p>
+                    <p class="highlight">Special highlight in plum color</p>
+                </div>
+
+                <div class="card">
+                    <h3>Article Title Two</h3>
+                    <p class="meta">Published on December 5, 2025 • 8 min read</p>
+                    <p>Green tones are shown to be less fatiguing than saturated reds on dark backgrounds, making them ideal for primary accent colors across both themes.</p>
+                    <p class="highlight">Another plum highlight</p>
+                </div>
+
+                <div class="card">
+                    <h3>Article Title Three</h3>
+                    <p class="meta">Published on December 4, 2025 • 3 min read</p>
+                    <p>The color system maximizes polarity while softening extremes for visual comfort. This ensures readability without causing eye strain during extended reading sessions.</p>
+                    <p class="highlight">Plum for special emphasis</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Button Examples -->
+        <section class="section">
+            <h2 class="section-title">Interactive Elements</h2>
+            <div class="content-block">
+                <h3>Button Variations</h3>
+                <div class="button-group">
+                    <button class="btn btn-primary">Primary Button</button>
+                    <button class="btn btn-secondary">Secondary Button</button>
+                    <button class="btn btn-plum">Plum Button</button>
+                    <button class="btn btn-outline">Outline Button</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Feature List -->
+        <section class="section">
+            <h2 class="section-title">Design Rationale</h2>
+            <div class="content-block">
+                <h3>Evidence-Based Color Decisions</h3>
+                <ul>
+                    <li><strong>Background Main:</strong> Maximizes polarity while softening extremes for comfort</li>
+                    <li><strong>Card/Article Background:</strong> Maintains separation of content blocks in both modes</li>
+                    <li><strong>Body Text Primary:</strong> High contrast with reduced glare vs pure black/white</li>
+                    <li><strong>Secondary/Meta Text:</strong> Clear hierarchy without undermining legibility</li>
+                    <li><strong>Primary Accent:</strong> Green tones shown to be less fatiguing than saturated reds on dark backgrounds</li>
+                    <li><strong>Secondary Accent:</strong> Depth for headings and UI states across themes</li>
+                    <li><strong>Plum Highlight:</strong> High-contrast highlight used sparingly for hierarchy, not body text</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Accessibility Notes -->
+        <section class="section">
+            <h2 class="section-title">Accessibility & Usage Guidelines</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Contrast Ratios</h3>
+                    <p>All text combinations meet WCAG AA standards for contrast ratios, ensuring readability for users with visual impairments.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Green Advantage</h3>
+                    <p>Green primary accent reduces eye fatigue in dark mode compared to warm colors like red or orange, which can feel harsh against dark backgrounds.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Plum Moderation</h3>
+                    <p>The plum highlight should be used sparingly - ideal for callouts, badges, and special emphasis, but avoid large text blocks.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Implementation Example -->
+        <section class="section">
+            <h2 class="section-title">Real-World Example</h2>
+            <div class="typography-demo">
+                <h1>Welcome to Our Platform</h1>
+                <p class="meta">Last updated: December 6, 2025</p>
+                <h2>Getting Started</h2>
+                <p>Our platform provides an evidence-based approach to color theming that prioritizes both aesthetics and user comfort. By carefully selecting colors that work across light and dark modes, we ensure a consistent experience regardless of user preference.</p>
+                <h3>Key Features</h3>
+                <p>The color system is built on research showing that certain color combinations reduce eye strain and improve readability. <span class="plum-highlight">Premium features</span> are highlighted using the plum accent, drawing attention without overwhelming the user.</p>
+                <p class="secondary-text">Note: This is an example of secondary text used for footnotes or less critical information.</p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Brand Colors POC - Design System v1.0</p>
+            <p class="secondary-text">Created for evidence-based color exploration</p>
+        </footer>
+    </div>
+
+    <script>
+        // Theme toggle functionality
+        function toggleTheme() {
+            const html = document.documentElement;
+            const currentTheme = html.getAttribute('data-theme');
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+            const icon = document.getElementById('theme-icon');
+
+            html.setAttribute('data-theme', newTheme);
+            icon.textContent = newTheme === 'light' ? '🌙' : '☀️';
+
+            // Save preference to localStorage
+            localStorage.setItem('theme', newTheme);
+        }
+
+        // Load saved theme preference on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedTheme = localStorage.getItem('theme') || 'light';
+            const html = document.documentElement;
+            const icon = document.getElementById('theme-icon');
+
+            html.setAttribute('data-theme', savedTheme);
+            icon.textContent = savedTheme === 'light' ? '🌙' : '☀️';
+        });
+    </script>
+</body>
+</html>

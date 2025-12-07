@@ -1,41 +1,69 @@
-@font-face {
-  font-family: 'FSMePro-Regular';
-  font-style: normal;
-  font-weight: 200;
-  src: url("/fonts/FSMePro-Regular.ttf") format("truetype");
-  font-display: swap;
-}
+// ============================================
+// Font Face Declarations - FS Me Pro
+// Consolidated font family with proper weight hierarchy
+// ============================================
 
 @font-face {
-  font-family: 'FSMePro-Regular';
-  font-style: normal;
-  font-weight: 300;
-  src: url("/fonts/FSMePro-Regular.ttf") format("truetype");
-  font-display: swap;
-}
-
-
-@font-face {
-  font-family: 'FSMePro-Regular';
-  font-style: normal;
-  font-weight: 400;
-  src: url("/fonts/FSMePro-Regular.ttf") format("truetype");
-  font-display: swap;
-}
-
-
-@font-face {
-  font-family: 'FSMePro-Bold';
-  font-style: normal;
-  font-weight: 500;
-  src: url("/fonts/FSMePro-Bold.ttf") format("truetype");
-  font-display: swap;
-}
-@font-face {
-  font-family: 'FSMePro-Light';
-  font-style: normal;
-  font-weight: 700;
+  font-family: 'FS Me Pro';
   src: url("/fonts/FSMePro-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FS Me Pro';
+  src: url("/fonts/FSMePro-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FS Me Pro';
+  src: url("/fonts/FSMePro-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FS Me Pro';
+  src: url("/fonts/FSMePro-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FS Me Pro';
+  src: url("/fonts/FSMePro-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FS Me Pro';
+  src: url("/fonts/FSMePro-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FS Me Pro';
+  src: url("/fonts/FSMePro-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FS Me Pro';
+  src: url("/fonts/FSMePro-HeavyItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
   font-display: swap;
 }
 //fontface for code MonaspaceKrypton-Regular.otf
@@ -47,18 +75,41 @@
   font-display: swap;
 }
 
+// ============================================
+// Base Typography
+// ============================================
+
 body {
-  font-family: 'FSMePro-Regular', sans-serif;
+  font-family: 'FS Me Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-weight: 400;
 }
 
-// Title fonts
-h1, h2 {
-  font-family: 'FSMePro-Light', sans-serif;
+// Title fonts - Heavy weight for main headings
+h1 {
+  font-family: 'FS Me Pro', sans-serif;
+  font-weight: 900;
 }
 
-// Card typography adjustments
+// Subheadings - Bold weight
+h2, h3, h4 {
+  font-family: 'FS Me Pro', sans-serif;
+  font-weight: 700;
+}
+
+// Smaller headings
+h5, h6 {
+  font-family: 'FS Me Pro', sans-serif;
+  font-weight: 700;
+}
+
+// ============================================
+// Card Typography Adjustments
+// ============================================
+
 .card {
   .h3 {
+    font-family: 'FS Me Pro', sans-serif;
+    font-weight: 700;
     font-size: 1.35rem;
     line-height: 1.4;
     margin-bottom: 0.75rem;
@@ -67,16 +118,20 @@ h1, h2 {
   p {
     font-size: 0.95rem;
     line-height: 1.5;
-    color: #4a5568;
+    font-weight: 400;
+  }
+
+  .meta, .text-muted {
+    font-weight: 300;
   }
 }
 
 // Blog section title
 .section h2.h3 {
-  font-family: 'FSMePro-Bold', sans-serif;
+  font-family: 'FS Me Pro', sans-serif;
+  font-weight: 700;
   font-size: 1.35rem;
   margin-bottom: 2rem;
-
 }
 
 /* Pe112 */
