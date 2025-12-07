@@ -154,4 +154,4 @@ Lastly, it’s not fair if we don’t talk about open source. So, if you were to
 
 While it’s good to know about this architecture, open source is not for everyone. It’s for companies whose core products are tech. Go back to "why” orgs are leveraging the cloud? to reduce administration hurdles. Open source does the exact opposite, it adds a lot of administration overhead. The balanced act is finding a managed open source like Google Dataflow which is a managed Apache Beam or Databricks which is a managed Apache spark environment. Most companies that go for hybrid cloud seek such managed open-source products to avoid vendor lock-in. I am torn by that approach. Using Azure Data Factory is much better than using any other ETL tool for Azure so why would you pay for another tool?
 
-##### Have more questions? I am happy to help you, feel free to reach out to hello@siva.blog.
+##### Have more questions? I am happy to help you, feel free to reach out to sivanandha@gmail.com
