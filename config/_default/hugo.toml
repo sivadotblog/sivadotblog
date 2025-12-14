@@ -19,6 +19,10 @@ defaultContentLanguageInSubdir = false
 
 copyRight = "Copyright (c) 2020-2024 Siva's Blog"
 
+[services]
+[services.googleAnalytics]
+ID = 'G-GWPBX4JJE8'
+
 [build.buildStats]
 enable = true
 
