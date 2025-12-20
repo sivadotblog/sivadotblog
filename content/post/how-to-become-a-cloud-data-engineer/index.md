@@ -41,7 +41,7 @@ Perhaps, that’s a separate topic on its own, we shall focus on data engineerin
 
 ## Why Cloud Data Engineering?
 
-Let’s start with the why. The need for processing data on the cloud became a crucial part of business units because of the scale of data that needs to be stored and analyzed. The growth of Internet users from 1991 (2.8 Million) to 2019 (3.7 Trillion) has contributed to this significant rise in data volumes. Cloud platforms can provide near-infinite storage, something that even large organizations cannot afford. Compare it to renting a storage unit for $100 per month vs buying land, building a storage unit, and securing it for $300,000. Another reason is the data landscape is even more complex. Data is no longer just CSV files, relational databases, and queues. So how do you move to the cloud? Cloud is a mindset shift.
+Let’s start with the why. The need for processing data on the cloud became a crucial part of business units because of the scale of data that needs to be stored and analyzed. The growth of Internet users from 1991 (2.8 Million) to 2019 (4.5 Billion) has contributed to this significant rise in data volumes. Cloud platforms can provide near-infinite storage, something that even large organizations cannot afford. Compare it to renting a storage unit for $100 per month vs buying land, building a storage unit, and securing it for $300,000. Another reason is the data landscape is even more complex. Data is no longer just CSV files, relational databases, and queues. So how do you move to the cloud? Cloud is a mindset shift.
 
 ## What is Cloud Data Engineering?
 
@@ -109,7 +109,7 @@ Fair warning – don't get carried away with terms like Kubernetes, containers, 
 
 #### Azure Data Engineering Stack
 
-![Azure Data Engineering Stack](https://sivastech42fp1.blob.core.windows.net/images/Data-Engineering-Azure.jpg)
+![Azure Data Engineering Stack](/images/Data-Engineering-Azure.jpg)
 - Batch/Streaming ELT/ETL – Azure Data Factory
 - Streaming Broker – Event Hub
 - Orchestration – ADF for general Pipelines, Synapse for Analytics
@@ -118,7 +118,7 @@ Fair warning – don't get carried away with terms like Kubernetes, containers, 
 
 #### GCP Data Engineering Stack
 
-![GCP Data Engineering Stack](https://sivastech42fp1.blob.core.windows.net/images/Data-Enginnering-GCP.jpg)
+![GCP Data Engineering Stack](/images/Data-Enginnering-GCP.jpg)
 - Batch ELT Data Flow (Managed Apache Beam)
 - Streaming ELT – Google Pub/Sub + Data Flow
 - Orchestration – Cloud Composer (Managed Apache Airflow)
@@ -150,7 +150,7 @@ Let me walk you through an analogy – You have an on-prem Oracle OLTP database.
 
 Lastly, it’s not fair if we don’t talk about open source. So, if you were to do data engineering with open source here is how it would look like.
 
-![Open Source Data Engineering Stack](https://sivastech42fp1.blob.core.windows.net/images/Data-Enginnering-GCP.jpg)
+![Open Source Data Engineering Stack](/images/Open-Source-Data-Engineering.jpg)
 
 While it’s good to know about this architecture, open source is not for everyone. It’s for companies whose core products are tech. Go back to "why” orgs are leveraging the cloud? to reduce administration hurdles. Open source does the exact opposite, it adds a lot of administration overhead. The balanced act is finding a managed open source like Google Dataflow which is a managed Apache Beam or Databricks which is a managed Apache spark environment. Most companies that go for hybrid cloud seek such managed open-source products to avoid vendor lock-in. I am torn by that approach. Using Azure Data Factory is much better than using any other ETL tool for Azure so why would you pay for another tool?
 

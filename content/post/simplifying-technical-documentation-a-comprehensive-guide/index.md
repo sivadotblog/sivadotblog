@@ -39,7 +39,7 @@ The idea behind avoiding reinventing the wheel is to utilize existing resources,
 
 With so many tools at play, countless issues arise within the organization. Organizations mature in terms of technology and innovation. However, many organizations lack the discipline to produce quality documents. Producing quality documents that articulate the tasks at hand with clarity is equivalent to or even better than hiring more people. Let's discuss some of the key challenges companies face today.
 
-![](https://sivastech42fp1.blob.core.windows.net/images/service-now-confluence-onenote-documentation.jpg)
+![](/images/service-now-confluence-onenote-documentation.jpg)
 
 ### 🏢 Silo documentation
 
@@ -63,7 +63,7 @@ What about formatting the document? Which font should I use, what colors should 
 
 #  Solution
 
-![](https://sivastech42fp1.blob.core.windows.net/images/github-readme.jpg)
+![](/images/github-readme.jpg)
 
 My solution is based on a simple approach. The proposed solution is based on the idea that documentation should be part of the application, and therefore, part of the version control. This means that every application should have a detailed documentation index, hosted in a readme.md file in the enterprise git platform, such as GitHub or GitLab. The documentation should be written in simple, markdown format and serve as the single source of truth.
 

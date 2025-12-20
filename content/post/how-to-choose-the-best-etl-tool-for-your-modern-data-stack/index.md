@@ -134,7 +134,7 @@ But I would like to give you some examples in each cloud eco-system.
 
 #### Azure Data Engineering Stack
 
-![Data Engg using Azure stack](https://sivastech42fp1.blob.core.windows.net/images/Data-Engineering-Azure.jpg )
+![Data Engg using Azure stack](/images/Data-Engineering-Azure.jpg)
 Azure Data Engineering Stack- Batch/Streaming ELT/ETL – Azure Data Factory
 - Streaming Broker – Event Hub
 - Orchestration – ADF for general Pipelines, Synapse for Analytics
@@ -143,7 +143,7 @@ Azure Data Engineering Stack- Batch/Streaming ELT/ETL – Azure Data Factory
 
 #### GCP Data Engineering Stack
 
-![Data Engg using GCP stack](https://sivastech42fp1.blob.core.windows.net/images/Data-Enginnering-GCP.jpg)
+![Data Engg using GCP stack](/images/Data-Enginnering-GCP.jpg)
 Google Cloud Platform (GCP) Data Engineering Stack- Batch ELT Data FLow (Managed Apache Beam)
 - Streaming ELT – Google Pub/Sub + Data Flow
 - Orchestration – Cloud Composer (Managed Apache Airflow)
@@ -151,7 +151,8 @@ Google Cloud Platform (GCP) Data Engineering Stack- Batch ELT Data FLow (Managed
 
 #### Open-Source Data Engineering Stack
 
-![Data Engg using Open Source stack](https://sivastech42fp1.blob.core.windows.net/images/Open-Source-Data-Engineering.jpg ) Open Source Data Engineering Stack- Batch ELT Data FLow (Apache Camel, NiFi)
+![Data Engg using Open Source stack](/images/Open-Source-Data-Engineering.jpg)
+Open Source Data Engineering Stack- Batch ELT Data FLow (Apache Camel, NiFi)
 - Streaming ELT – Kafka
 - Orchestration – Cloud Composer (Managed Apache Airflow)
 - Data Engineering – Apache Spark, Beam, Flink

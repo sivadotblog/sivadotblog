@@ -24,7 +24,8 @@ I have been in COEs for about 14 years, and to be honest here, nobody likes work
 
 ## What is a CoE?
 
-![Traditional CoE Structure](https://sivastech42fp1.blob.core.windows.net/images/post-photo-traditional-coes-structure.jpg)[Center of Excellence](https://en.wikipedia.org/wiki/Center_of_excellence)is a team consisting of specialized skillset(s) in a focused technology or niche. They manage, govern, and deliver their capabilities to the enterprise. All this sounds fancy. This made sense during the 2000's and here is why:
+![Traditional CoE Structure](/images/post-photo-traditional-coes-structure.jpg)
+[Center of Excellence](https://en.wikipedia.org/wiki/Center_of_excellence)is a team consisting of specialized skillset(s) in a focused technology or niche. They manage, govern, and deliver their capabilities to the enterprise. All this sounds fancy. This made sense during the 2000's and here is why:
 
 
 1. COEs understand [**DRY**](https://deviq.com/principles/dont-repeat-yourself) (Don't Repeat Yourself) more than anyone. Since they share a common knowledge/code repository, they reuse every piece. Tons of saved development time.
@@ -65,7 +66,8 @@ Let's explore that in detail.
 
 ### Organization structure
 
-![Federated](https://sivastech42fp1.blob.core.windows.net/images/post-photo-federated-coe-structure.jpg)**Federated CoE** consists of a **platform CoE** and federated CoE members. Platform CoE will govern the platform and its capabilities while the CoE members are natural team members. They are not directed by the CoE nor will have separate leadership. They fit right into a project/product team.
+![Federated](/images/post-photo-federated-coe-structure.jpg)
+**Federated CoE** consists of a **platform CoE** and federated CoE members. Platform CoE will govern the platform and its capabilities while the CoE members are natural team members. They are not directed by the CoE nor will have separate leadership. They fit right into a project/product team.
 
 While traditional CoEs carried the burden of managing resources and projects, which was the major bottleneck, this method eliminates that. Yet, they are under the purview of a CoE which governs the best practices, preserves a shared knowledge/code repo and continues to evolve its technology, people, and process.
 
