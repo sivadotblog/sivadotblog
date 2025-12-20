@@ -1,0 +1,22 @@
+{{- $src := .Get "src" | default (.Get 0) -}}
+{{- $title := .Get "title" | default "Embedded content" -}}
+{{- $aspectRatio := .Get "aspect" | default "16x9" -}}
+
+{{- $paddingBottom := "56.25%" -}}
+{{- if eq $aspectRatio "4x3" -}}
+  {{- $paddingBottom = "75%" -}}
+{{- else if eq $aspectRatio "1x1" -}}
+  {{- $paddingBottom = "100%" -}}
+{{- else if eq $aspectRatio "21x9" -}}
+  {{- $paddingBottom = "42.857%" -}}
+{{- end -}}
+
+<div class="responsive-embed" style="padding-bottom: {{ $paddingBottom }};">
+  <iframe
+    src="{{ $src }}"
+    title="{{ $title }}"
+    frameborder="0"
+    allowfullscreen
+    loading="lazy"
+  ></iframe>
+</div>

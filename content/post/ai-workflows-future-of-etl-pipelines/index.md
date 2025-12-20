@@ -22,7 +22,7 @@ seo:
 
 Andrew Ng in his recent linkedIn post, shared a tiny aisuite snippet that lets an LLM spin up a complete Snake game: no game logic, just a prompt and an ai agent. The code hands the model disk access and a high‑level instruction ("create a Snake game, save it as HTML") and then gets out of the way. It just works.
 
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7404934835095547904?collapsed=1" height="553" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+{{< responsive-embed src="https://www.linkedin.com/embed/feed/update/urn:li:share:7404934835095547904?collapsed=1" title="Andrew Ng's LinkedIn post about AI creating a Snake game" >}}
 
 For anyone who has ever written an actual game engine, watching a frontier model assemble UI, assets, and glue code from thin air is… mildly offensive and extremely inspiring. This made me wonder, what if this fun little experiment is actually pointing at something bigger—what happens if, instead of writing ETL code, we just write ETL prompts and let the engine figure the rest out?
 
