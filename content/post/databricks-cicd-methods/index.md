@@ -32,7 +32,7 @@ Databricks Jobs API accepts `git_source` as an argument where you can pass the r
 
 Databricks Workflows, Prefect, and Airflow also support the repo pull method. However, it's important to note that repo pull heavily relies on the availability of the git provider (GitHub/Azure DevOps). If the git provider is down, then the Databricks jobs will fail. Let's assume a GIT token expires, or the organizational policy resets system accounts token, pretty much all jobs that rely on the git token will fail.
 
-![Repo Pull](https://sivastech42fp1.blob.core.windows.net/images/databricks-cicd-repo-pull.png)
+![Repo Pull](/images/databricks-cicd-repo-pull.png)
 
 ### Pros
 
@@ -54,7 +54,7 @@ Databricks Workflows, Prefect, and Airflow also support the repo pull method. Ho
 
 Databricks offers the Repos API to manage the notebooks in the workspace. We can also use this API to pull the notebooks from git as part of the CI/CD pipeline and sync it with Databricks Repos. Refer to the [Databricks Repos API documentation](https://docs.databricks.com/dev-tools/api/latest/repos.html) or [Databricks Repos](https://www.databricks.com/product/repos) for more details.
 
-![Using Repos API](https://sivastech42fp1.blob.core.windows.net/images/databricks-cicd-repos-api.png)
+![Using Repos API](/images/databricks-cicd-repos-api.png)
 
 > If you are interested in this method, here is my [template repo](https://siva.blog/post/databricks-howto-deploy-repos-api/) that you can use to get started.
 
@@ -78,7 +78,7 @@ Databricks offers the Repos API to manage the notebooks in the workspace. We can
 
 This is a traditional way of CI/CD where you import notebooks from the git repo to the workspace and create folders under the workspace directory. You can then create a Databricks job to run the notebooks from the workspace directory. This is the least recommended method.
 
-![Using Workspace API](https://sivastech42fp1.blob.core.windows.net/images/databricks-cicd-workspace-api.png)
+![Using Workspace API](/images/databricks-cicd-workspace-api.png)
 
 ### Pros
 
