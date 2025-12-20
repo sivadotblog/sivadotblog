@@ -132,7 +132,7 @@ datamart_workflow = aif.execute(
 print("✓ Workflows defined. Agents, take it from here.")
 ```
 
-This would be a magical experience, **a chain of AI agenths that **: discovery feeds bronze design, bronze plus catalog feeds product modeling. The LLM pushes the plan; MCP tools do the real work.
+This would be a magical experience, **a chain of AI agenths that** discovers files, feeds bronze catalog and finally the product model. The LLM pushes the plan; MCP tools do the real work.
 
 ## The Recipe: What is the thought process?
 
