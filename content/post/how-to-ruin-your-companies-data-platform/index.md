@@ -23,9 +23,9 @@ In the world of corporate politics, there's a fine line between success and chao
 
 ## Embrace Low Code Tools for Data Platforms
 
-Why bother with custom code when you can use low code tools? Sure, they might not be as flexible or powerful, but think of all the fun you'll have when you hit a wall and can't customize them to your needs!
+Why bother with custom code when you can use low-code tools? Sure, they might not be as flexible or powerful, but think of all the fun you'll have when you hit a wall and can't customize them to your needs!
 
-It's even more fun when you have to engage your customer-friendly vendor advocate, sales representative, offshore support guy and finally an engineer just to learn that you have to pay more or migrate to an Enterprise Pro+ plan for that feature to work, and it's in the private preview that will be available for sure(maybe?) in the next quarter(a quarter is usually 6 months for them).
+It's even more fun when you have to engage your customer-friendly vendor advocate, sales representative, offshore support guy, and finally an engineer just to learn that you have to pay more or migrate to an Enterprise Pro+ plan for that feature to work, and it's in the private preview that will be available for sure (maybe?) in the next quarter (a quarter is usually 6 months for them).
 
 {{< callout context="tip" title="Pro Tip" icon="outline/rocket" >}}
 The more limitations, the better. It's all about the challenge, right?
@@ -37,9 +37,9 @@ One data warehouse is for amateurs. Real pros use at least three. The more, the 
 
 Who cares about seamless integration and efficiency when you can have the joy of juggling multiple systems? It's boring.
 
-People have the right to sift through a deluge of options, compare and contrast before they land on a decision. Bonus, everyone else now gets to use different warehouses to pull their reports.
+People have the right to sift through a deluge of options, comparing and contrasting before they land on a decision. Bonus: everyone else now gets to use different warehouses to pull their reports.
 
-Sure it will be slow, but remember what Yoda said?
+Sure, it will be slow, but remember what Yoda said?
 "Patience you must have, my young Padawan."
 
 {{< callout context="tip" title="Pro Tip" icon="outline/puzzle" >}}
@@ -49,7 +49,7 @@ Make sure there are different vendors for maximum confusion. You need a handle t
 
 ## Knowledge Platforms Galore
 
-Decentralizing your knowledge base is critical for maximum chaos. You need a few different knowledge platforms. The slower the better. A Word document with 25 different templates will make a good deal too.
+Decentralizing your knowledge base is critical for maximum chaos. You need a few different knowledge platforms. The slower, the better. A Word document with 25 different templates will make a good deal too.
 
 The goal here is to ensure that no one can find anything. It's like a treasure hunt, but with corporate data!
 
@@ -59,10 +59,10 @@ Randomly distribute information across the platforms for an added layer of fun.
 
 ## Overstaffing
 
-Managing the data platform isn't a one man's job, but Two VPs, three Directors, three Principle Architects, five Associate Directors, and countless Product Managers and Engineers. The more the merrier! With this many people, there's bound to be conflict, and what's more entertaining than a good old-fashioned power struggle? Wait a minute, let's reduce the number of engineers. What are they doing here? No one touches the code!
+Managing the data platform isn't a one-man job, but two VPs, three Directors, three Principle Architects, five Associate Directors, and countless Product Managers and Engineers. The more the merrier! With this many people, there's bound to be conflict, and what's more entertaining than a good old-fashioned power struggle? Wait a minute, let's reduce the number of engineers. What are they doing here? No one touches the code!
 
 Just because you are overstaffed, doesn’t mean that you can commit to work.
-Use Absence to Increase Respect, honor, and credibility.
+Use absence to increase respect, honor, and credibility.
 
 {{< callout context="tip" title="Pro Tip" icon="outline/puzzle" >}}
 Ensure communication is as fragmented as possible. It adds to the fun!
@@ -71,16 +71,16 @@ Ensure communication is as fragmented as possible. It adds to the fun!
 
 ## Centralized Team for Data Mesh
 
-Choose Data mesh but create a centralized team to boss everyone around. Because nothing says "teamwork" like a good dose of micromanagement. People may ask, "But data mesh is all about decentralization". You got to say everything but the truth,
+Choose Data Mesh but create a centralized team to boss everyone around. Because nothing says "teamwork" like a good dose of micromanagement. People may ask, "But Data Mesh is all about decentralization." You got to say everything but the truth.
 Say little and be ambiguous, leaving the meaning to others to interpret. The less you say, the more intimidating and powerful you are.
 
 {{< callout context="tip" title="Pro Tip" icon="outline/lock" >}}
-Make sure the team has no actual experience with Data mesh. The blind leading the blind is a classic!
+Make sure the team has no actual experience with Data Mesh. The blind leading the blind is a classic!
 {{< /callout >}}
 
 ## Governance? What's That?
 
-Governance is dangerous. It may one day unite and empower people against you. Don’t govern, just inform (or don’t). But you have to show off, create a dedicated team for Data Governance, work with Enterprise Architecture, write a few 100 documents and best practices.
+Governance is dangerous. It may one day unite and empower people against you. Don’t govern, just inform (or don’t). But you have to show off, create a dedicated team for Data Governance, work with Enterprise Architecture, write a few hundred documents and best practices.
 
 After all, rules are made to be broken, right?
 
@@ -100,7 +100,7 @@ Remember, "perfect" is subjective. Keep moving the goalposts for maximum frustra
 
 ## DIY Platform
 
-Give them the platform and let them figure things out on their own. It's like throwing someone into the deep end of the pool to teach them how to swim, but with data. Even better, if you can customize the platform and make it complex enough. After all, engineers are hired to solve complex problems.
+Give them the platform and let them figure things out on their own. It's like throwing someone into the deep end of the pool to teach them how to swim, but with data. Even better if you can customize the platform and make it complex enough. After all, engineers are hired to solve complex problems.
 
 {{< callout context="tip" title="Pro Tip" icon="outline/automation" >}}
 Offer no support or documentation. Survival of the fittest!
