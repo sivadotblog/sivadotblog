@@ -306,3 +306,207 @@ article .col-md-12.col-lg-10 {
   border-bottom: 1px solid #eee;
   padding-bottom: 0.5rem;
 }
+
+// ============================================
+// Custom Footer Styles
+// Hero section with differentiated background
+// ============================================
+
+.footer-hero {
+  // Light theme - slightly darker than main background for differentiation
+  background-color: #F3F4F6; // Slightly darker than $body-bg (#F9FAFB)
+  border-top: 1px solid $border-light;
+  margin-top: 4rem;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+
+  // Tagline styling
+  .footer-tagline {
+    font-family: 'FS Me Pro', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: $secondary; // Dark green for emphasis
+    margin-bottom: 1rem;
+    letter-spacing: -0.01em;
+
+    @media (max-width: 768px) {
+      font-size: 1.25rem;
+    }
+  }
+
+  // Email display styling
+  .footer-contact {
+    .footer-email {
+      font-size: 1.125rem;
+      margin-bottom: 1rem;
+
+      .email-link {
+        color: $body-color;
+        text-decoration: none;
+        font-weight: 600;
+        transition: color 0.2s ease;
+
+        &:hover {
+          color: $primary;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  // Personal intro text
+  .footer-intro {
+    font-family: 'FS Me Pro', sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.7;
+    color: $body-color;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media (max-width: 768px) {
+      font-size: 1rem;
+    }
+  }
+
+  // CTA Button styling
+  .btn-primary {
+    background-color: $primary;
+    border-color: $primary;
+    color: white;
+    font-weight: 700;
+    padding: 0.875rem 2rem;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    display: inline-block;
+
+    &:hover {
+      background-color: darken($primary, 8%);
+      border-color: darken($primary, 8%);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(76, 182, 72, 0.3);
+    }
+
+    &:active {
+      transform: translateY(0);
+    }
+  }
+
+  // Social media links in footer
+  .footer-social {
+    margin-top: 2rem;
+
+    .footer-social-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: transparent;
+      color: $text-muted;
+      transition: all 0.2s ease;
+      margin: 0 0.5rem;
+
+      svg {
+        width: 24px;
+        height: 24px;
+      }
+
+      &:hover {
+        color: $primary;
+        background-color: rgba(76, 182, 72, 0.1);
+        transform: translateY(-2px);
+      }
+    }
+  }
+}
+
+// Dark theme overrides for footer hero
+[data-bs-theme="dark"] {
+  .footer-hero {
+    // Slightly lighter than main dark background for differentiation
+    background-color: #0F172A; // Slightly lighter than $body-bg-dark (#020617)
+    border-top-color: $border-dark;
+
+    .footer-tagline {
+      color: $secondary-dark; // Bright green for dark mode
+    }
+
+    .footer-intro {
+      color: $body-color-dark;
+    }
+
+    .footer-contact {
+      .email-link {
+        color: $body-color-dark;
+
+        &:hover {
+          color: $primary-dark;
+        }
+      }
+    }
+
+    .btn-primary {
+      background-color: $primary-dark;
+      border-color: $primary-dark;
+
+      &:hover {
+        background-color: lighten($primary-dark, 8%);
+        border-color: lighten($primary-dark, 8%);
+        box-shadow: 0 4px 12px rgba(34, 197, 94, 0.3);
+      }
+    }
+
+    .footer-social {
+      .footer-social-link {
+        color: $text-muted-dark;
+
+        &:hover {
+          color: $primary-dark;
+          background-color: rgba(34, 197, 94, 0.1);
+        }
+      }
+    }
+  }
+}
+
+// Footer links strip styling
+.footer {
+  font-size: 0.875rem;
+
+  .footer-link {
+    transition: color 0.2s ease;
+    text-decoration: none;
+
+    &:hover {
+      color: $primary !important;
+      text-decoration: underline;
+    }
+  }
+
+  .copyright {
+    font-size: 0.875rem;
+    color: $text-muted;
+    display: inline;
+  }
+
+  .list-inline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}
+
+[data-bs-theme="dark"] .footer {
+  .footer-link:hover {
+    color: $primary-dark !important;
+  }
+
+  .copyright {
+    color: $text-muted-dark;
+  }
+}
