@@ -7,7 +7,7 @@ lastmod: 2025-10-15T10:00:00+02:00
 draft: false
 weight: 50
 categories: ["reflections"]
-tags: []
+tags: ["brand"]
 contributors: []
 pinned: false
 homepage: false
