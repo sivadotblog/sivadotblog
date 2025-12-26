@@ -19,6 +19,12 @@ identifier = "articles"
 
 
 [[main]]
+name = "AI Strategies"
+url = "/categories/ai-strategies/"
+weight = 5
+parent = "articles"
+
+[[main]]
 name = "Enterprise Strategies"
 url = "/categories/enterprise-strategies/"
 weight = 10

@@ -2,7 +2,7 @@
 
 <!-- Hero Footer Section - Differentiated Background -->
 <section class="footer-hero" aria-label="About and contact">
-  <div class="container-{{ site.Params.doks.containerBreakpoint | default "lg" }}">
+  <div class="container-{{ site.Params.doks.containerBreakpoint | default " lg" }}">
     <div class="row justify-content-center">
       <div class="col-lg-10 text-center py-5">
         <!-- Tagline -->
@@ -20,7 +20,8 @@
           <p class="footer-email mb-2">
             <a href="mailto:sivanandha@gmail.com" class="email-link">sivanandha@gmail.com</a>
           </p>
-          <a href="mailto:sivanandha@gmail.com" class="btn btn-primary btn-lg" aria-label="Send email to start conversation">
+          <a href="mailto:sivanandha@gmail.com" class="btn btn-primary btn-lg"
+            aria-label="Send email to start conversation">
             Start a thoughtful conversation →
           </a>
         </div>
@@ -30,11 +31,11 @@
         <nav aria-label="Social media links">
           <ul class="footer-social list-inline mb-0">
             {{ range .Site.Menus.social -}}
-              <li class="list-inline-item">
-                <a href="{{ .URL | relURL }}" class="footer-social-link" aria-label="{{ .Name }}">
-                  {{ .Pre | safeHTML }}
-                </a>
-              </li>
+            <li class="list-inline-item">
+              <a href="{{ .URL | relURL }}" class="footer-social-link" aria-label="{{ .Name }}">
+                {{ .Pre | safeHTML }}
+              </a>
+            </li>
             {{ end -}}
           </ul>
         </nav>
@@ -46,22 +47,19 @@
 
 <!-- Footer Links Strip -->
 <footer class="footer text-muted" role="contentinfo">
-  <div class="container-{{ site.Params.doks.containerBreakpoint | default "lg" }}">
+  <div class="container-{{ site.Params.doks.containerBreakpoint | default " lg" }}">
     <div class="row py-2">
       <div class="col-12 text-center">
-        <ul class="list-inline mb-0">
+        <div
+          class="d-flex flex-wrap justify-content-center align-items-center column-gap-3 row-gap-1 small w-100 mx-auto">
           {{ range .Site.Menus.footer -}}
-            <li class="list-inline-item">
-              <a class="text-muted footer-link" href="{{ .URL | relURL }}">{{ .Name }}</a>
-            </li>
+          <a class="text-muted footer-link" href="{{ .URL | relURL }}">{{ .Name }}</a>
           {{- end }}
           {{ if site.Params.footer -}}
-            <li class="list-inline-item">{{ site.Params.footer | safeHTML }}</li>
+          <span>{{ site.Params.footer | safeHTML }}</span>
           {{ end -}}
-          <li class="list-inline-item">
-            <span class="copyright">&copy; {{ now.Year }} {{ site.Title }}. All rights reserved.</span>
-          </li>
-        </ul>
+          <span class="copyright">&copy; {{ now.Year }} {{ site.Title }}. All rights reserved.</span>
+        </div>
       </div>
     </div>
   </div>
