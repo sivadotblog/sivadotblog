@@ -472,6 +472,83 @@ article .col-md-12.col-lg-10 {
   }
 }
 
+// Email Hover Menu Styles
+.email-hover-container {
+  .email-options {
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    border: 1px solid rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    padding: 0.5rem;
+    min-width: 150px;
+    z-index: 1000;
+    margin-bottom: 10px; // Spacing from the icon
+
+    // Triangle pointer
+    &::after {
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -6px;
+      border-width: 6px;
+      border-style: solid;
+      border-color: #fff transparent transparent transparent;
+    }
+
+    .email-option {
+      display: flex;
+      align-items: center;
+      padding: 0.5rem 1rem;
+      color: #333;
+      text-decoration: none;
+      transition: background 0.2s;
+      border-radius: 4px;
+
+      &:hover {
+        background: #f3f4f6;
+        color: #4CB648; // Primary color
+      }
+    }
+  }
+
+  // Show on hover
+  &:hover .email-options {
+    display: block;
+    animation: fadeIn 0.2s ease-in-out;
+  }
+}
+
+// Dark mode overrides for email options
+[data-bs-theme="dark"] .email-options {
+  background: #1e293b;
+  border-color: rgba(255,255,255,0.1);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+
+  &::after {
+    border-color: #1e293b transparent transparent transparent;
+  }
+
+  .email-option {
+    color: #e2e8f0;
+
+    &:hover {
+      background: rgba(255,255,255,0.1);
+      color: #22c55e; // Primary dark color
+    }
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translate(-50%, 10px); }
+  to { opacity: 1; transform: translate(-50%, 0); }
+}
+
 // Footer links strip styling
 .footer {
   font-size: 0.875rem;
