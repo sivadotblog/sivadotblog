@@ -1,8 +1,8 @@
-# AstroWind Agent Instructions
+# Agent Instructions
 
 ## Project Overview
 
-AstroWind is a free, open-source website template built with **Astro v6** and **Tailwind CSS v4**. It generates a fully static site optimized for performance, SEO, and accessibility.
+Siva's Blog (siva.blog), built on the [AstroWind](https://github.com/arthelokyo/astrowind) starter with **Astro v6** and **Tailwind CSS v4**. Generates a fully static site optimized for performance, SEO, and accessibility.
 
 **Stack:** Astro v6 | Tailwind CSS v4 | TypeScript 5.9 | MDX | Sharp
 
