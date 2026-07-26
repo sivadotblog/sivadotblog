@@ -1,10 +1,11 @@
 ---
 import favIcon from '~/assets/favicons/favicon.ico';
-import favIconSvg from '~/assets/favicons/favicon.svg';
 import appleTouchIcon from '~/assets/favicons/apple-touch-icon.png';
+import favIconLight from '~/assets/favicons/favicon-light-512.png';
+import favIconDark from '~/assets/favicons/favicon-dark-512.png';
 ---
 
 <link rel="shortcut icon" href={favIcon} />
-<link rel="icon" type="image/svg+xml" href={favIconSvg.src} />
-<link rel="mask-icon" href={favIconSvg.src} color="#8D46E7" />
+<link rel="icon" type="image/png" sizes="512x512" href={favIconLight.src} media="(prefers-color-scheme: light)" />
+<link rel="icon" type="image/png" sizes="512x512" href={favIconDark.src} media="(prefers-color-scheme: dark)" />
 <link rel="apple-touch-icon" sizes="180x180" href={appleTouchIcon.src} />
