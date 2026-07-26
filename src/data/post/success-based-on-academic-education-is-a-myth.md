@@ -1,13 +1,13 @@
 ---
 publishDate: 2020-01-15T10:00:00+02:00
 updateDate: 2020-01-20T10:00:00+02:00
-title: "Debunking the Myth: Success Beyond Academic Education"
-excerpt: "Explore the nuanced relationship between academic education and real-world success, challenging the conventional wisdom that formal education is the only path to achievement."
-image: "~/assets/images/post/success-based-on-academic-education-is-a-myth.jpg"
-category: "reflections"
+title: 'Debunking the Myth: Success Beyond Academic Education'
+excerpt: 'Explore the nuanced relationship between academic education and real-world success, challenging the conventional wisdom that formal education is the only path to achievement.'
+image: '~/assets/images/post/success-based-on-academic-education-is-a-myth.jpg'
+category: 'reflections'
 metadata:
-  title: "Redefining Success: Beyond the Classroom"
-  description: "Dive into the debate on the importance of academic education in achieving success, presenting a broader perspective on learning and personal development."
+  title: 'Redefining Success: Beyond the Classroom'
+  description: 'Dive into the debate on the importance of academic education in achieving success, presenting a broader perspective on learning and personal development.'
 ---
 
 Yes you read that right. How many times have you been told that you can be a successful person if you do you homework well, take good score and get a degree? Well, that is not true. Academic education system is based on an industrial age practice to cultivate an employee or a labor mindset. It was designed to take orders, follow orders and execute tasks assigned by your boss, in this case teachers.

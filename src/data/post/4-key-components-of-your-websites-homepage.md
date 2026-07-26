@@ -1,13 +1,13 @@
 ---
 publishDate: 2019-01-15T10:00:00+02:00
 updateDate: 2019-01-20T10:00:00+02:00
-title: "4 Key Components of Your Website’s Homepage"
-excerpt: "Unlock the secrets to a compelling homepage with our expert insights on the essential elements that drive engagement and conversions."
-image: "~/assets/images/post/4-key-components-of-your-websites-homepage.jpg"
-category: "Techno Bytes"
+title: '4 Key Components of Your Website’s Homepage'
+excerpt: 'Unlock the secrets to a compelling homepage with our expert insights on the essential elements that drive engagement and conversions.'
+image: '~/assets/images/post/4-key-components-of-your-websites-homepage.jpg'
+category: 'Techno Bytes'
 metadata:
-  title: "4 Essential Elements of an Engaging Homepage"
-  description: "Discover the four crucial elements that every homepage needs to captivate visitors, based on our decade-long experience in the ecommerce industry."
+  title: '4 Essential Elements of an Engaging Homepage'
+  description: 'Discover the four crucial elements that every homepage needs to captivate visitors, based on our decade-long experience in the ecommerce industry.'
 ---
 
 Your website’s homepage is the heart of your business. That's where visitors get to know you. That said, how does your homepage look? Being in the ecommerce industry for over a decade and having analyzed thousands of successful websites, I see a pattern. This pattern includes four key components.

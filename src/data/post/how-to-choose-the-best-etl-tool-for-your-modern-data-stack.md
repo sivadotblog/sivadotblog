@@ -1,23 +1,23 @@
 ---
 publishDate: 2021-12-15T10:00:00+02:00
 updateDate: 2021-12-20T10:00:00+02:00
-title: "How to Choose the Best ETL Tool for Your Modern Data Stack?"
-excerpt: "Navigate the complex landscape of ETL tools with our guide, designed to help you make an informed decision amidst a sea of options."
-image: "~/assets/images/post/how-to-choose-the-best-etl-tool-for-your-modern-data-stack.jpg"
-category: "Data Platforms"
-tags: ["Data Platform Engineering"]
+title: 'How to Choose the Best ETL Tool for Your Modern Data Stack?'
+excerpt: 'Navigate the complex landscape of ETL tools with our guide, designed to help you make an informed decision amidst a sea of options.'
+image: '~/assets/images/post/how-to-choose-the-best-etl-tool-for-your-modern-data-stack.jpg'
+category: 'Data Platforms'
+tags: ['Data Platform Engineering']
 metadata:
-  title: "Choosing the Right ETL Tool for Your Data Stack: A Comprehensive Guide"
-  description: "Discover how to select the best ETL tool for your data stack with our expert guide, simplifying your choice in the complex and rapidly growing data ecosystem."
+  title: 'Choosing the Right ETL Tool for Your Data Stack: A Comprehensive Guide'
+  description: 'Discover how to select the best ETL tool for your data stack with our expert guide, simplifying your choice in the complex and rapidly growing data ecosystem.'
 ---
 
-*In this blog, we break down the paradox of choice to help you pick the right ETL tool! If you have seen the* [*2021 MAD*](https://mattturck.com/data2021/) *(Machine Learning, AI & Data) chart by Matt Turks, there are countless tools already available and growing furiously. But how do you choose the best ETL tool that works for you? Here is the ultimate guide.*
+_In this blog, we break down the paradox of choice to help you pick the right ETL tool! If you have seen the_ [_2021 MAD_](https://mattturck.com/data2021/) _(Machine Learning, AI & Data) chart by Matt Turks, there are countless tools already available and growing furiously. But how do you choose the best ETL tool that works for you? Here is the ultimate guide._
 
 Let’s reflect on the past for a moment before we see the current & future of these ETL/ELT tools. Around the 2000s, hardly any organization realized a need for such tools. Most developers would write pages of TSQL or Perl or SAS programs. When they realized that this was becoming unmanageable, they turned to ETL tools such as IBM Information Server (Datastage & Quality Stage), SSIS, Informatica, or ABINITIO. That's it. Most orgs had just one of them, maybe a few had more than one. All these tools have **one purpose**, **moving and transforming the data**.
 
-The purpose of ETL/ELT has not changed for decades i.e. **"Moving and transforming data”**. What has continually changed and evolved are the *type(s) of data*, *data sources*, *data targets* and *the way data move*. Unfortunately, those traditional behemoths such as IBM or Informatica are not evolving fast enough to catch up. That is where these newcomers have filled the gap and have flooded the market. All this in less than a decade’s time.
+The purpose of ETL/ELT has not changed for decades i.e. **"Moving and transforming data”**. What has continually changed and evolved are the _type(s) of data_, _data sources_, _data targets_ and _the way data move_. Unfortunately, those traditional behemoths such as IBM or Informatica are not evolving fast enough to catch up. That is where these newcomers have filled the gap and have flooded the market. All this in less than a decade’s time.
 
-![Data-and-AI-Landscape-2021-v3-small](/images/Data-and-AI-Landscape-2021-v3-small.jpg)[*Matt Turk’s Machine Learning, AI and Data (MAD) Landscape*](https://mattturck.com/data2021/)
+![Data-and-AI-Landscape-2021-v3-small](/images/Data-and-AI-Landscape-2021-v3-small.jpg)[_Matt Turk’s Machine Learning, AI and Data (MAD) Landscape_](https://mattturck.com/data2021/)
 
 Has the purpose changed? NO. So why do we have 100(s) of ETL tools today? How to choose the best ETL tool for your modern data stack? Am I going to miss something if I don’t use a particular tool? It’s time to deep dive.
 
@@ -102,13 +102,13 @@ I should come up with a tool kit for evaluating softwares. But for today, I woul
 
 > There are no bad decisions, only expensive ones.
 >
-> *-Fundamentals of Software Architecture*
+> _-Fundamentals of Software Architecture_
 
 Another interesting rule to remember is:
 
 > Your goal should be to make a less wrong decision, not a perfect decision. Any decision made today will most likely become wrong in future.
 >
-> -*Fundamentals of Software Architecture*
+> -_Fundamentals of Software Architecture_
 
 ### Step 5: Upskill
 
@@ -128,6 +128,7 @@ But I would like to give you some examples in each cloud eco-system.
 
 ![Data Engg using Azure stack](/images/Data-Engineering-Azure.jpg)
 Azure Data Engineering Stack- Batch/Streaming ELT/ETL – Azure Data Factory
+
 - Streaming Broker – Event Hub
 - Orchestration – ADF for general Pipelines, Synapse for Analytics
 - Data Engineering Platform- Azure Synapse Analytics, Azure Databricks, HD Insights.
@@ -137,6 +138,7 @@ Azure Data Engineering Stack- Batch/Streaming ELT/ETL – Azure Data Factory
 
 ![Data Engg using GCP stack](/images/Data-Enginnering-GCP.jpg)
 Google Cloud Platform (GCP) Data Engineering Stack- Batch ELT Data FLow (Managed Apache Beam)
+
 - Streaming ELT – Google Pub/Sub + Data Flow
 - Orchestration – Cloud Composer (Managed Apache Airflow)
 - Data Engineering – Data Flow, Data Prep, Data Proc, Data Fusion, Databricks (just stick with a couple)
@@ -145,6 +147,7 @@ Google Cloud Platform (GCP) Data Engineering Stack- Batch ELT Data FLow (Managed
 
 ![Data Engg using Open Source stack](/images/Open-Source-Data-Engineering.jpg)
 Open Source Data Engineering Stack- Batch ELT Data FLow (Apache Camel, NiFi)
+
 - Streaming ELT – Kafka
 - Orchestration – Cloud Composer (Managed Apache Airflow)
 - Data Engineering – Apache Spark, Beam, Flink

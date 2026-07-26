@@ -1,12 +1,12 @@
 ---
 publishDate: 2019-12-15T10:00:00+02:00
 updateDate: 2019-12-20T10:00:00+02:00
-title: "The Power of WHY – How to think like a Kid"
+title: 'The Power of WHY – How to think like a Kid'
 excerpt: "Delve into the 'Five Whys' technique, a simple yet powerful approach to problem-solving that encourages thinking with the curiosity and simplicity of a child."
-image: "~/assets/images/post/the-power-of-why-how-to-think-like-a-kid.jpg"
-category: "reflections"
+image: '~/assets/images/post/the-power-of-why-how-to-think-like-a-kid.jpg'
+category: 'reflections'
 metadata:
-  title: "The Power of WHY: Solving Problems with the Curiosity of a Child"
+  title: 'The Power of WHY: Solving Problems with the Curiosity of a Child'
   description: "Discover how the 'Five Whys' technique can transform your approach to problem-solving, learning, and innovation by thinking like a kid."
 ---
 
@@ -15,7 +15,9 @@ metadata:
 When you are in trouble or trying to solve an issue or learning something new or just curious, remember this: "Think like a kid". This is a proven fact that most problems get solved if you follow the "5 Whys". 5 Whys is an iterative questioning method used to traverse the cause-and-effect links underlying a specific problem.
 
 ### Example: 5 Whys in IT
+
 Imagine this scenario in an IT world:
+
 - Q1: Why did the server go down?
   - A1: The server peaked the CPU usage and crashed.
 - Q2: Why did the CPU peak so much?
@@ -34,6 +36,7 @@ In 70% of the cases, we will have the answer by the 3rd iteration of Why. The "5
 "Why" is not only used for problem-solving; in fact, it's a key branding strategy. If you are running a startup or a small business or even a huge corporation, unless you identify why your company exists, you will never succeed. Companies lose their market when they forget to realize why they exist.
 
 ### Examples of 'Why' in Branding
+
 Nokia is a very good example. They dominated the market by 41% in 2007, but not long after Apple introduced their iPhone, Nokia crashed and disappeared into thin air. Nokia had a better camera, better technology, and a better-experienced team than Apple, still they failed to communicate why they existed.
 
 As Simon Sinek said, "People don't buy what you do, they buy why you do it."
@@ -45,6 +48,7 @@ Apple's message was clear: they challenged the status quo with "Think Different"
 Earning million dollars a month won't give you happiness in the long term. There are people who have enough wealth to last the next 10 decades, still, they go to work every day. They know why they do what they do.
 
 ### Finding Your Why
+
 If you don't know why you are doing what you are doing, it's time to revisit that question: "Why are you doing what you are doing?"
 
 No matter what you do, be it a junior associate or an executive or a CEO, if you do not know why you are doing what you are doing, you are not going to be happy. If you are not happy, you are not going to be successful. Many think happiness evolves around success; that's wrong. It is the other way around. Success revolves around happiness.
@@ -52,6 +56,7 @@ No matter what you do, be it a junior associate or an executive or a CEO, if you
 ## ⭐ Final Thoughts
 
 ### Examples of Purpose-Driven Success
+
 - A pan seller in a local street of Aurangabad decided to make the best pan in the world. Today, after 33 years in service, "Tara Pan Center" exports pan even to international destinations like Saudi Arabia and Dubai.
 
 - Thyrocare CEO Dr. Velumanu did not have Rs. 2 to take a group photo when he was in 11th Grade. Today, Thyrocare is worth 2000+ Million INR.

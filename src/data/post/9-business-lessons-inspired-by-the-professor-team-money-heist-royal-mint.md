@@ -1,13 +1,13 @@
 ---
 publishDate: 2019-02-12T10:00:00+02:00
 updateDate: 2019-02-18T10:00:00+02:00
-title: "9 Business Lessons Inspired by the Professor & Team – Money Heist"
-excerpt: "Dive into the strategic minds behind the Money Heist crew with our analysis of 9 key business lessons that can revolutionize your approach to challenges and leadership."
-image: "~/assets/images/post/9-business-lessons-inspired-by-the-professor-team-money-heist-royal-mint.jpg"
-category: "Enterprise Strategies"
+title: '9 Business Lessons Inspired by the Professor & Team – Money Heist'
+excerpt: 'Dive into the strategic minds behind the Money Heist crew with our analysis of 9 key business lessons that can revolutionize your approach to challenges and leadership.'
+image: '~/assets/images/post/9-business-lessons-inspired-by-the-professor-team-money-heist-royal-mint.jpg'
+category: 'Enterprise Strategies'
 metadata:
   title: "9 Revolutionary Business Lessons from Money Heist's Masterminds"
-  description: "Explore how the cunning strategies and unbreakable team dynamics of the Money Heist crew can inspire groundbreaking approaches in business leadership and innovation."
+  description: 'Explore how the cunning strategies and unbreakable team dynamics of the Money Heist crew can inspire groundbreaking approaches in business leadership and innovation.'
 ---
 
 # 9 Business Lessons Inspired by the Professor and Team Money Heist

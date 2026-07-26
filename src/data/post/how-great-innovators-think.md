@@ -1,13 +1,13 @@
 ---
 publishDate: 2019-01-15T10:00:00+02:00
-title: "How Great Innovators Think"
+title: 'How Great Innovators Think'
 excerpt: "Creative thinking isn't a talent lottery—it's a learnable way of looking at the world. Discover six timeless principles that separate innovative thinkers from the rest."
-image: "~/assets/images/post/how-great-innovators-think.jpg"
-category: "reflections"
-tags: ["innovation", "creativity", "learning"]
+image: '~/assets/images/post/how-great-innovators-think.jpg'
+category: 'reflections'
+tags: ['innovation', 'creativity', 'learning']
 metadata:
-  title: "How Great Innovators Think: Six Principles of Creative Thinking"
-  description: "Creative thinking is not a talent lottery; it is a way of looking at the world. Learn the six principles that define how great innovators approach problems and create value."
+  title: 'How Great Innovators Think: Six Principles of Creative Thinking'
+  description: 'Creative thinking is not a talent lottery; it is a way of looking at the world. Learn the six principles that define how great innovators approach problems and create value.'
 ---
 
 I am here to share with you six lessons about innovation and entrepreneurship. Not in the usual way though. These are visual, memorable, and if I've done my job right, they'll stick with you long after you've finished reading.
@@ -96,4 +96,5 @@ All the land on Earth has been discovered, and even the Moon has been mapped and
 So the final message is: **keep zooming in, keep looking for the unnoticed gaps between what already exists, and build on what others have done instead of assuming everything is finished.**
 
 ## Conclusion
+
 Strip away the unnecessary, stand out from the uniform, and ask if what you build serves others. Keep your mind open through learning by doing, and remember: the closer you look, the more opportunities you will find. Innovation is not about inventing something entirely new—it is about zooming into the gaps that everyone else walked past.

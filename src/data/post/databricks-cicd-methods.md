@@ -1,13 +1,13 @@
 ---
 publishDate: 2024-01-15T10:00:00+02:00
 updateDate: 2024-01-20T10:00:00+02:00
-title: "Databricks CI/CD Methods - A Comprehensive Guide"
-excerpt: "Explore the seamless integration of Databricks notebooks with CI/CD pipelines using GitHub Actions and Azure DevOps, complete with expert insights."
-image: "~/assets/images/post/databricks-cicd-methods.jpg"
-category: "Data Platforms"
+title: 'Databricks CI/CD Methods - A Comprehensive Guide'
+excerpt: 'Explore the seamless integration of Databricks notebooks with CI/CD pipelines using GitHub Actions and Azure DevOps, complete with expert insights.'
+image: '~/assets/images/post/databricks-cicd-methods.jpg'
+category: 'Data Platforms'
 metadata:
-  title: "Databricks CI/CD Methods - A Comprehensive Guide"
-  description: "Explore the seamless integration of Databricks notebooks with CI/CD pipelines using GitHub Actions and Azure DevOps, complete with expert insights."
+  title: 'Databricks CI/CD Methods - A Comprehensive Guide'
+  description: 'Explore the seamless integration of Databricks notebooks with CI/CD pipelines using GitHub Actions and Azure DevOps, complete with expert insights.'
 ---
 
 ## Overview

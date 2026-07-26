@@ -1,13 +1,13 @@
 ---
 publishDate: 2022-01-15T10:00:00+02:00
 updateDate: 2022-01-20T10:00:00+02:00
-title: "How to Become a Cloud Data Engineer?"
-excerpt: "Embark on the journey to becoming a Cloud Data Engineer with our comprehensive guide, featuring expert insights, a healthy dose of sarcasm, and a pinch of merciless humor."
-image: "~/assets/images/post/how-to-become-a-cloud-data-engineer.jpg"
-category: "Data Platforms"
+title: 'How to Become a Cloud Data Engineer?'
+excerpt: 'Embark on the journey to becoming a Cloud Data Engineer with our comprehensive guide, featuring expert insights, a healthy dose of sarcasm, and a pinch of merciless humor.'
+image: '~/assets/images/post/how-to-become-a-cloud-data-engineer.jpg'
+category: 'Data Platforms'
 metadata:
-  title: "The Ultimate Guide to Becoming a Cloud Data Engineer"
-  description: "Step into the world of Cloud Data Engineering with our expert guide, blending technical know-how with sarcasm and humor for an engaging and informative read."
+  title: 'The Ultimate Guide to Becoming a Cloud Data Engineer'
+  description: 'Step into the world of Cloud Data Engineering with our expert guide, blending technical know-how with sarcasm and humor for an engaging and informative read.'
 ---
 
 Before I go too deep into this topic, let me share a little bit about myself. I am an Enterprise Cloud Architect for Data Platforms with over 14 years of experience in data engineering. Early in my career, I was an ETL Developer, but quickly became fascinated with data engineering. My cloud journey started with Google Cloud Platform in 2017 and there was no turning back since. So let me be blunt, if you are a UX/UI developer or a system/database administrator or an application developer and want to become a data engineer in a brief period, say 100 days, it ain't gonna happen! This post is specifically for folks who have exposure to Data/ETL/ELT/ESB platforms on legacy applications and are eager to move to the cloud. I see many candidates clearing a bunch of cloud certifications and calling themselves data engineers. However, data is one of the most complex pieces of any organization. Let’s say you are parsing a STRING "Hello World!” There are many questions you need to answer to parse the string correctly.
@@ -23,6 +23,7 @@ The most important thing is that you should know to ask these questions. These a
 ## Cloud Architecture
 
 Cloud architecture is one of those buzzwords we often hear these days. A cloud architect is really a systems architect who identifies the right infrastructure for an application. But the difference ends there, imagine owning a car vs riding in an Uber? You put the capital on that car, pay the loan over the years, pay for maintenance, store it in a garage, and so on. On the other hand, you click a few buttons and boom you have a car waiting for you. You don’t own a car or pay for its maintenance. Uber is not cheap, it’s more expensive than owning a car eventually. And so is Cloud! If that’s the case, why do companies move to the cloud? Just like Uber, the cloud provides some unique opportunities:
+
 - To use resources only when needed.
 - To save cost and time on maintenance. (Why should a retailer maintain a data center when they can focus on selling goods?)
 - Leverage technology solutions that are already built. (Why reinvent the wheel?)
@@ -37,6 +38,7 @@ Let’s start with the why. The need for processing data on the cloud became a c
 ## What is Cloud Data Engineering?
 
 Often, we see role conflicts especially in the data space, analyst vs architect vs data scientists. Let’s clear that up. Some of the most common roles and responsibilities of a data engineer include:
+
 - Developing, constructing data lakes, databases, and data structures.
 - Aligning the data architecture with business requirements.
 - Developing processes for Data ingestion (ELT).
@@ -65,10 +67,12 @@ Choose one among the top 3 cloud providers Azure, GCP, or AWS (my least favorite
 ### **Step 2: Time Required <1 day**
 
 Sign up for their public cloud platform. You are not going to pay anything yet, so don’t worry much about giving your credit card number. These are the links for Azure and GCP.
+
 - [Create Your Azure Free Account Today | Microsoft Azure](https://azure.microsoft.com/en-us/free/cloud-services/search/)
 - [Free Trial and Free Tier | Google Cloud](https://cloud.google.com/free)
 
 As you do it, bookmark these links. These are "always free” services that you run on the cloud. If you don’t want to burn your pocket, refer to the free-tier before creating resources. More on that later.
+
 - [Free Services | Microsoft Azure](https://azure.microsoft.com/en-us/pricing/free-services/)
 - [Google Cloud Free Program](https://cloud.google.com/free/docs/gcp-free-tier)
 
@@ -91,6 +95,7 @@ Start with the fundamentals class. I know you are in a rush; I can feel your adr
 ### **Step 4: Time Required 1 day**
 
 By the time you move to step 4, you have a baseline, some basic hands-on on the GCP or Azure portal. You are now familiar with some terminologies like google storage bucket, and Azure Blob Storage. In this step, we will laser focus on ETL/ELT Tools. To be more specific you need to identify 4 tools and get yourself well acquainted with those tools. This will be your everything for your path to Cloud Data Engineering.
+
 1. Batch Processing
 2. Event Processing (Streaming)
 3. Data Engineering Platform
@@ -101,6 +106,7 @@ Fair warning – don't get carried away with terms like Kubernetes, containers, 
 #### Azure Data Engineering Stack
 
 ![Azure Data Engineering Stack](/images/Data-Engineering-Azure.jpg)
+
 - Batch/Streaming ELT/ETL – Azure Data Factory
 - Streaming Broker – Event Hub
 - Orchestration – ADF for general Pipelines, Synapse for Analytics
@@ -110,6 +116,7 @@ Fair warning – don't get carried away with terms like Kubernetes, containers, 
 #### GCP Data Engineering Stack
 
 ![GCP Data Engineering Stack](/images/Data-Enginnering-GCP.jpg)
+
 - Batch ELT Data Flow (Managed Apache Beam)
 - Streaming ELT – Google Pub/Sub + Data Flow
 - Orchestration – Cloud Composer (Managed Apache Airflow)
@@ -127,6 +134,7 @@ It’s time to get your hands dirty. You now know cloud basics, have decided on 
 ### Step 6: Keeping up
 
 Cloud technologies are changing rapidly. We get to hear new buzzwords every day. So how do you keep up with that? Social media is a great place but not so great. I have tried to restrict my social media feed to my liking and so far, LinkedIn and Twitter have failed me. But I have some tips. Cloud providers deploy influencers to share their products, their features, and also keep their followers up to date on those areas they cover. Google calls them "Google Developer Advocates” and Microsoft calls them ” Microsoft MVP (Microsoft Most Valuable Professional)”. They often share good, authentic content. So, feel free to follow them on Twitter. Keep in mind that they are biased with certain products and specific cloud offerings. You should make the judgment call for your design/architecture. For starters, you can follow:
+
 - [Google Cloud Tech (@GoogleCloudTech) / Twitter](https://twitter.com/GoogleCloudTech) for how-tos, demos, product news, and more.
 - [Priyanka Vergadia (@pvergadia) / Twitter](https://twitter.com/pvergadia) – GCP Developer Advocate
 - [Microsoft Azure (@Azure) / Twitter](https://twitter.com/Azure) – Official Microsoft Azure Account

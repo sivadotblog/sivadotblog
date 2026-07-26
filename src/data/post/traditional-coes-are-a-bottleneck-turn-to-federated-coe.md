@@ -1,14 +1,14 @@
 ---
 publishDate: 2022-12-15T10:00:00+02:00
 updateDate: 2022-12-20T10:00:00+02:00
-title: "Traditional CoEs are a bottleneck! Turn to Federated CoE"
-excerpt: "Explore the shift from traditional Centers of Excellence (CoEs) to a Federated CoE model to overcome bottlenecks and enhance organizational agility."
-image: "~/assets/images/post/traditional-coes-are-a-bottleneck-turn-to-federated-coe.jpg"
-category: "Enterprise Strategies"
-tags: ["CoE", "Federated CoE", "Organizational Agility"]
+title: 'Traditional CoEs are a bottleneck! Turn to Federated CoE'
+excerpt: 'Explore the shift from traditional Centers of Excellence (CoEs) to a Federated CoE model to overcome bottlenecks and enhance organizational agility.'
+image: '~/assets/images/post/traditional-coes-are-a-bottleneck-turn-to-federated-coe.jpg'
+category: 'Enterprise Strategies'
+tags: ['CoE', 'Federated CoE', 'Organizational Agility']
 metadata:
-  title: "From Bottleneck to Breakthrough: The Rise of Federated CoEs"
-  description: "Unveil the transformative potential of transitioning to a Federated Center of Excellence model for overcoming traditional bottlenecks and driving organizational agility."
+  title: 'From Bottleneck to Breakthrough: The Rise of Federated CoEs'
+  description: 'Unveil the transformative potential of transitioning to a Federated Center of Excellence model for overcoming traditional bottlenecks and driving organizational agility.'
 ---
 
 I have been in COEs for about 14 years, and to be honest here, nobody likes working with a COE or being in a COE. I am speaking for myself too. Today we will cover a trending concept called Federated CoE.
@@ -17,7 +17,6 @@ I have been in COEs for about 14 years, and to be honest here, nobody likes work
 
 ![Traditional CoE Structure](/images/post-photo-traditional-coes-structure.jpg)
 [Center of Excellence](https://en.wikipedia.org/wiki/Center_of_excellence)is a team consisting of specialized skillset(s) in a focused technology or niche. They manage, govern, and deliver their capabilities to the enterprise. All this sounds fancy. This made sense during the 2000's and here is why:
-
 
 1. COEs understand [**DRY**](https://deviq.com/principles/dont-repeat-yourself) (Don't Repeat Yourself) more than anyone. Since they share a common knowledge/code repository, they reuse every piece. Tons of saved development time.
 

@@ -1,14 +1,14 @@
 ---
 publishDate: 2023-09-15T10:00:00+02:00
 updateDate: 2023-09-20T10:00:00+02:00
-title: "Simplifying Technical Documentation: A Comprehensive Guide"
-excerpt: "Explore the landscape of technical documentation tools and strategies for maintaining effective, accessible, and up-to-date documentation without the clutter."
-image: "~/assets/images/post/simplifying-technical-documentation-a-comprehensive-guide.jpg"
-category: "Enterprise Strategies"
-tags: ["Platform Engineering"]
+title: 'Simplifying Technical Documentation: A Comprehensive Guide'
+excerpt: 'Explore the landscape of technical documentation tools and strategies for maintaining effective, accessible, and up-to-date documentation without the clutter.'
+image: '~/assets/images/post/simplifying-technical-documentation-a-comprehensive-guide.jpg'
+category: 'Enterprise Strategies'
+tags: ['Platform Engineering']
 metadata:
-  title: "Simplifying Technical Documentation: Strategies for Efficiency"
-  description: "Unlock the secrets to streamlined technical documentation with our comprehensive guide, covering the best tools and practices for keeping your documentation clear, current, and useful."
+  title: 'Simplifying Technical Documentation: Strategies for Efficiency'
+  description: 'Unlock the secrets to streamlined technical documentation with our comprehensive guide, covering the best tools and practices for keeping your documentation clear, current, and useful.'
 ---
 
 Word docs, SharePoint, Confluence, OneNote, Notion, and a ton of other tools are available today for technical documentation. But are the tools effective? Is the documentation useful? Is it accessible? Is it kept updated? How are you ensuring that there are no duplicate copies elsewhere? How are you making sure that it stays relevant? Most importantly, how much time is your team spending on documentation?
@@ -19,11 +19,11 @@ In this blog post, I will discuss some effective ways to streamline technical do
 
 Most enterprises and teams fail to understand the need for documentation. Documentation is considered a cherry on top of a deliverable. It's the last thing developers work on in an IP sprint. Prove me wrong! But why documentation in the first place? Delegation and Repeatability.
 
-###  Delegation
+### Delegation
 
 Documentation is the most important way of delegating work effectively and finding new and better ways to manage teams and projects. A well-crafted technical document can serve as a reference for those who are responsible for carrying out the work, and it can also help to ensure that everyone is on the same page on the expected outcome. This clarity can save time and reduce confusion, leading to more efficient and effective work.
 
-###  Repeatability
+### Repeatability
 
 The idea behind avoiding reinventing the wheel is to utilize existing resources, knowledge, and solutions rather than starting from scratch every time. This approach can save time, effort, and resources. In technical documentation, this means that previous work, research, and documents should be referred to and used as a starting point to create new documents.
 
@@ -43,7 +43,7 @@ On the other hand, teams use SharePoint. It promises versioning; however, ShareP
 
 Unless there is a process to ensure that the documents are updated every time the application is updated, there is no guarantee that the document is reliable. But 99% of the time, the code base lives in git platforms like GitHub or GitLab, while the documents live elsewhere. When a code is reviewed, and a PR is approved, documents are never updated or reviewed. As soon as a PR is merged, documents become outdated, irrelevant, or sometimes even obsolete.
 
-###  Document Versioning
+### Document Versioning
 
 Back to SharePoint, versioning is in-built; however, the team still uses -v1.docx, -backup.docx, etc. The psychology behind appending \_v1.docx to a file name even when using version control systems like SharePoint is often driven by a number of factors, including the need for increased visibility and transparency, the desire for a personal backup of the work, and the fear of losing or overwriting information. This behavior can stem from a lack of understanding of the capabilities of the version control system, a lack of trust in the technology, or a preference for manual processes.
 
@@ -53,7 +53,7 @@ Word documents start with a template. The template is meant to make lives easier
 
 What about formatting the document? Which font should I use, what colors should the table be, and what is the font size for the bullets? That's a whole paradox of choice resulting in time wasted.
 
-#  Solution
+# Solution
 
 ![](/images/github-readme.jpg)
 
@@ -85,11 +85,11 @@ I will write a separate article on some of the automation ideas. At one point I 
 
 ### 🤝 Collaboration
 
-One of the benefits of GitHub is collaboration. Understandably, word docs, SharePoint, and even wiki tools such as Confluence offer collaboration, but once someone is authorized to make edits, there is no control over what can be modified. Yes, I hear you, there is version control, but how would you track subtle changes that could potentially have large impacts. What if the original says ***read-only access*** and someone changes it to ***administrator access***? Subtle enough to go unnoticed, potential enough to cause a data breach.
+One of the benefits of GitHub is collaboration. Understandably, word docs, SharePoint, and even wiki tools such as Confluence offer collaboration, but once someone is authorized to make edits, there is no control over what can be modified. Yes, I hear you, there is version control, but how would you track subtle changes that could potentially have large impacts. What if the original says **_read-only access_** and someone changes it to **_administrator access_**? Subtle enough to go unnoticed, potential enough to cause a data breach.
 
 With git, anyone in the organization could create an issue or even go one step further to contribute to the document and create a pull request. Only the owners of the document can review and approve the change.
 
-###  Ease of documentation
+### Ease of documentation
 
 We talked about templating before. Unnecessary effort goes into formatting, branding, and filling in unwanted information in the template. Additional effort goes into maintaining and updating the document links wherever necessary. Even more effort goes into making it accessible and communicating.
 
@@ -109,11 +109,11 @@ Yes & No. Yes, there is not one, not if you are able to put a little extra effor
 
 All you need to do is host a GitHub pages site using Hugo or a similar markdown-based web framework and add a GitHub action to push the markdown files from all the application repos you care about. That's it. I know I am simplifying it because it is. I'll share a demo soon.
 
-###  It's not possible to build intuitive documentation without an editor like Word or Confluence.
+### It's not possible to build intuitive documentation without an editor like Word or Confluence.
 
 Poor excuse. [Microsoft Learning (github.com)](https://github.com/MicrosoftLearning) is completely built of markdowns. There is no way you can complain about markdowns now.
 
-###  Git platforms access controls
+### Git platforms access controls
 
 Yes, this is a real trade-off. If your organization for some reason restricts access to repositories, then it's not easy to implement this approach. But I question why are repos restricted? DRY (Do not repeat yourself) is a principle of programming and one way to follow DRY is to search for problems already solved by other teams.
 
@@ -127,7 +127,7 @@ Interestingly, my idea about building a single pane of glass would work here as 
 
 Another legit trade-off. Often developers take a clone of another repo resulting in document duplication. Keep in mind that search results are displayed only from the default branch. So, if you are finding duplicate documentation in the default/main branch, it's probably because the branch is not protected, or they are not following the process/devops practices. I can see this happening especially for template repos. To be fair, this can happen to any template documentation, be it word or other wiki tools.
 
-Another point to notice is, the application/documentation repo is still the source of truth is still in its own repo and will have just one set of documentation. Unlike SharePoint that could potentially host _v1 _v2 and _v2-updated.
+Another point to notice is, the application/documentation repo is still the source of truth is still in its own repo and will have just one set of documentation. Unlike SharePoint that could potentially host \_v1 \_v2 and \_v2-updated.
 
 # 🎯 Conclusion
 
@@ -136,7 +136,6 @@ Technical documentation can be a challenging and time-consuming task for many or
 > **Key Problems**
 >
 > The key problems that organizations face with documentation include silo documentation, unreliable documents, versioning issues, and the effort required to maintain it.
-
 
 However, there is a simple solution to streamline the process of technical documentation. By incorporating documentation into the application and making it part of the deployment and version control process, organizations can overcome these challenges. This approach not only ensures accessibility but also reliability, version control, and effortless maintenance of the documents.
 

@@ -1,13 +1,13 @@
 ---
 publishDate: 2025-10-15T10:00:00+02:00
-title: "What a Biscuit Taught Me About Legacy"
-excerpt: "How did a simple biscuit with an unchanged design survive nearly a century while 90% of modern startups fail? The answer might surprise you."
-image: "~/assets/images/post/brand-legacy-in-the-modern-world.png"
-category: "reflections"
-tags: ["brand"]
+title: 'What a Biscuit Taught Me About Legacy'
+excerpt: 'How did a simple biscuit with an unchanged design survive nearly a century while 90% of modern startups fail? The answer might surprise you.'
+image: '~/assets/images/post/brand-legacy-in-the-modern-world.png'
+category: 'reflections'
+tags: ['brand']
 metadata:
-  title: "What a Biscuit Taught Me About Legacy"
-  description: "How did a simple biscuit with an unchanged design survive nearly a century while 90% of modern startups fail?"
+  title: 'What a Biscuit Taught Me About Legacy'
+  description: 'How did a simple biscuit with an unchanged design survive nearly a century while 90% of modern startups fail?'
 ---
 
 Walk into any indian grocery store in India, or Dubai, or London—and ask for "a packet of biscuits." There's a good chance you'll be handed the same product: a yellow and white wrapper featuring the face of a chubby baby. Parle-G.

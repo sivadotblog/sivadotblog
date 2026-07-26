@@ -10,8 +10,8 @@ site:
 metadata:
   title:
     default: "Siva's Blog"
-    template: '%s — Siva''s Blog'
-  description: "Notes on data platforms, platform engineering, and enterprise strategy — plus the occasional reflection."
+    template: "%s — Siva's Blog"
+  description: 'Notes on data platforms, platform engineering, and enterprise strategy — plus the occasional reflection.'
   robots:
     index: true
     follow: true

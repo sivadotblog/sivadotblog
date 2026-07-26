@@ -1,20 +1,25 @@
 ---
 publishDate: 2025-12-18T22:46:00-05:00
-title: "AI Workflows: Future of ETL Pipelines"
-excerpt: "What if, instead of writing pipelines, engineers just described the outcome. Here is my take on how AI Workflows will change the way data engineers build pipeline."
-image: "~/assets/images/post/ai-workflows-future-of-etl-pipelines.png"
-category: "Enterprise Strategies"
-tags: ["AI Strategies"]
+title: 'AI Workflows: Future of ETL Pipelines'
+excerpt: 'What if, instead of writing pipelines, engineers just described the outcome. Here is my take on how AI Workflows will change the way data engineers build pipeline.'
+image: '~/assets/images/post/ai-workflows-future-of-etl-pipelines.png'
+category: 'Enterprise Strategies'
+tags: ['AI Strategies']
 metadata:
-  title: "AI Workflows: Future of ETL Pipelines"
-  description: "What if, instead of writing pipelines, engineers just described the outcome. Here is my take on how AI Workflows will change the way data engineers build pipeline."
+  title: 'AI Workflows: Future of ETL Pipelines'
+  description: 'What if, instead of writing pipelines, engineers just described the outcome. Here is my take on how AI Workflows will change the way data engineers build pipeline.'
 ---
 
 Andrew Ng in his recent LinkedIn post, shared a tiny aisuite snippet that lets an LLM spin up a complete Snake game: no game logic, just a prompt and an AI agent. The code hands the model disk access and a high‑level instruction ("create a Snake game, save it as HTML") and then gets out of the way. It just works.
 
 <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
-  <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7404934835095547904?collapsed=1" title="Andrew Ng's LinkedIn post about AI creating a Snake game" loading="lazy" allowfullscreen
-    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
+  <iframe
+    src="https://www.linkedin.com/embed/feed/update/urn:li:share:7404934835095547904?collapsed=1"
+    title="Andrew Ng's LinkedIn post about AI creating a Snake game"
+    loading="lazy"
+    allowfullscreen
+    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+  ></iframe>
 </div>
 
 For anyone who has ever written an actual game engine, watching a frontier model assemble UI, assets, and glue code from thin air is… mildly offensive and extremely inspiring. This made me wonder, what if this fun little experiment is actually pointing at something bigger—what happens if, instead of writing ETL code, we just write ETL prompts and let the engine figure the rest out?
@@ -161,7 +166,6 @@ I dont believe that is far‑fetched. With today's LLMs, MCP, and open table for
 
 - When schemas drift, new vendors arrive, or volumes spike, the LLM doesn't patch code; it updates metadata and regeneration prompts.
 
-
 **In this world, engineers own contracts and prompts, not brittle pipelines.**
 
 ### What This Quietly Eliminates
@@ -180,6 +184,6 @@ Next, Observability and guardrails matter more than clever prompts. When an AI a
 
 Most importantly, humans are still required in the loop. While I am not concerned about AI reaching its singularity anytime soon, Enterprises should continue to have Humans in the Loop. That's not optional, that's imperative. Someone needs to review mappings, sign off on business rules, and decide when the model is allowed to rewrite its own workflows. That's governance, not a process bottleneck.
 
-Will we ever get "true" zero ETL?  The effort to Kill ETL goes back far as 2010 with stream applications such as kafka and flink promising real time no code pipelines. AWS announced its Redshift-Aurora zero‑ETL integrations around 2022. Vendors like Confluent and Databricks have reused the phrase to describe patterns where data is streamed or replicated straight into analytic stores, while the transformation logic quietly shifts into configs, metadata, and managed services instead of hand‑written jobs.
+Will we ever get "true" zero ETL? The effort to Kill ETL goes back far as 2010 with stream applications such as kafka and flink promising real time no code pipelines. AWS announced its Redshift-Aurora zero‑ETL integrations around 2022. Vendors like Confluent and Databricks have reused the phrase to describe patterns where data is streamed or replicated straight into analytic stores, while the transformation logic quietly shifts into configs, metadata, and managed services instead of hand‑written jobs.
 
 A world where data engineers transition into prompt and workflow engineers, curating contracts instead of debugging glue code, is entirely within reach. If a snake game can be conjured from a single prompt, the least we can do is retire a few thousand lines of hand‑rolled product ingestion logic.

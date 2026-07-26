@@ -1,12 +1,12 @@
 ---
 publishDate: 2023-01-15T10:00:00+02:00
-title: "How We Do Platform Engineering"
-excerpt: "Discover how we solved five critical platform engineering challenges that derail teams—from Terraform configuration complexity and validation failures to environment drift and cross-system orchestration. Learn practical solutions using YAML, Pydantic validation, Jinja templates, and three-layer architecture that reduced deployment failures and improved maintainability at scale."
-image: "~/assets/images/post/how-we-do-platform-engineering.jpg"
-category: "Platform Engineering"
+title: 'How We Do Platform Engineering'
+excerpt: 'Discover how we solved five critical platform engineering challenges that derail teams—from Terraform configuration complexity and validation failures to environment drift and cross-system orchestration. Learn practical solutions using YAML, Pydantic validation, Jinja templates, and three-layer architecture that reduced deployment failures and improved maintainability at scale.'
+image: '~/assets/images/post/how-we-do-platform-engineering.jpg'
+category: 'Platform Engineering'
 metadata:
-  title: "How We Do Platform Engineering"
-  description: "Discover how we solved five critical platform engineering challenges that derail teams—from Terraform configuration complexity and validation failures to environment drift and cross-system orchestration. Learn practical solutions using YAML, Pydantic validation, Jinja templates, and three-layer architecture that reduced deployment failures and improved maintainability at scale."
+  title: 'How We Do Platform Engineering'
+  description: 'Discover how we solved five critical platform engineering challenges that derail teams—from Terraform configuration complexity and validation failures to environment drift and cross-system orchestration. Learn practical solutions using YAML, Pydantic validation, Jinja templates, and three-layer architecture that reduced deployment failures and improved maintainability at scale.'
 ---
 
 You'd think that after spending millions on cloud infrastructure and hiring the best engineers money can buy, platform engineering would be... straightforward. It's not.
@@ -24,6 +24,7 @@ The problem wasn't Terraform itself. It was how we were using it. Complex databa
 Here's what that looked like:
 
 **Traditional Terraform (locals.tf):**
+
 ```hcl
 locals {
   database_1 = {
@@ -55,6 +56,7 @@ locals {
 Now here's the same configuration in YAML:
 
 **Our YAML Configuration:**
+
 ```yaml
 database: mindsbeyond_training
 environments:
@@ -91,7 +93,6 @@ Here's a conversation I've had too many times:
 **Me:** "Didn't we validate this?"
 
 **Engineer:** "...Terraform doesn't validate that until apply."
-
 
 By the time Terraform tells you something is wrong, you've already burned 20 minutes of CI/CD pipeline time, blocked other deployments, and discovered the error in the worst possible way—during execution.[^2]
 
@@ -223,7 +224,11 @@ That's how we do platform engineering. Not by adding more tools, but by making t
 ---
 
 [^1]: [Platform Engineering Explained](https://www.bunnyshell.com/blog/platform-engineering-explained-the-ultimate-guide-/)
+
 [^2]: [How We Improved the Developmentevelopers)
+
 [^3]: [Netflix Platform Console](https://platformengineering.org/talks-library/netflix-platform-console-to-unify-engineering-experience)
+
 [^4]: [Netflix Tech Blog](https://netflixtechblog.com)
+
 [^5]: [YouTube Resource](https://www.youtube.com/watch?v=6ANWR2LdVSU)

@@ -1,13 +1,13 @@
 ---
 publishDate: 2019-03-15T10:00:00+02:00
 updateDate: 2019-03-20T10:00:00+02:00
-title: "How to Build a SaaS Product from Scratch: A Comprehensive Guide"
-excerpt: "Embark on the journey of building a SaaS product with our comprehensive guide, featuring a blend of technical insights, sarcasm, and humor."
-image: "~/assets/images/post/here-is-how-to-build-a-saas-product-from-scratch.jpg"
-category: "Techno Bytes"
+title: 'How to Build a SaaS Product from Scratch: A Comprehensive Guide'
+excerpt: 'Embark on the journey of building a SaaS product with our comprehensive guide, featuring a blend of technical insights, sarcasm, and humor.'
+image: '~/assets/images/post/here-is-how-to-build-a-saas-product-from-scratch.jpg'
+category: 'Techno Bytes'
 metadata:
-  title: "Building a SaaS Product: A Step-by-Step Guide with a Twist"
-  description: "Learn how to build a SaaS product from scratch with our unique guide, combining expert advice with a dose of sarcasm and humor for a memorable learning experience."
+  title: 'Building a SaaS Product: A Step-by-Step Guide with a Twist'
+  description: 'Learn how to build a SaaS product from scratch with our unique guide, combining expert advice with a dose of sarcasm and humor for a memorable learning experience.'
 ---
 
 ## 1. Find Your Niche
