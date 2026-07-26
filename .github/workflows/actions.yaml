@@ -53,3 +53,42 @@ jobs:
 
       - name: Build application
         run: npm run build
+
+      - name: Upload build output
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist/
+          retention-days: 1
+
+  deploy:
+    name: Deploy
+    needs: build
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download build output
+        uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist
+
+      - name: Install lftp
+        run: sudo apt-get update && sudo apt-get install -y lftp
+
+      - name: Deploy to FTP Server with lftp
+        env:
+          FTP_SERVER: ${{ secrets.SERVER }}
+          FTP_USER: ${{ secrets.FTP_USER }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        run: |
+          lftp -c "
+          set ftp:list-options -a;
+          set ssl:verify-certificate no;
+          open ftp://$FTP_USER:$FTP_PASSWORD@$FTP_SERVER;
+          lcd ./dist/;
+          cd sivadotblog/;
+          mirror --reverse --delete --verbose ./ ./
+          bye;
+          "
