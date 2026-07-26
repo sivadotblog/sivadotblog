@@ -1,0 +1,35 @@
+---
+import Content from '~/components/widgets/Content.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Layout from '~/layouts/PageLayout.astro';
+import aboutImage from '~/assets/images/about-me.jpg';
+
+const metadata = {
+  title: 'About',
+  description: 'I am Siva Rajadurai and this is my blog of ideas.',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- HeroText Widget ******************* -->
+
+  <HeroText tagline="About" title="About Me" />
+
+  <!-- Content Widget ****************** -->
+
+  <Content
+    image={{
+      src: aboutImage,
+      alt: 'Siva Rajadurai',
+      layout: 'fixed',
+      width: 256,
+      height: 256,
+      class: 'mx-auto rounded-full object-cover shadow-lg ring-4 ring-white dark:ring-slate-800',
+    }}
+    content={`
+      <p>I am Siva Rajadurai, a Principal Architect for data platforms and data architecture, and I am passionate about technology and innovation. With over 15 years of experience in the field, I have had the opportunity to work on some amazing projects and learn a lot along the way. I love exploring new technologies and finding creative solutions to complex problems.</p>
+      <p>When I'm not working, I enjoy spending time with my family, reading, and hiking somewhere fun. I'm always up for a good conversation about tech, so feel free to reach out!</p>
+      <p>Let's connect, inspire, ideate, and innovate! You can reach me at <a href="mailto:sivanandha@gmail.com">sivanandha@gmail.com</a>.</p>
+    `}
+  />
+</Layout>

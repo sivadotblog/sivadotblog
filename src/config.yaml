@@ -1,0 +1,72 @@
+site:
+  name: "Siva's Blog"
+  site: 'https://siva.blog'
+  base: '/'
+  trailingSlash: true
+
+  googleSiteVerificationId: ''
+
+# Default SEO metadata
+metadata:
+  title:
+    default: "Siva's Blog"
+    template: "%s — Siva's Blog"
+  description: 'Notes on data platforms, platform engineering, and enterprise strategy — plus the occasional reflection.'
+  robots:
+    index: true
+    follow: true
+  openGraph:
+    site_name: "Siva's Blog"
+    images:
+      - url: '~/assets/images/default.png'
+        width: 1200
+        height: 628
+    type: website
+  twitter:
+    handle: '@sivadotblog'
+    site: '@sivadotblog'
+    cardType: summary_large_image
+
+i18n:
+  language: en
+  textDirection: ltr
+
+apps:
+  blog:
+    isEnabled: true
+    postsPerPage: 6
+
+    post:
+      isEnabled: true
+      permalink: '/post/%slug%' # Variables: %slug%, %year%, %month%, %day%, %hour%, %minute%, %second%, %category%
+      robots:
+        index: true
+
+    list:
+      isEnabled: true
+      pathname: 'post' # matches Hugo's /post/ section list page
+      robots:
+        index: true
+
+    category:
+      isEnabled: true
+      pathname: 'categories' # matches Hugo's /categories/some-category
+      robots:
+        index: true
+
+    tag:
+      isEnabled: true
+      pathname: 'tags' # matches Hugo's /tags/some-tag
+      robots:
+        index: false
+
+    isRelatedPostsEnabled: true
+    relatedPostsCount: 4
+
+analytics:
+  vendors:
+    googleAnalytics:
+      id: 'G-GWPBX4JJE8'
+
+ui:
+  theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
