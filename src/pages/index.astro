@@ -1,0 +1,24 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import HeroText from '~/components/widgets/HeroText.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+
+const metadata = {
+  title: "Siva's Blog",
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- HeroText Widget ******************* -->
+
+  <HeroText tagline="Welcome to Siva's Blog" title="Inspire, Ideate, and Innovate!" />
+
+  <!-- BlogLatestPosts Widget ************** -->
+
+  <BlogLatestPosts
+    title="Latest Posts"
+    information={`Notes on data platforms, platform engineering, and enterprise strategy — plus the occasional reflection.`}
+  />
+</Layout>
