@@ -174,6 +174,19 @@ export const findLatestPosts = async ({ count }: { count?: number }): Promise<Ar
 };
 
 /** */
+export const findPostsByCategory = async ({
+  category,
+  count,
+}: {
+  category: string;
+  count?: number;
+}): Promise<Array<Post>> => {
+  const posts = await fetchPosts();
+  const matched = posts.filter((post) => post.category?.slug === category);
+  return count ? matched.slice(0, count) : matched;
+};
+
+/** */
 export const getStaticPathsBlogList = async ({ paginate }: { paginate: PaginateFunction }) => {
   if (!isBlogEnabled || !isBlogListRouteEnabled) return [];
   return paginate(await fetchPosts(), {
