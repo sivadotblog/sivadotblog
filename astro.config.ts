@@ -26,6 +26,13 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
 export default defineConfig({
   output: 'static',
 
+  // Must match `site.trailingSlash` in src/config.yaml. The astrowind
+  // integration also sets this, but only during astro:config:setup — too late
+  // for Astro 7's config normalization, which needs it at initial parse to
+  // register the /_image endpoint with a trailing slash (otherwise every
+  // image 404s in dev).
+  trailingSlash: 'always',
+
   integrations: [
     sitemap(),
     mdx(),
