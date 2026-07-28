@@ -16,7 +16,7 @@ Narrowing it to six meant leaving out books I genuinely liked — Rework, The 7 
 
 Here's what made the final cut.
 
-## Zero to One by Peter Thiel
+## [Zero to One](https://www.goodreads.com/book/show/18050143-zero-to-one) by Peter Thiel
 
 Thiel's central question in Zero to One is deceptively simple: what important truth do very few people agree with you on? His argument is that real progress doesn't come from competing harder in an existing market, it comes from creating a new one where you have no competition at all. Competition, in his framing, is for companies that ran out of new ideas.
 
@@ -24,7 +24,7 @@ What stuck with me was how uncomfortable that question is to actually answer. It
 
 Read it if you default to "let's do what the market leader does, but better" — this book will push back on that instinct.
 
-## The Lean Startup by Eric Ries
+## [The Lean Startup](https://www.goodreads.com/book/show/10127019-the-lean-startup) by Eric Ries
 
 Ries's core idea is the build-measure-learn loop: get the smallest possible version of your idea in front of real customers, measure what actually happens, and learn before you invest further. The minimum viable product isn't a smaller version of your vision, it's the cheapest way to find out if your vision is even right.
 
@@ -32,7 +32,7 @@ This is one I still recommend constantly, because it reframes failure as data in
 
 Read it if you're building anything — a product, a feature, a side project — before you've validated that anyone needs it.
 
-## Creativity, Inc. by Ed Catmull
+## [Creativity, Inc.](https://www.goodreads.com/book/show/18077903-creativity-inc) by Ed Catmull
 
 Catmull's book is about running Pixar, but it's really about protecting fragile ideas long enough for them to become good ones, and about building a culture where honest feedback can survive the org chart. Early ideas are ugly, he argues, and the job of leadership is to shield them from premature judgment.
 
@@ -40,7 +40,7 @@ The part that stayed with me longest was his description of "candor" as a discip
 
 Read it if you manage a team and want honest feedback to survive contact with your own authority.
 
-## The Power of Habit by Charles Duhigg
+## [The Power of Habit](https://www.goodreads.com/book/show/12609433-the-power-of-habit) by Charles Duhigg
 
 Duhigg lays out the habit loop — cue, routine, reward — and makes the case that you rarely eliminate a bad habit outright. Instead, you keep the same cue and the same reward, and quietly swap out the routine in between.
 
@@ -48,7 +48,7 @@ I found this one genuinely useful in a practical sense, not just an interesting-
 
 Read it if you've tried to break a habit through sheer discipline and keep losing.
 
-## Start with Why by Simon Sinek
+## [Start with Why](https://www.goodreads.com/book/show/7108725-start-with-why) by Simon Sinek
 
 Sinek's argument is that people don't buy what you do, they buy why you do it — his golden circle puts purpose at the center, with the how and the what as the outer rings that only make sense once the why is clear.
 
@@ -56,7 +56,7 @@ It's a simple idea, maybe even an obvious one once you've heard it, but I hadn't
 
 Read it if you can describe what your team does in detail but struggle to say why any of it matters.
 
-## Hit Refresh by Satya Nadella
+## [Hit Refresh](https://www.goodreads.com/book/show/30835567-hit-refresh) by Satya Nadella
 
 Nadella's memoir is about rebuilding Microsoft's culture around empathy and a "learn-it-all" mindset instead of a "know-it-all" one — trading the certainty of always having the answer for the humility of always being willing to learn one.
 

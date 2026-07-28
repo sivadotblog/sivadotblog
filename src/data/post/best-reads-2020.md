@@ -14,7 +14,7 @@ Six books carried me through 2020: Atomic Habits, The Infinite Game, The Million
 
 Here's what made the list.
 
-## Atomic Habits by James Clear
+## [Atomic Habits](https://www.goodreads.com/book/show/40121378-atomic-habits) by James Clear
 
 Atomic Habits is James Clear's case for tiny, repeatable improvements over big, dramatic ones. Get 1% better each day and, a year later, you're a different person; the compounding does the work that willpower can't.
 
@@ -22,7 +22,7 @@ I gave this five stars because it reframed my whole approach to change. I'd alwa
 
 If you've set the same New Year's resolution three years running, this is the book that explains why, and what to build instead.
 
-## The Infinite Game by Simon Sinek
+## [The Infinite Game](https://www.goodreads.com/book/show/38390751-the-infinite-game) by Simon Sinek
 
 Sinek's argument here is that business isn't a game you can win, it's a game you can only keep playing. Companies that treat competitors as opponents to be defeated eventually run out of road, while the ones that last are playing for the sake of staying in the game itself.
 
@@ -30,7 +30,7 @@ What stayed with me was the shift in what counts as success. It's not the next q
 
 Read it if you're tired of measuring your work only in short, finish-line terms.
 
-## The Millionaire Mind by Thomas J. Stanley
+## [The Millionaire Mind](https://www.goodreads.com/book/show/905092.The_Millionaire_Mind) by Thomas J. Stanley
 
 The Millionaire Mind is Stanley's follow-up to his research on how ordinary people actually build wealth, and the finding hasn't changed: real millionaires are mostly frugal, unglamorous, and nothing like the lifestyle you'd picture from television.
 
@@ -38,7 +38,7 @@ I rated this five stars because it's such a clean correction to the popular imag
 
 Read this if you associate wealth with spending, and want that association gently dismantled.
 
-## Hooked by Nir Eyal
+## [Hooked](https://www.goodreads.com/book/show/22668729-hooked) by Nir Eyal
 
 Hooked lays out the trigger-action-reward-investment loop that keeps you opening the same apps over and over, whether you meant to or not. Eyal wrote it as a guide for product builders, but reading it as a user is its own kind of eye-opening.
 
@@ -46,7 +46,7 @@ It's a useful book and a slightly unsettling one at the same time. Once you can 
 
 Worth reading whether you build products or just want to understand why you can't put your phone down.
 
-## Raising an Emotionally Intelligent Child by John Gottman
+## [Raising an Emotionally Intelligent Child](https://www.goodreads.com/book/show/213186.Raising_An_Emotionally_Intelligent_Child) by John Gottman
 
 I picked this one up as a parent of a young kid, and it turned out to be less a parenting manual than a book about emotion coaching — Gottman's core idea is simple: name the feeling before you try to fix the behavior.
 
@@ -54,7 +54,7 @@ That one shift changed how I talk to my child. Instead of jumping straight to "s
 
 If you're raising kids and want fewer power struggles, start here.
 
-## Go-Givers Sell More by Bob Burg
+## [Go-Givers Sell More](https://www.goodreads.com/book/show/7066084-go-givers-sell-more) by Bob Burg
 
 Burg's premise is that the best way to sell is to stop selling and start giving value first — the selling, when it happens, is almost incidental. It's the opposite of the hard-close sales culture most of us picture.
 

@@ -14,7 +14,7 @@ My six best reads of 2017 were How to Win Friends & Influence People, Elon Musk,
 
 Here's what made the list, and why.
 
-## How to Win Friends & Influence People by Dale Carnegie
+## [How to Win Friends & Influence People](https://www.goodreads.com/book/show/4865.How_to_Win_Friends_Influence_People) by Dale Carnegie
 
 Carnegie wrote this in 1936, and it still works because people haven't changed nearly as much as we like to think. The core idea is almost embarrassingly simple: take genuine interest in other people before you try any technique on them, and most of what you'd call "influence" follows naturally.
 
@@ -22,7 +22,7 @@ What struck me, reading it decades later, was how little of it is actually about
 
 Read it if you think influence requires charisma you don't have. It mostly requires attention you can choose to give.
 
-## Elon Musk by Ashlee Vance
+## [Elon Musk](https://www.goodreads.com/book/show/25541028-elon-musk) by Ashlee Vance
 
 Vance's biography is not hero worship — it's a close, sometimes uncomfortable look at audacity and first-principles thinking, warts included. Musk sets timelines that sound impossible, misses plenty of them, and somehow the company survives anyway, again and again.
 
@@ -30,7 +30,7 @@ The lesson I took from it wasn't "be like Musk." It was that a lot of what looks
 
 Read it if you want a clear-eyed account of what obsessive ambition actually costs the people around it, not just what it produces.
 
-## Made to Stick by Chip & Dan Heath
+## [Made to Stick](https://www.goodreads.com/book/show/69242.Made_to_Stick) by Chip & Dan Heath
 
 The Heath brothers set out to answer why some ideas spread and others, often better ones, don't. Their answer comes down to six traits: sticky ideas are simple, unexpected, concrete, credible, emotional, and told as stories.
 
@@ -38,7 +38,7 @@ I found myself testing every explanation I gave at work against that checklist a
 
 Read it if you've ever explained something well in your head and watched it land flat out loud.
 
-## The Road Less Traveled by M. Scott Peck
+## [The Road Less Traveled](https://www.goodreads.com/book/show/347852.The_Road_Less_Traveled) by M. Scott Peck
 
 Peck opens with three words — "Life is difficult" — and the rest of the book is what happens once you actually accept that instead of resisting it. His case is that discipline and delayed gratification aren't punishments, they're the only route through problems that don't go away on their own.
 
@@ -46,7 +46,7 @@ It's a heavier, more searching book than the others on this list, and it earns t
 
 Read it when you're ready for a book that asks more of you than it gives back easily.
 
-## The Greatest Salesman in the World by Og Mandino
+## [The Greatest Salesman in the World](https://www.goodreads.com/book/show/356896.The_Greatest_Salesman_in_the_World) by Og Mandino
 
 This one is an old-fashioned parable, built around ten ancient scrolls meant to be read one at a time, slowly, until each lesson on persistence and habit actually sinks in rather than just being skimmed.
 
@@ -54,7 +54,7 @@ It's unlike anything else on this list — more fable than framework — and I l
 
 Read it if you want a book about persistence that makes you practice persistence just to finish it.
 
-## The Power of Simplicity by Jack Trout
+## [The Power of Simplicity](https://www.goodreads.com/book/show/206120.The_Power_of_Simplicity) by Jack Trout
 
 Trout's argument is that most messages fail not because they lack ideas, but because they carry too many of them — the job of good communication is stripping a message down to its essential core and refusing to add anything back.
 
