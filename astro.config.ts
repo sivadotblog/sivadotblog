@@ -60,7 +60,11 @@ export default defineConfig({
     ),
 
     compress({
-      CSS: true,
+      // csso (astro-compress's CSS minifier) can't parse Tailwind v4's range
+      // media queries (`@media (width>=48rem)`) and silently drops them,
+      // stripping every responsive/dark variant from the built CSS. Vite
+      // already minifies CSS, so skip the extra pass.
+      CSS: false,
       HTML: {
         'html-minifier-terser': {
           removeAttributeQuotes: false,
