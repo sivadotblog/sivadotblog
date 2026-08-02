@@ -3,49 +3,20 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Articles',
-      links: [
-        {
-          text: 'All Posts',
-          href: getBlogPermalink(),
-        },
-        {
-          text: 'AI Strategies',
-          href: getPermalink('ai-strategies', 'tag'),
-        },
-        {
-          text: 'Enterprise Strategies',
-          href: getPermalink('enterprise-strategies', 'category'),
-        },
-        {
-          text: 'Data Platforms',
-          href: getPermalink('data-platforms', 'category'),
-        },
-        {
-          text: 'Platform Engineering',
-          href: getPermalink('platform-engineering', 'category'),
-        },
-        {
-          text: 'Techno Bytes',
-          href: getPermalink('techno-bytes', 'category'),
-        },
-        {
-          text: 'Observability',
-          href: getPermalink('observability', 'category'),
-        },
-      ],
+      text: 'Posts',
+      href: getBlogPermalink(),
+    },
+    {
+      text: 'Projects',
+      href: getPermalink('/projects'),
+    },
+    {
+      text: 'Books',
+      href: getPermalink('best-reads', 'category'),
     },
     {
       text: 'About',
       href: getPermalink('/about'),
-    },
-    {
-      text: 'My Reflections',
-      href: getPermalink('reflections', 'category'),
-    },
-    {
-      text: 'Contact',
-      href: getPermalink('/contact'),
     },
   ],
   actions: [],

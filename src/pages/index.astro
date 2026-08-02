@@ -3,6 +3,7 @@ import Layout from '~/layouts/PageLayout.astro';
 
 import HeroText from '~/components/widgets/HeroText.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import LatestProjects from '~/components/widgets/LatestProjects.astro';
 
 const metadata = {
   title: "Siva's Blog",
@@ -15,15 +16,11 @@ const metadata = {
 
   <HeroText tagline="Welcome to Siva's Blog" title="Inspire, Ideate, and Innovate!" />
 
-  <!-- BlogLatestPosts Widgets, one row per category ************** -->
+  <!-- One row per nav section: Posts, Projects, Books ************** -->
 
-  <BlogLatestPosts title="AI Strategies" category="ai-strategies" count={4} />
+  <BlogLatestPosts title="Posts" linkText="View all posts" count={4} />
 
-  <BlogLatestPosts title="Enterprise Strategies" category="enterprise-strategies" count={4} />
+  <LatestProjects title="Projects" count={4} />
 
-  <BlogLatestPosts title="Data Platforms" category="data-platforms" count={4} />
-
-  <BlogLatestPosts title="Platform Engineering" category="platform-engineering" count={4} />
-
-  <BlogLatestPosts title="Best Reads" category="best-reads" count={4} />
+  <BlogLatestPosts title="Books" category="best-reads" linkText="View all books" count={4} />
 </Layout>

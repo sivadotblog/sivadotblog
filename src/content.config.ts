@@ -66,6 +66,20 @@ const postCollection = defineCollection({
   }),
 });
 
+const projectCollection = defineCollection({
+  loader: glob({ pattern: ['*.md', '*.mdx'], base: 'src/data/project' }),
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    image: z.string().optional(),
+    status: z.enum(['prototype', 'wip', 'live', 'archived']).optional(),
+    date: z.date().optional(),
+    link: z.url().optional(),
+    draft: z.boolean().optional(),
+  }),
+});
+
 export const collections = {
   post: postCollection,
+  project: projectCollection,
 };
