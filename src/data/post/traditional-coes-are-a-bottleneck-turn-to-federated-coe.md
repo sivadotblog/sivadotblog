@@ -7,8 +7,8 @@ image: '~/assets/images/post/traditional-coes-are-a-bottleneck-turn-to-federated
 category: 'Enterprise Strategies'
 tags: ['CoE', 'Federated CoE', 'Organizational Agility']
 metadata:
-  title: 'From Bottleneck to Breakthrough: The Rise of Federated CoEs'
-  description: 'Unveil the transformative potential of transitioning to a Federated Center of Excellence model for overcoming traditional bottlenecks and driving organizational agility.'
+  title: 'Traditional CoEs are a bottleneck! Turn to Federated CoE'
+  description: 'Why traditional Centers of Excellence become bottlenecks — and how a Federated CoE model restores organizational agility.'
 ---
 
 I have been in COEs for about 14 years, and to be honest here, nobody likes working with a COE or being in a COE. I am speaking for myself too. Today we will cover a trending concept called Federated CoE.
@@ -32,7 +32,7 @@ So, what's the problem?
 
 COEs are **limited by resources** and so they can only cater to a certain number of teams at a given time. You might wonder why not add more resources? The issue is, COEs tend to have extreme peaks and valleys. There could be times when COEs have nothing to do and just wait for work, while other times they are overloaded twice as much. So having more resources is not efficient.
 
-The next problem with CoE is **conflicting project priorities**. COE Leaders often negotiate project priorities and timelines with multiple project owners. Nobody likes their project to take a backseat for the other. It becomes political more often than not. I and my boss use to team up to address these political concerns. She would wear the black hat( "Sorry, we dont have a resources”) , and I play the angel architect role ("dont worry, lets get it done”). Its super uncomfortable.
+The next problem with CoE is **conflicting project priorities**. COE Leaders often negotiate project priorities and timelines with multiple project owners. Nobody likes their project to take a backseat for the other. It becomes political more often than not. I and my boss use to team up to address these political concerns. She would wear the black hat( "Sorry, we don't have a resources”) , and I play the angel architect role ("don't worry, lets get it done”). Its super uncomfortable.
 
 To be fair to the product/project teams, CoE developers are not **domain experts** in any particular subject. In most cases, domain leads need to spoon feed them, unless you have exceptionally experienced architect(s) in your CoE who understands every domain. That is still a problem when they leave the company. Coaching temporary CoE developers is not the best use of time for the domain leads either.
 
@@ -67,8 +67,6 @@ By ‘platform', I don't mean the infrastructure alone. It's a raised bed for th
 
 Platform CoE will be responsible for the following
 
-1.
-
 1. Identifying tools and technology needed to effectively run their CoE.
 
 1. Creating standards & best practices
@@ -87,13 +85,13 @@ Platform CoE will be responsible for the following
 
 While these are not an exhaustive list, this will act as a guide for organizations who wish to federate their CoE structure. I would recommend three guiding principles for the platform team to run at their fullest.
 
-##### **Core Principle 1: Self Service**
+#### **Core Principle 1: Self Service**
 
 Platform CoE should build features/capabilities/patterns that can be catered by itself, i.e self-services. You shouldn't be involved in provisioning an Apache Spark engine for the project team. Instead, Platform CoE should provide teams with an IaaC (Infrastructure-as-a-Code) template such as Terraform where consumers fork it, change a few variables, and deploy it.
 
 Consider this: you have an enterprise level logging/alerting pattern for any application to notify the operations team and you want every developer to use it. There should be no manual intervention to force a developer to use this pattern. Instead, the CI/CD pipeline should fail when they don't include this function.
 
-##### **Core Principle 2: Governance, not Control**
+#### **Core Principle 2: Governance, not Control**
 
 Steve Jobs once said
 
@@ -103,7 +101,7 @@ This core principle says exactly that. Empower your CoE members to make design d
 
 Platform CoE should never make design decisions. Thats the project team's responsibility, however you can "govern” them by saying what's right and what's wrong with the design they have chosen. This does not mean that you can't call out a wrong design. You continue to collaborate, negotiate but not control.
 
-##### **Core Principle 3: Innovate with Purpose**
+#### **Core Principle 3: Innovate with Purpose**
 
 Evolve faster, but with a purpose. Platform CoEs have dedicate time for innovation, and sometimes we run into a technology rabbit hole without a purpose. What are you solving for? Can we measure the RoI? Are we replacing a depreciating technology? What do our customers want?
 
@@ -117,23 +115,23 @@ Ok I am all sold. Now what?
 
 Good! Let me break down the migration process. You can adjust as needed. We don't want to break the organization overnight causing chaos. Let's take our time doing it gradually.
 
-##### Step 1: Set up the Platform CoE
+### Step 1: Set up the Platform CoE
 
 Identify the core members of the Platform CoE. Generally, we want Infrastructure architects, Platform Architects (specialized in technology/niche) and a small percentage of Engineers. Identify the leadership team. Most of these resources should already exist in your traditional CoE.
 
-##### Step 2: Build a Roadmap
+### Step 2: Build a Roadmap
 
 Create a short term (1-2 years) and long term (3- 5 years) roadmap for your CoE. Short term road map should aim to completely federate the team and distribute the resource pool to project teams. Short term goal should also be able to deliver a MVP (minimum viable product) for centralized knowledge sharing system and CoE forum communication strategy. CoE Forum should be holistic of all CoE Members.
 
 Long term goal should focus on innovation, technology lifecycle, knowledge repo and enhancing the process and CoE practice.
 
-##### Step 3: Federating the team
+### Step 3: Federating the team
 
 People leaders and project managers play a key role in this step. We identify resources, their interests, and strengths. Leaders then map the resources to projects based on individual findings. Work with the project teams and transition the team members to the project team.
 
 For some this might be a hard transition. The resources being transitioned will no longer work across domains and will have more responsibilities tailored to the domain. This is a difficult yet important transition. Leaders must show empathy, compassion and continued mentorship during and after the transition.
 
-##### Step 4: Implement-Measure-Learn Feedback loop
+### Step 4: Implement-Measure-Learn Feedback loop
 
 If your organization is already leveraging Insights to make decisions, great! If not, you should. Insight Driven Business is no longer optional, instead it needs to be embraced by every organization and every domain to improve the process and identify waste. Thats a separate topic of its own. For our purposes, collect as much data possible from within the CoE Forum and from external teams.
 

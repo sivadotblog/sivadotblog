@@ -6,7 +6,7 @@ image: '~/assets/images/post/best-reads.jpg'
 category: 'Best Reads'
 tags: ['books', 'best reads', 'reading list', '2024']
 metadata:
-  title: "Best Books I Read in 2024 — Siva's Reading List"
+  title: 'The Best Books I Read in 2024'
   description: 'The best books I read in 2024: Outlive, Leaders Eat Last, The Singularity Is Nearer, and 21 Lessons for the 21st Century, among others.'
 ---
 

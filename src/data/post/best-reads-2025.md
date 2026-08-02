@@ -6,7 +6,7 @@ image: '~/assets/images/post/best-reads.jpg'
 category: 'Best Reads'
 tags: ['books', 'best reads', 'reading list', '2025']
 metadata:
-  title: "Best Books I Read in 2025 — Siva's Reading List"
+  title: 'The Best Books I Read in 2025'
   description: "The best books I read in 2025: Man's Search for Meaning, Tao Te Ching, The Little Prince, and Nexus by Yuval Noah Harari."
 ---
 

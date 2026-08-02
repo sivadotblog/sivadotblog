@@ -6,7 +6,7 @@ excerpt: "Delve into the 'Five Whys' technique, a simple yet powerful approach t
 image: '~/assets/images/post/the-power-of-why-how-to-think-like-a-kid.jpg'
 category: 'reflections'
 metadata:
-  title: 'The Power of WHY: Solving Problems with the Curiosity of a Child'
+  title: 'The Power of WHY – How to think like a Kid'
   description: "Discover how the 'Five Whys' technique can transform your approach to problem-solving, learning, and innovation by thinking like a kid."
 ---
 

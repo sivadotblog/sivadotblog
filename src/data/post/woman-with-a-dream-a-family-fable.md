@@ -2,13 +2,13 @@
 publishDate: 2019-12-15T10:00:00+02:00
 updateDate: 2019-12-20T10:00:00+02:00
 title: 'Woman with a Dream – A Family Fable'
-excerpt: 'Dive into the heartwarming story of Anu, a talented cook whose culinary skills bring joy to her family and colleagues, and her journey towards realizing her dream.'
+excerpt: "The story of Anu, a gifted cook, and what it costs a woman to keep putting her family's expectations before her own ambitions."
 image: '~/assets/images/post/woman-with-a-dream-a-family-fable.jpg'
 category: 'reflections'
 tags: ['Family', 'Dreams', 'Culinary Skills']
 metadata:
-  title: 'Woman with a Dream: Culinary Delights and Aspirations'
-  description: 'Join Anu on her journey from being a beloved family cook to chasing her dreams, a story that celebrates culinary passion and the pursuit of dreams.'
+  title: 'Woman with a Dream – A Family Fable'
+  description: "The story of Anu, a gifted cook, and what it costs a woman to keep putting her family's expectations before her own ambitions."
 ---
 
 Anu was one of the best cooks I had ever come across. Her recipes were so delicious that our office colleagues would line up when she opened her lunch bag. Sruthi and Thaman, her lucky kids, always had their food served fresh and delicious. And so did their dad. Anu always cooked a little extra, just like my mom. She didn't want to run out of food when someone wanted a little more. I was curious to know what she did with the leftovers.

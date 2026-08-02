@@ -6,7 +6,7 @@ excerpt: 'Unlock the secrets to a compelling homepage with our expert insights o
 image: '~/assets/images/post/4-key-components-of-your-websites-homepage.jpg'
 category: 'Techno Bytes'
 metadata:
-  title: '4 Essential Elements of an Engaging Homepage'
+  title: '4 Key Components of Your Website’s Homepage'
   description: 'Discover the four crucial elements that every homepage needs to captivate visitors, based on our decade-long experience in the ecommerce industry.'
 ---
 
@@ -34,11 +34,11 @@ We provide busy moms with short, meaningful workouts they can use to stay health
 
 ### Authenticity: Prove to customers you are real
 
-Customers are nervous about being scammed. They are looking for authenticity. My idea is simple: if they trust Brand A and Brand A is using your service, that signals trust to them. Add any certifications, associations, and partnerships. Here is an example: Look at how FreshWorks proves their identity. Most of you reading this article might have come across two or more brands listed.
+Customers are nervous about being scammed. They are looking for authenticity. My idea is simple: if they trust Brand A and Brand A is using your service, that signals trust to them. Add any certifications, associations, and partnerships. Most of you reading this article might have come across two or more brands listed.
 
 ### Herd Mentality – Tell your customers they are not alone
 
-Early adopters will find you no matter what. But they are only a fraction. The rest are fast followers and late adopters. They need to be convinced. Show them testimonials, reviews, and your portfolio/work you have done for customers. Make sure that the reviews and testimonials have real names, real photos, and legitimate content. Adding numbers makes it even more legitimate, just like the example below.
+Early adopters will find you no matter what. But they are only a fraction. The rest are fast followers and late adopters. They need to be convinced. Show them testimonials, reviews, and your portfolio/work you have done for customers. Make sure that the reviews and testimonials have real names, real photos, and legitimate content. Adding numbers makes it even more legitimate.
 
 ### Call to action – Psychology of 6
 

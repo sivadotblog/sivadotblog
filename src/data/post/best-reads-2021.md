@@ -6,8 +6,8 @@ image: '~/assets/images/post/best-reads.jpg'
 category: 'Best Reads'
 tags: ['books', 'best reads', 'reading list', '2021']
 metadata:
-  title: "Best Books I Read in 2021 — Siva's Reading List"
-  description: 'The six best books I read in 2021: A Promised Land, How to Avoid a Climate Disaster, The Checklist Manifesto, Outliers, Fundamentals of Software Architecture, and Ikigai.'
+  title: 'The Best Books I Read in 2021'
+  description: 'From A Promised Land to The Checklist Manifesto — the six best books I read in 2021, spanning politics, climate, software, and how to live.'
 ---
 
 My six best reads of 2021 were A Promised Land, How to Avoid a Climate Disaster, The Checklist Manifesto, Outliers, Fundamentals of Software Architecture, and Ikigai — politics, climate, surgery, success, software, and how to live, in that order. This was my heaviest reading year by far, and easily my most five-star one. Cutting the list down to six was genuinely hard; a lot of very good books didn't make it.

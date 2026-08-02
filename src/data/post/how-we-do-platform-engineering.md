@@ -1,12 +1,12 @@
 ---
 publishDate: 2023-01-15T10:00:00+02:00
 title: 'How We Do Platform Engineering'
-excerpt: 'Discover how we solved five critical platform engineering challenges that derail teams—from Terraform configuration complexity and validation failures to environment drift and cross-system orchestration. Learn practical solutions using YAML, Pydantic validation, Jinja templates, and three-layer architecture that reduced deployment failures and improved maintainability at scale.'
+excerpt: 'Five platform engineering problems that derail teams — Terraform complexity, validation failures, environment drift — and how we actually fixed them.'
 image: '~/assets/images/post/how-we-do-platform-engineering.jpg'
 category: 'Platform Engineering'
 metadata:
   title: 'How We Do Platform Engineering'
-  description: 'Discover how we solved five critical platform engineering challenges that derail teams—from Terraform configuration complexity and validation failures to environment drift and cross-system orchestration. Learn practical solutions using YAML, Pydantic validation, Jinja templates, and three-layer architecture that reduced deployment failures and improved maintainability at scale.'
+  description: 'Five platform engineering problems that derail teams — Terraform complexity, validation failures, environment drift — and how we actually fixed them.'
 ---
 
 You'd think that after spending millions on cloud infrastructure and hiring the best engineers money can buy, platform engineering would be... straightforward. It's not.
@@ -207,7 +207,7 @@ We realized something crucial. Not everything deserves to be a Terraform object.
 - **Entitlements** (Microservices): Roles, schemas, permissions, service accounts
 - **Process Flows** (Orchestration): Triggers, dependencies, workflows
 
-This "fit-for-purpose" approach reduced complexity, improved maintainability, and gave engineers clarity about where to make changes and how to make them safely.[^6][^5]
+This "fit-for-purpose" approach reduced complexity, improved maintainability, and gave engineers clarity about where to make changes and how to make them safely.[^5]
 
 ## What This Actually Means
 
@@ -225,7 +225,7 @@ That's how we do platform engineering. Not by adding more tools, but by making t
 
 [^1]: [Platform Engineering Explained](https://www.bunnyshell.com/blog/platform-engineering-explained-the-ultimate-guide-/)
 
-[^2]: [How We Improved the Developmentevelopers)
+[^2]: Internal engineering writeup on improving the developer experience around Terraform configuration.
 
 [^3]: [Netflix Platform Console](https://platformengineering.org/talks-library/netflix-platform-console-to-unify-engineering-experience)
 

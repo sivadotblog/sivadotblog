@@ -16,7 +16,7 @@ Hey there! Let's talk about deploying Databricks notebooks through CI/CD pipelin
 
 ## Methods
 
-### 1. Using GitHub/Azure DevOps Repo Pull (Recommended)
+## 1. Using GitHub/Azure DevOps Repo Pull (Recommended)
 
 The first method we recommend is using GitHub/Azure DevOps repo pull. It's the simplest and cleanest method of all. In this method, we'll create a Databricks job that will pull the notebooks from the GitHub/Azure DevOps repo and run them. There are no additional CI/CD setups required to achieve this, and all the touchpoints such as the git repo, workspace, and notebooks are isolated. There is no complex token management required either.
 
@@ -47,8 +47,6 @@ Databricks Workflows, Prefect, and Airflow also support the repo pull method. Ho
 Databricks offers the Repos API to manage the notebooks in the workspace. We can also use this API to pull the notebooks from git as part of the CI/CD pipeline and sync it with Databricks Repos. Refer to the [Databricks Repos API documentation](https://docs.databricks.com/dev-tools/api/latest/repos.html) or [Databricks Repos](https://www.databricks.com/product/repos) for more details.
 
 ![Using Repos API](/images/databricks-cicd-repos-api.png)
-
-> If you are interested in this method, here is my [template repo](https://siva.blog/post/databricks-howto-deploy-repos-api/) that you can use to get started.
 
 ### Pros
 
