@@ -116,7 +116,7 @@ Adding a technology stack is one thing, encouraging your team/org to adapt to it
 
 > Upskilling and digital dexterity will outweigh tenure and experience.
 
-If you are transforming your traditional data engineers to cloud, here is an article on [How to become a Cloud Data Engineer?](https://www.siva.blog/post/how-to-become-a-cloud-data-engineer) .
+If you are transforming your traditional data engineers to cloud, here is an article on [How to become a Cloud Data Engineer?](https://siva.blog/post/how-to-become-a-cloud-data-engineer).
 
 ## Conclusion
 
@@ -154,4 +154,4 @@ Open Source Data Engineering Stack- Batch ELT Data FLow (Apache Camel, NiFi)
 
 **Would you like to contact me for ideas, questions or for collaboration?**
 
-I am passionate about data and have been [working with and exploring tools](https://www.siva.blog/about) for over 16 years now. Data technologies amazes me, and I continue learning every day. Happy to help!
+I am passionate about data and have been [working with and exploring tools](https://siva.blog/about) for over 16 years now. Data technologies amazes me, and I continue learning every day. Happy to help!

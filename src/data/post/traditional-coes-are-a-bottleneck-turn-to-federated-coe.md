@@ -67,8 +67,6 @@ By ‘platform', I don't mean the infrastructure alone. It's a raised bed for th
 
 Platform CoE will be responsible for the following
 
-1.
-
 1. Identifying tools and technology needed to effectively run their CoE.
 
 1. Creating standards & best practices

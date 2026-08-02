@@ -48,8 +48,6 @@ Databricks offers the Repos API to manage the notebooks in the workspace. We can
 
 ![Using Repos API](/images/databricks-cicd-repos-api.png)
 
-> If you are interested in this method, here is my [template repo](https://siva.blog/post/databricks-howto-deploy-repos-api/) that you can use to get started.
-
 ### Pros
 
 1. Collaboration is easy as all developers' work is available in the workspace under Repos.

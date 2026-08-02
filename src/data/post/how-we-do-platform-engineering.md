@@ -207,7 +207,7 @@ We realized something crucial. Not everything deserves to be a Terraform object.
 - **Entitlements** (Microservices): Roles, schemas, permissions, service accounts
 - **Process Flows** (Orchestration): Triggers, dependencies, workflows
 
-This "fit-for-purpose" approach reduced complexity, improved maintainability, and gave engineers clarity about where to make changes and how to make them safely.[^6][^5]
+This "fit-for-purpose" approach reduced complexity, improved maintainability, and gave engineers clarity about where to make changes and how to make them safely.[^5]
 
 ## What This Actually Means
 
@@ -225,7 +225,7 @@ That's how we do platform engineering. Not by adding more tools, but by making t
 
 [^1]: [Platform Engineering Explained](https://www.bunnyshell.com/blog/platform-engineering-explained-the-ultimate-guide-/)
 
-[^2]: [How We Improved the Developmentevelopers)
+[^2]: Internal engineering writeup on improving the developer experience around Terraform configuration.
 
 [^3]: [Netflix Platform Console](https://platformengineering.org/talks-library/netflix-platform-console-to-unify-engineering-experience)
 
