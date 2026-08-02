@@ -7,13 +7,13 @@ image: '~/assets/images/post/how-to-choose-the-best-etl-tool-for-your-modern-dat
 category: 'Data Platforms'
 tags: ['Data Platform Engineering']
 metadata:
-  title: 'Choosing the Right ETL Tool for Your Data Stack: A Comprehensive Guide'
+  title: 'How to Choose the Best ETL Tool for Your Modern Data Stack?'
   description: 'Discover how to select the best ETL tool for your data stack with our expert guide, simplifying your choice in the complex and rapidly growing data ecosystem.'
 ---
 
 _In this blog, we break down the paradox of choice to help you pick the right ETL tool! If you have seen the_ [_2021 MAD_](https://mattturck.com/data2021/) _(Machine Learning, AI & Data) chart by Matt Turks, there are countless tools already available and growing furiously. But how do you choose the best ETL tool that works for you? Here is the ultimate guide._
 
-Let’s reflect on the past for a moment before we see the current & future of these ETL/ELT tools. Around the 2000s, hardly any organization realized a need for such tools. Most developers would write pages of TSQL or Perl or SAS programs. When they realized that this was becoming unmanageable, they turned to ETL tools such as IBM Information Server (Datastage & Quality Stage), SSIS, Informatica, or ABINITIO. That's it. Most orgs had just one of them, maybe a few had more than one. All these tools have **one purpose**, **moving and transforming the data**.
+Let’s reflect on the past for a moment before we see the current & future of these ETL/ELT tools. Around the 2000s, hardly any organization realized a need for such tools. Most developers would write pages of TSQL or Perl or SAS programs. When they realized that this was becoming unmanageable, they turned to ETL tools such as IBM Information Server (Datastage & Quality Stage), SSIS, Informatica, or Ab Initio. That's it. Most orgs had just one of them, maybe a few had more than one. All these tools have **one purpose**, **moving and transforming the data**.
 
 The purpose of ETL/ELT has not changed for decades i.e. **"Moving and transforming data”**. What has continually changed and evolved are the _type(s) of data_, _data sources_, _data targets_ and _the way data move_. Unfortunately, those traditional behemoths such as IBM or Informatica are not evolving fast enough to catch up. That is where these newcomers have filled the gap and have flooded the market. All this in less than a decade’s time.
 
@@ -31,23 +31,23 @@ Has the purpose changed? NO. So why do we have 100(s) of ETL tools today? How to
 
 Here are some of the common trends amongst the players in the marketplace today:
 
-### 1# Open Source monetized by managed service
+### 1. Open Source monetized by managed service
 
 Many companies start with an open-source project, then commercialize the product. Talend started as an OSS project, that still offers a free version of their tool, but caters enterprises with cloud and enterprise versions. The trend is to start or pick an open-source project, add support, and offer them as a managed service. [Databricks](https://databricks.com/solutions/data-engineering), [Elastic Search](https://www.elastic.co/enterprise-search/), [Airbyte](https://airbyte.com/why-airbyte) and 100s of other companies fall under that category. They offer SaaS or PaaS without the hassle of having to manage those software packages.
 
-### 2# Differentiate by building specialization in a specific area.
+### 2. Differentiate by building specialization in a specific area.
 
-Other small players identify a niche and build their product around it to fill that specific gap. [Streamsets](https://streamsets.com/solutions/cloud-data-warehouse-integration/) for example, is good at streaming small volumes, processing Change Data Captures events. dbt, is specialized in transformation, and does not offer E (extract) or L (load) or [FiveTran](https://www.fivetran.com/extract-load), which offers only data ingestion. Another example is [Xplenty](https://www.integrate.io/product/etl/) and [HighTouch](https://hightouch.com/blog/reverse-etl/) which market their product as "Reverse ETL”.
+Other small players identify a niche and build their product around it to fill that specific gap. [StreamSets](https://streamsets.com/solutions/cloud-data-warehouse-integration/) for example, is good at streaming small volumes, processing Change Data Captures events. dbt, is specialized in transformation, and does not offer E (extract) or L (load) or [Fivetran](https://www.fivetran.com/extract-load), which offers only data ingestion. Another example is [Xplenty](https://www.integrate.io/product/etl/) and [Hightouch](https://hightouch.com/blog/reverse-etl/) which market their product as "Reverse ETL”.
 
-### 3# Upselling Capability
+### 3. Upselling Capability
 
 This category annoys me the most. Many tools such as Astronomer aka Apache Airflow and Prefect upsell their products as ETL tool. No, they are not ETL tools rather, they are meant for orchestration. Atlas Mongo DB sells themselves as a search db as well as a data lake now, oh please! [SingleStore](https://www.singlestore.com/solutions/#use-cases) Database, I still couldn’t wrap my head on what it is specialized for. They claim it can be used for anything from microservices to analytics.
 
-### 4# Complex Pricing
+### 4. Complex Pricing
 
 Another common pitfall is pricing. Each provider comes up with their own terminology for pricing such as credits, units etc. Some products offer pricing based on the number of sources or targets. While others offer based on number of records processed.
 
-### 5# Partnering with competitors
+### 5. Partnering with competitors
 
 Databricks introduced integration partners and it included [dtb](https://www.getdbt.com/product/what-is-dbt/), fiveTran, Tableau and a lot other ETL/ELT tool. Yet they advertise their tool as "All your data, analytics and AI on one platform”. So why do we need the other tools then?
 
@@ -124,7 +124,7 @@ If you are expecting me to suggest or recommend a tool in this post, sorry to di
 
 But I would like to give you some examples in each cloud eco-system.
 
-#### Azure Data Engineering Stack
+### Azure Data Engineering Stack
 
 ![Data Engg using Azure stack](/images/Data-Engineering-Azure.jpg)
 Azure Data Engineering Stack- Batch/Streaming ELT/ETL – Azure Data Factory
@@ -134,7 +134,7 @@ Azure Data Engineering Stack- Batch/Streaming ELT/ETL – Azure Data Factory
 - Data Engineering Platform- Azure Synapse Analytics, Azure Databricks, HD Insights.
 - Storage – Azure Data Lake Storage, Azure SQL Server
 
-#### GCP Data Engineering Stack
+### GCP Data Engineering Stack
 
 ![Data Engg using GCP stack](/images/Data-Enginnering-GCP.jpg)
 Google Cloud Platform (GCP) Data Engineering Stack- Batch ELT Data FLow (Managed Apache Beam)
@@ -143,7 +143,7 @@ Google Cloud Platform (GCP) Data Engineering Stack- Batch ELT Data FLow (Managed
 - Orchestration – Cloud Composer (Managed Apache Airflow)
 - Data Engineering – Data Flow, Data Prep, Data Proc, Data Fusion, Databricks (just stick with a couple)
 
-#### Open-Source Data Engineering Stack
+### Open-Source Data Engineering Stack
 
 ![Data Engg using Open Source stack](/images/Open-Source-Data-Engineering.jpg)
 Open Source Data Engineering Stack- Batch ELT Data FLow (Apache Camel, NiFi)

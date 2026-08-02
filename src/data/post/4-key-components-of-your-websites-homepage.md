@@ -6,7 +6,7 @@ excerpt: 'Unlock the secrets to a compelling homepage with our expert insights o
 image: '~/assets/images/post/4-key-components-of-your-websites-homepage.jpg'
 category: 'Techno Bytes'
 metadata:
-  title: '4 Essential Elements of an Engaging Homepage'
+  title: '4 Key Components of Your Website’s Homepage'
   description: 'Discover the four crucial elements that every homepage needs to captivate visitors, based on our decade-long experience in the ecommerce industry.'
 ---
 

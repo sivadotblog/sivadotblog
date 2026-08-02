@@ -6,7 +6,7 @@ image: '~/assets/images/post/best-reads.jpg'
 category: 'Best Reads'
 tags: ['books', 'best reads', 'reading list', '2022']
 metadata:
-  title: "Best Books I Read in 2022 — Siva's Reading List"
+  title: 'The Best Books I Read in 2022'
   description: 'The best books I read in 2022: Blink by Malcolm Gladwell, How to Change Your Mind by Michael Pollan, and The Data Detective by Tim Harford.'
 ---
 

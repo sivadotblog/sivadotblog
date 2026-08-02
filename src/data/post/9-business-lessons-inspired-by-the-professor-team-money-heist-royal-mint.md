@@ -2,12 +2,12 @@
 publishDate: 2019-02-12T10:00:00+02:00
 updateDate: 2019-02-18T10:00:00+02:00
 title: '9 Business Lessons Inspired by the Professor & Team – Money Heist'
-excerpt: 'Dive into the strategic minds behind the Money Heist crew with our analysis of 9 key business lessons that can revolutionize your approach to challenges and leadership.'
+excerpt: 'Nine business lessons from the Money Heist crew — on leadership, teamwork, and thinking like a criminal mastermind (the good kind).'
 image: '~/assets/images/post/9-business-lessons-inspired-by-the-professor-team-money-heist-royal-mint.jpg'
 category: 'Enterprise Strategies'
 metadata:
-  title: "9 Revolutionary Business Lessons from Money Heist's Masterminds"
-  description: 'Explore how the cunning strategies and unbreakable team dynamics of the Money Heist crew can inspire groundbreaking approaches in business leadership and innovation.'
+  title: '9 Business Lessons Inspired by the Professor & Team – Money Heist'
+  description: 'Nine business lessons from the Money Heist crew — on leadership, teamwork, and thinking like a criminal mastermind (the good kind).'
 ---
 
 I never expected to write an article about a Netflix series, especially a Spanish show about a heist. But seriously, Money Heist is one of a kind, and I drew a lot of inspiration from it. Thinking about the professor and his nerdy, mild demeanor, one would not expect him to be the world’s most wanted criminal who meticulously planned the heist at the Royal Mint.

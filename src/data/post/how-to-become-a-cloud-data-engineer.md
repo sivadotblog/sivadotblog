@@ -2,11 +2,11 @@
 publishDate: 2022-01-15T10:00:00+02:00
 updateDate: 2022-01-20T10:00:00+02:00
 title: 'How to Become a Cloud Data Engineer?'
-excerpt: 'Embark on the journey to becoming a Cloud Data Engineer with our comprehensive guide, featuring expert insights, a healthy dose of sarcasm, and a pinch of merciless humor.'
+excerpt: 'Embark on the journey to becoming a Cloud Data Engineer — expert insights, a healthy dose of sarcasm, and zero mercy.'
 image: '~/assets/images/post/how-to-become-a-cloud-data-engineer.jpg'
 category: 'Data Platforms'
 metadata:
-  title: 'The Ultimate Guide to Becoming a Cloud Data Engineer'
+  title: 'How to Become a Cloud Data Engineer?'
   description: 'Step into the world of Cloud Data Engineering with our expert guide, blending technical know-how with sarcasm and humor for an engaging and informative read.'
 ---
 
@@ -153,4 +153,4 @@ Lastly, it’s not fair if we don’t talk about open source. So, if you were to
 
 While it’s good to know about this architecture, open source is not for everyone. It’s for companies whose core products are tech. Go back to "why” orgs are leveraging the cloud? to reduce administration hurdles. Open source does the exact opposite, it adds a lot of administration overhead. The balanced act is finding a managed open source like Google Dataflow which is a managed Apache Beam or Databricks which is a managed Apache spark environment. Most companies that go for hybrid cloud seek such managed open-source products to avoid vendor lock-in. I am torn by that approach. Using Azure Data Factory is much better than using any other ETL tool for Azure so why would you pay for another tool?
 
-##### Have more questions? I am happy to help you, feel free to reach out to sivanandha@gmail.com
+**Have more questions? I am happy to help you, feel free to reach out to sivanandha@gmail.com**

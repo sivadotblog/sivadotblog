@@ -6,7 +6,7 @@ image: '~/assets/images/post/best-reads.jpg'
 category: 'Best Reads'
 tags: ['books', 'best reads', 'reading list', '2018']
 metadata:
-  title: "Best Books I Read in 2018 — Siva's Reading List"
+  title: 'The Best Books I Read in 2018'
   description: 'The six best books I read in 2018: Zero to One, The Lean Startup, Creativity Inc., The Power of Habit, Start with Why, and Hit Refresh.'
 ---
 

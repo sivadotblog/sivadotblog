@@ -2,13 +2,13 @@
 publishDate: 2024-06-15T10:00:00+02:00
 updateDate: 2024-06-20T10:00:00+02:00
 title: 'Databricks Data & AI Summit 2024: A New Era of Openness and Security'
-excerpt: 'The Databricks Data & AI Summit 2024 marked a pivotal moment in the industry, showcasing new governance tools for secure data environments and a commitment to open-source innovation.'
+excerpt: 'The Databricks Data & AI Summit 2024: new governance tools for secure data environments and a bigger push toward open-source innovation.'
 image: '~/assets/images/post/databricks-data-ai-summit-2024.jpg'
 category: 'Data Platforms'
 tags: ['Databricks', 'Data Security', 'Open Source']
 metadata:
-  title: 'Databricks Summit 2024: Leading the Charge in Data Security and Open Innovation'
-  description: 'Explore the key takeaways from the Databricks Data & AI Summit 2024, including groundbreaking governance tools and a push towards open-source collaboration in the data and AI landscapes.'
+  title: 'Databricks Data & AI Summit 2024: A New Era of Openness and Security'
+  description: 'The Databricks Data & AI Summit 2024: new governance tools for secure data environments and a bigger push toward open-source innovation.'
 ---
 
 The Databricks Data & AI Summit 2024, held in San Francisco, gathered over 16,000 attendees in person and 60,000 virtually. The event was a melting pot of innovation, collaboration, and industry-leading announcements. Here is a comprehensive summary of the key highlights and releases from the summit, showcasing advancements in data engineering, machine learning, and artificial intelligence.

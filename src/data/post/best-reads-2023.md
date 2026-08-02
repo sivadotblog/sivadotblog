@@ -6,7 +6,7 @@ image: '~/assets/images/post/best-reads.jpg'
 category: 'Best Reads'
 tags: ['books', 'best reads', 'reading list', '2023']
 metadata:
-  title: "Best Books I Read in 2023 — Siva's Reading List"
+  title: 'The Best Books I Read in 2023'
   description: 'The best books I read in 2023: The Black Swan, The 48 Laws of Power, and The Psychology of Money.'
 ---
 

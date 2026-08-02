@@ -6,7 +6,7 @@ image: '~/assets/images/post/best-reads.jpg'
 category: 'Best Reads'
 tags: ['books', 'best reads', 'reading list', '2019']
 metadata:
-  title: "Best Books I Read in 2019 — Siva's Reading List"
+  title: 'The Best Books I Read in 2019'
   description: 'The five best books I read in 2019: Factfulness, Tribes, Purple Cow, The ONE Thing, and The Five Temptations of a CEO — and why each is worth your time.'
 ---
 

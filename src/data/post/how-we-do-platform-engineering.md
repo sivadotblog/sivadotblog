@@ -1,12 +1,12 @@
 ---
 publishDate: 2023-01-15T10:00:00+02:00
 title: 'How We Do Platform Engineering'
-excerpt: 'Discover how we solved five critical platform engineering challenges that derail teams—from Terraform configuration complexity and validation failures to environment drift and cross-system orchestration. Learn practical solutions using YAML, Pydantic validation, Jinja templates, and three-layer architecture that reduced deployment failures and improved maintainability at scale.'
+excerpt: 'Five platform engineering problems that derail teams — Terraform complexity, validation failures, environment drift — and how we actually fixed them.'
 image: '~/assets/images/post/how-we-do-platform-engineering.jpg'
 category: 'Platform Engineering'
 metadata:
   title: 'How We Do Platform Engineering'
-  description: 'Discover how we solved five critical platform engineering challenges that derail teams—from Terraform configuration complexity and validation failures to environment drift and cross-system orchestration. Learn practical solutions using YAML, Pydantic validation, Jinja templates, and three-layer architecture that reduced deployment failures and improved maintainability at scale.'
+  description: 'Five platform engineering problems that derail teams — Terraform complexity, validation failures, environment drift — and how we actually fixed them.'
 ---
 
 You'd think that after spending millions on cloud infrastructure and hiring the best engineers money can buy, platform engineering would be... straightforward. It's not.

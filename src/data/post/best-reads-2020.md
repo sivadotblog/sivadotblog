@@ -6,8 +6,8 @@ image: '~/assets/images/post/best-reads.jpg'
 category: 'Best Reads'
 tags: ['books', 'best reads', 'reading list', '2020']
 metadata:
-  title: "Best Books I Read in 2020 — Siva's Reading List"
-  description: 'The six best books I read in 2020: Atomic Habits, The Infinite Game, The Millionaire Mind, Hooked, Raising an Emotionally Intelligent Child, and Go-Givers Sell More.'
+  title: 'The Best Books I Read in 2020'
+  description: 'Six books that made my 2020: Atomic Habits, The Infinite Game, Hooked, and more — on habits, parenting, money, and playing long games.'
 ---
 
 Six books carried me through 2020: Atomic Habits, The Infinite Game, The Millionaire Mind, Hooked, Raising an Emotionally Intelligent Child, and Go-Givers Sell More. Between habits, parenting, money, and long games, it was a year of reading about how to keep going rather than how to win outright — which, given that most of us spent the year stuck at home, feels about right.

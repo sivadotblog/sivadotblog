@@ -7,7 +7,7 @@ image: '~/assets/images/post/time-hacks-act-smarter-live-better.jpg'
 category: 'reflections'
 tags: ['Timing', 'Success', 'Quality of Life']
 metadata:
-  title: 'Mastering the Art of Timing: A Key to Success and Better Living'
+  title: 'Time Hacks – Act smarter, live better'
   description: 'Uncover the critical importance of timing in achieving success and enhancing life quality, with insights from various professions.'
 ---
 

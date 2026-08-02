@@ -6,8 +6,8 @@ image: '~/assets/images/post/best-reads.jpg'
 category: 'Best Reads'
 tags: ['books', 'best reads', 'reading list', '2017']
 metadata:
-  title: "Best Books I Read in 2017 — Siva's Reading List"
-  description: 'The six best books I read in 2017: How to Win Friends and Influence People, Elon Musk, Made to Stick, The Road Less Traveled, The Greatest Salesman in the World, and The Power of Simplicity.'
+  title: 'The Best Books I Read in 2017'
+  description: 'The six best books I read in 2017, the year I got serious about reading: How to Win Friends, Elon Musk, Made to Stick, and more.'
 ---
 
 My six best reads of 2017 were How to Win Friends & Influence People, Elon Musk, Made to Stick, The Road Less Traveled, The Greatest Salesman in the World, and The Power of Simplicity. This is where my Goodreads shelf actually begins — 2017 is the year I got serious about reading, and these six are the ones that made the habit stick.

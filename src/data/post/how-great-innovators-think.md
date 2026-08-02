@@ -1,13 +1,13 @@
 ---
 publishDate: 2019-01-15T10:00:00+02:00
 title: 'How Great Innovators Think'
-excerpt: "Creative thinking isn't a talent lottery—it's a learnable way of looking at the world. Discover six timeless principles that separate innovative thinkers from the rest."
+excerpt: "Creative thinking isn't a talent lottery — it's a learnable way of seeing the world. Six principles that separate innovative thinkers from the rest."
 image: '~/assets/images/post/how-great-innovators-think.jpg'
 category: 'reflections'
 tags: ['innovation', 'creativity', 'learning']
 metadata:
-  title: 'How Great Innovators Think: Six Principles of Creative Thinking'
-  description: 'Creative thinking is not a talent lottery; it is a way of looking at the world. Learn the six principles that define how great innovators approach problems and create value.'
+  title: 'How Great Innovators Think'
+  description: "Creative thinking isn't a talent lottery — it's a learnable way of seeing the world. Six principles that separate innovative thinkers from the rest."
 ---
 
 I am here to share with you six lessons about innovation and entrepreneurship. Not in the usual way though. These are visual, memorable, and if I've done my job right, they'll stick with you long after you've finished reading.
@@ -52,7 +52,7 @@ So the message is this: nobody can promise to solve all your problems, but **you
 
 ## Open Your Mind
 
-When people started localizing traditional Latin back in 64 AD, a new language was born. It was critized, discriminated and even punished back then. Had people stuck to the text book standards of Traditional Latin, we wouldnt have given birth to the most romantic language French today.
+When people started localizing traditional Latin back in 64 AD, a new language was born. It was criticized, discriminated and even punished back then. Had people stuck to the text book standards of Traditional Latin, we wouldn't have given birth to the most romantic language French today.
 
 So what is real learning then? Imagine a bag of balloons with no air in them, and one balloon that has been inflated, held for years and then slowly deflated. The second balloon has stretched and its capacity has increased, while the others have never been exercised.
 
