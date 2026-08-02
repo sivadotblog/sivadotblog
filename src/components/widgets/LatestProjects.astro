@@ -1,0 +1,61 @@
+---
+import Grid from '~/components/projects/Grid.astro';
+
+import { getPermalink } from '~/utils/permalinks';
+import { findLatestProjects } from '~/utils/projects';
+import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
+import type { Widget } from '~/types';
+import Button from '~/components/ui/Button.astro';
+
+export interface Props extends Widget {
+  title?: string;
+  linkText?: string;
+  linkUrl?: string | URL;
+  information?: string;
+  count?: number;
+}
+
+const {
+  title = await Astro.slots.render('title'),
+  linkText = 'View all projects',
+  linkUrl = getPermalink('/projects'),
+  information = await Astro.slots.render('information'),
+  count = 4,
+
+  id,
+  isDark = false,
+  classes = {},
+  bg = await Astro.slots.render('bg'),
+} = Astro.props;
+
+const projects = await findLatestProjects({ count });
+---
+
+{
+  projects.length > 0 ? (
+    <WidgetWrapper id={id} isDark={isDark} containerClass={classes?.container as string} bg={bg}>
+      <div class="flex flex-col lg:justify-between lg:flex-row mb-8">
+        {title && (
+          <div class="md:max-w-sm">
+            <h2
+              class="text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none group font-heading mb-2"
+              set:html={title}
+            />
+            {linkText && linkUrl && (
+              <Button variant="link" href={linkUrl}>
+                {' '}
+                {linkText} »
+              </Button>
+            )}
+          </div>
+        )}
+
+        {information && <p class="text-muted dark:text-slate-400 lg:text-sm lg:max-w-md" set:html={information} />}
+      </div>
+
+      <Grid projects={projects} />
+    </WidgetWrapper>
+  ) : (
+    <Fragment />
+  )
+}

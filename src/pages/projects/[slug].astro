@@ -1,0 +1,41 @@
+---
+import type { GetStaticPaths } from 'astro';
+
+import Layout from '~/layouts/PageLayout.astro';
+import SingleProject from '~/components/projects/SingleProject.astro';
+
+import { fetchProjects } from '~/utils/projects';
+import { findImage } from '~/utils/images';
+import type { ImageMetadata } from 'astro';
+import type { MetaData } from '~/types';
+
+export const prerender = true;
+
+export const getStaticPaths = (async () => {
+  const projects = await fetchProjects();
+  return projects.map((project) => ({
+    params: { slug: project.slug },
+    props: { project },
+  }));
+}) satisfies GetStaticPaths;
+
+const { project } = Astro.props;
+const image = (await findImage(project.image)) as ImageMetadata | string | undefined;
+
+const metadata = {
+  title: project.title,
+  description: project.description,
+  openGraph: {
+    type: 'website',
+    ...(image
+      ? { images: [{ url: image, width: (image as ImageMetadata)?.width, height: (image as ImageMetadata)?.height }] }
+      : {}),
+  },
+} as MetaData;
+---
+
+<Layout metadata={metadata}>
+  <SingleProject project={{ ...project, image }}>
+    {project.Content && <project.Content />}
+  </SingleProject>
+</Layout>

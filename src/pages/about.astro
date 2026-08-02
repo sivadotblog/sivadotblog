@@ -1,6 +1,7 @@
 ---
 import Content from '~/components/widgets/Content.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
+import Button from '~/components/ui/Button.astro';
 import Layout from '~/layouts/PageLayout.astro';
 import aboutImage from '~/assets/images/about-me.jpg';
 
@@ -32,4 +33,8 @@ const metadata = {
       <p>Let's connect, inspire, ideate, and innovate! You can reach me at <a href="mailto:sivanandha@gmail.com">sivanandha@gmail.com</a>.</p>
     `}
   />
+
+  <div class="text-center pb-12 md:pb-16 lg:pb-20">
+    <Button variant="primary" href="/contact">Get in touch</Button>
+  </div>
 </Layout>

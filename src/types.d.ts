@@ -32,6 +32,25 @@ export interface Post {
   readingTime?: number;
 }
 
+export interface Project {
+  /** Unique ID identifying the project. */
+  id: string;
+  /** URL-friendly slug derived from the project name, used to build /projects/<slug>/. */
+  slug: string;
+
+  title: string;
+  description: string;
+  image?: ImageMetadata | string;
+  status?: 'prototype' | 'wip' | 'live' | 'archived';
+  date?: Date;
+  link?: string;
+
+  draft?: boolean;
+
+  /** Rendered Astro component factory for the project body. */
+  Content?: AstroComponentFactory;
+}
+
 export interface Taxonomy {
   slug: string;
   title: string;
