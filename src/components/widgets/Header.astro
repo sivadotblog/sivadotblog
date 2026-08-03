@@ -24,6 +24,7 @@ export interface Props {
   id?: string;
   links?: Array<MenuLink>;
   actions?: Array<CallToAction>;
+  socialLinks?: Array<Link>;
   isSticky?: boolean;
   isDark?: boolean;
   isFullWidth?: boolean;
@@ -36,6 +37,7 @@ const {
   id = 'header',
   links = [],
   actions = [],
+  socialLinks = [],
   isSticky = false,
   isDark = false,
   isFullWidth = false,
@@ -137,6 +139,19 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
     >
       <div class="items-center flex justify-between w-full md:w-auto">
         <div class="flex">
+          {
+            socialLinks.map(({ ariaLabel, href, icon }) => (
+              <a
+                class="text-muted dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
+                aria-label={ariaLabel}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {icon && <Icon name={icon} class="w-5 h-5" />}
+              </a>
+            ))
+          }
           {showToggleTheme && <ToggleTheme iconClass="w-6 h-6 md:w-5 md:h-5 md:inline-block" />}
           {
             showRssFeed && (

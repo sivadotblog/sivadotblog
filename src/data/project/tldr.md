@@ -1,6 +1,7 @@
 ---
 title: 'TLDR Archives + Search'
 description: 'A daily-archived, fully searchable mirror of the TLDR newsletter, with a semantic search API and UI layered on top.'
+image: '~/assets/images/project/tldr.jpg'
 status: 'wip'
 date: 2026-08-01
 link: 'https://github.com/sivadotblog/tldr'

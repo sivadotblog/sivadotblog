@@ -1,6 +1,7 @@
 ---
 title: 'siva.blog'
 description: 'This site — a statically generated Astro blog for posts, projects, and reading notes, optimized for performance and SEO.'
+image: '~/assets/images/project/sivadotblog.jpg'
 status: 'live'
 date: 2026-08-01
 link: 'https://github.com/sivadotblog/sivadotblog'
