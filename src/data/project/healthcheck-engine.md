@@ -1,6 +1,7 @@
 ---
 title: 'Healthcheck Engine'
 description: 'A single long-running asyncio process that polls pluggable health checks and streams structured JSON lines to stdout for OTEL/Splunk to pick up.'
+image: '~/assets/images/project/healthcheck-engine.jpg'
 status: 'prototype'
 date: 2026-07-29
 link: 'https://github.com/sivadotblog/k8s-experiments/tree/main/healthcheck-engine'

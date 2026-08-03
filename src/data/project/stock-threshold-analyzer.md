@@ -1,6 +1,7 @@
 ---
 title: 'Stock Threshold Analyzer'
 description: 'Oscillation analytics on a moving-anchor ±N% rule, built for dip-cycle compounding on stocks that swing a lot while trending up.'
+image: '~/assets/images/project/stock-threshold-analyzer.jpg'
 status: 'live'
 date: 2026-07-31
 link: 'https://github.com/sivadotblog/stock-threshold-analyzer'
