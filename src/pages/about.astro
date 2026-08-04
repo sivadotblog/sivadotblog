@@ -1,7 +1,7 @@
 ---
-import Content from '~/components/widgets/Content.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
 import Button from '~/components/ui/Button.astro';
+import Image from '~/components/common/Image.astro';
 import Layout from '~/layouts/PageLayout.astro';
 import aboutImage from '~/assets/images/about-me.jpg';
 
@@ -16,26 +16,45 @@ const metadata = {
 
   <HeroText tagline="About" title="About Me" />
 
-  <!-- Content Widget ****************** -->
+  <section class="px-6 sm:px-6 mx-auto max-w-3xl">
+    <Image
+      src={aboutImage}
+      alt="Siva Rajadurai"
+      layout="fixed"
+      width={160}
+      height={160}
+      class="mx-auto mb-8 rounded-full object-cover shadow-lg ring-4 ring-white dark:ring-slate-800"
+    />
 
-  <Content
-    image={{
-      src: aboutImage,
-      alt: 'Siva Rajadurai',
-      layout: 'fixed',
-      width: 256,
-      height: 256,
-      class: 'mx-auto rounded-full object-cover shadow-lg ring-4 ring-white dark:ring-slate-800',
-    }}
-    content={`
-      <p>I'm Siva Rajadurai. I lead cloud, data, and AI platform engineering at Humana, where my org builds the platforms the rest of the enterprise runs on — the Azure & GCP foundation, Relational, NoSQL & Cache Databases, Databricks and Snowflake, orchestration, and the governance layer that keeps it all trustworthy under healthcare regulation.</p>
-      <p>I've been building platforms since 2009. What still holds my attention is the part most people find tedious: the operating model. Anyone can stand up a platform. Getting hundreds of engineers to use it well, safely, and without a central team becoming the bottleneck — that's the actual problem, and it's mostly an organizational one wearing a technical costume.</p>
-      <p>This site is where I work through that in public. Architecture decisions, what they cost, and what I'd do differently.</p>
-      <p>Outside work I'm with my family, reading — usually somewhere near the intersection of technology and philosophy — or hiking somewhere new. Always happy to talk platforms. Reach me at <a href="mailto:sivanandha@gmail.com">sivanandha@gmail.com</a>.</p>
-    `}
-  />
+    <div
+      class="prose prose-lg dark:prose-invert dark:prose-headings:text-slate-300 prose-a:text-primary dark:prose-a:text-blue-400 mx-auto"
+    >
+      <p>
+        I'm Siva Rajadurai. I lead cloud, data, and AI platform engineering at Humana, where my org builds the platforms
+        the rest of the enterprise runs on — the Azure & GCP foundation, Relational, NoSQL & Cache Databases, Databricks
+        and Snowflake, orchestration, and the governance layer that keeps it all trustworthy under healthcare
+        regulation.
+      </p>
+      <p>
+        I've been building platforms since 2009. What still holds my attention is the part most people find tedious: the
+        operating model. Anyone can stand up a platform. Getting hundreds of engineers to use it well, safely, and
+        without a central team becoming the bottleneck — that's the actual problem, and it's mostly an organizational
+        one wearing a technical costume.
+      </p>
+      <p>
+        This site is where I work through that in public. Architecture decisions, what they cost, and what I'd do
+        differently.
+      </p>
+      <p>
+        Outside work I'm with my family, reading — usually somewhere near the intersection of technology and philosophy
+        — or hiking somewhere new. Always happy to talk platforms. Reach me at <a href="mailto:sivanandha@gmail.com"
+          >sivanandha@gmail.com</a
+        >.
+      </p>
+    </div>
 
-  <div class="text-center pb-12 md:pb-16 lg:pb-20">
-    <Button variant="primary" href="/contact">Get in touch</Button>
-  </div>
+    <div class="text-center py-12 md:py-16">
+      <Button variant="primary" href="/contact">Get in touch</Button>
+    </div>
+  </section>
 </Layout>
