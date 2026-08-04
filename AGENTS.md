@@ -6,6 +6,10 @@ Siva's Blog (siva.blog), built on the [AstroWind](https://github.com/arthelokyo/
 
 **Stack:** Astro v6 | Tailwind CSS v4 | TypeScript 5.9 | MDX | Sharp
 
+## Do not touch
+
+- **Never overwrite, edit, or delete `README.md`.** This repo is `sivadotblog/sivadotblog`, so this file is the GitHub profile README rendered on github.com/sivadotblog — it is not project documentation. Leave it untouched regardless of the task, unless the user explicitly asks to change the profile README itself.
+
 ## Quick Reference
 
 | Command           | Purpose                             |
