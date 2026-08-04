@@ -1,24 +1,24 @@
-# Siva's Blog
+## Siva Rajadurai
 
-Personal blog at [siva.blog](https://siva.blog), built with [Astro](https://astro.build/) (using the [AstroWind](https://github.com/arthelokyo/astrowind) starter) and Tailwind CSS v4.
+I lead cloud, data, and AI platform engineering at Humana, a Fortune 40 healthcare
+company. My org builds the platforms that hundreds of internal engineering teams run on.
 
-## Commands
+**What I work on**
 
-| Command           | Purpose                             |
-| ----------------- | ----------------------------------- |
-| `npm install`     | Install dependencies                |
-| `npm run dev`     | Start dev server at localhost:4321  |
-| `npm run build`   | Production build to `./dist/`       |
-| `npm run preview` | Preview production build locally    |
-| `npm run check`   | Run astro check + ESLint + Prettier |
-| `npm run fix`     | Auto-fix ESLint + Prettier issues   |
+- Cloud foundation — Azure & Gcp landing zones, IaC, platform automation
+- Data platform — Relation NoSQL and Cache Databases, Databricks, Snowflake
+- Orchestration — Prefect, Airflow
+- Governance & reliability — data quality, lineage, and access as a control plane
 
-**Node.js requirement:** >= 22.12.0
+**What's here**
+Mostly experiments and things I'm working through in the open — Kubernetes,
+orchestration patterns, and small tools. Production work lives behind the firewall;
+this is where I think out loud.
 
-## Content
+**Opinions I'll defend**
 
-Blog posts live in `src/data/post/` as `.md`/`.mdx` files. See `AGENTS.md` for the full project architecture.
+- Centralized platform, federated enablement — beats mesh in regulated environments
+- Governance belongs in the control plane, not in a committee
+- Two orchestration runtimes is always more expensive than the migration
 
-## Deployment
-
-Pushes to `main` build the site and deploy it via FTP to the production host (see `.github/workflows/actions.yaml`).
+**Elsewhere:** [siva.blog](https://siva.blog) · sivanandha@gmail.com
