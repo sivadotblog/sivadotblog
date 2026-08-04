@@ -4,6 +4,7 @@ I lead cloud, data, and AI platform engineering at Humana, a Fortune 40 healthca
 company. My org builds the platforms that hundreds of internal engineering teams run on.
 
 **What I work on**
+
 - Cloud foundation — Azure & Gcp landing zones, IaC, platform automation
 - Data platform — Relation NoSQL and Cache Databases, Databricks, Snowflake
 - Orchestration — Prefect, Airflow
@@ -15,6 +16,7 @@ orchestration patterns, and small tools. Production work lives behind the firewa
 this is where I think out loud.
 
 **Opinions I'll defend**
+
 - Centralized platform, federated enablement — beats mesh in regulated environments
 - Governance belongs in the control plane, not in a committee
 - Two orchestration runtimes is always more expensive than the migration
