@@ -2,12 +2,12 @@
 publishDate: 2019-02-12T10:00:00+02:00
 updateDate: 2019-02-18T10:00:00+02:00
 title: '9 Business Lessons Inspired by the Professor & Team – Money Heist'
-excerpt: 'Nine business lessons from the Money Heist crew — on leadership, teamwork, and thinking like a criminal mastermind (the good kind).'
+excerpt: 'Nine business lessons from the Money Heist crew - on leadership, teamwork, and thinking like a criminal mastermind (the good kind).'
 image: '~/assets/images/post/9-business-lessons-inspired-by-the-professor-team-money-heist-royal-mint.jpg'
 category: 'Enterprise Strategies'
 metadata:
   title: '9 Business Lessons Inspired by the Professor & Team – Money Heist'
-  description: 'Nine business lessons from the Money Heist crew — on leadership, teamwork, and thinking like a criminal mastermind (the good kind).'
+  description: 'Nine business lessons from the Money Heist crew - on leadership, teamwork, and thinking like a criminal mastermind (the good kind).'
 ---
 
 I never expected to write an article about a Netflix series, especially a Spanish show about a heist. But seriously, Money Heist is one of a kind, and I drew a lot of inspiration from it. Thinking about the professor and his nerdy, mild demeanor, one would not expect him to be the world’s most wanted criminal who meticulously planned the heist at the Royal Mint.
@@ -22,7 +22,7 @@ The Professor, the captain of this heist, has all the qualities of a leader. He 
 
 ## 2. Build a Great Team
 
-I am amazed by how the director built this team. No one could have explained team building better. The Professor recruited the best possible team to execute the heist. Right from Berlin, who led the team from inside, putting his life on the line (eventually sacrificing it) to save his team. The eight of them—Tokyo, Moscow, Berlin, Nairobi, Rio, Denver, Helsinki, and Oslo—were all unique.
+I am amazed by how the director built this team. No one could have explained team building better. The Professor recruited the best possible team to execute the heist. Right from Berlin, who led the team from inside, putting his life on the line (eventually sacrificing it) to save his team. The eight of them-Tokyo, Moscow, Berlin, Nairobi, Rio, Denver, Helsinki, and Oslo-were all unique.
 
 There are 4 types of team members:
 
@@ -66,7 +66,7 @@ Even if you have the perfect business plan, it might have blind spots. Who would
 
 The foremost rule of the Professor was no personal relationships. And that was the first rule (almost) everyone broke. The heist team worked together for 6 months through thick and thin and became a family. As Nairobi said, this was the best family she had in years. This relationship held them together during tough times.
 
-So are teams in your company. You work with a team for a few months to years, and you can’t pretend to remain just a Manager or Lead. In order to build a resilient team, you need a strong bond, and your organizational hierarchy will not help there—relationships will.
+So are teams in your company. You work with a team for a few months to years, and you can’t pretend to remain just a Manager or Lead. In order to build a resilient team, you need a strong bond, and your organizational hierarchy will not help there-relationships will.
 
 ## 7. Stay Ahead of the Competition
 

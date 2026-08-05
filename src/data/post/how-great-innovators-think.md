@@ -1,13 +1,13 @@
 ---
 publishDate: 2019-01-15T10:00:00+02:00
 title: 'How Great Innovators Think'
-excerpt: "Creative thinking isn't a talent lottery — it's a learnable way of seeing the world. Six principles that separate innovative thinkers from the rest."
+excerpt: "Creative thinking isn't a talent lottery - it's a learnable way of seeing the world. Six principles that separate innovative thinkers from the rest."
 image: '~/assets/images/post/how-great-innovators-think.jpg'
 category: 'reflections'
 tags: ['innovation', 'creativity', 'learning']
 metadata:
   title: 'How Great Innovators Think'
-  description: "Creative thinking isn't a talent lottery — it's a learnable way of seeing the world. Six principles that separate innovative thinkers from the rest."
+  description: "Creative thinking isn't a talent lottery - it's a learnable way of seeing the world. Six principles that separate innovative thinkers from the rest."
 ---
 
 I am here to share with you six lessons about innovation and entrepreneurship. Not in the usual way though. These are visual, memorable, and if I've done my job right, they'll stick with you long after you've finished reading.
@@ -20,11 +20,11 @@ Look at Picasso's bulls. Not just one bull, but eleven of them, each simpler tha
 
 This is not a child's sketch. This is Picasso, who called himself the greatest artist of modern times, deliberately removing detail until he reached the point where one more stroke less would mean it stops being a bull.
 
-Apple embraced this idea, popularising the line "Simplicity is the ultimate sophistication." Closer to home, think of Gandhi. His essence could be captured in just a few strokes—a curve, a circle, another curve—and still we immediately see him. His own words were "My life is my message".
+Apple embraced this idea, popularising the line "Simplicity is the ultimate sophistication." Closer to home, think of Gandhi. His essence could be captured in just a few strokes-a curve, a circle, another curve-and still we immediately see him. His own words were "My life is my message".
 
 This principle applies to products too. Think of the remote controls at home with 17 or 25 buttons, when most of us only use power, volume and channel. The rest? Rarely touched, barely understood, because technology makes it easy to add complexity.
 
-Now look at the Apple TV remote. Just three main controls—play, pause and a volume dial—designed around what people actually use. The message? **Keep things simple. Because simplicity is the ultimate sophistication.**
+Now look at the Apple TV remote. Just three main controls-play, pause and a volume dial-designed around what people actually use. The message? **Keep things simple. Because simplicity is the ultimate sophistication.**
 
 ## Be Different, Not Uniform
 
@@ -36,7 +36,7 @@ A random skyline might look like Delhi or almost any big city, but once the Eiff
 
 It is easy to be like a string of identical shining pearls, all polished, all similar, but none truly unique. In contrast, look at grains of sand under an electron microscope. Every grain is different in shape and texture, just like every person is special, even though from a distance they may seem uniform.
 
-So the message is this: **be special, think different.** All the obvious ideas have already been taken—Newton has done gravity, Einstein has done relativity. The question is what unique element you can add, what difference you can bring.
+So the message is this: **be special, think different.** All the obvious ideas have already been taken-Newton has done gravity, Einstein has done relativity. The question is what unique element you can add, what difference you can bring.
 
 ## Help Others, Make Yourself Useful
 
@@ -97,4 +97,4 @@ So the final message is: **keep zooming in, keep looking for the unnoticed gaps 
 
 ## Conclusion
 
-Strip away the unnecessary, stand out from the uniform, and ask if what you build serves others. Keep your mind open through learning by doing, and remember: the closer you look, the more opportunities you will find. Innovation is not about inventing something entirely new—it is about zooming into the gaps that everyone else walked past.
+Strip away the unnecessary, stand out from the uniform, and ask if what you build serves others. Keep your mind open through learning by doing, and remember: the closer you look, the more opportunities you will find. Innovation is not about inventing something entirely new-it is about zooming into the gaps that everyone else walked past.

@@ -2,7 +2,7 @@
 publishDate: 2022-01-15T10:00:00+02:00
 updateDate: 2022-01-20T10:00:00+02:00
 title: 'How to Become a Cloud Data Engineer?'
-excerpt: 'Embark on the journey to becoming a Cloud Data Engineer — expert insights, a healthy dose of sarcasm, and zero mercy.'
+excerpt: 'Embark on the journey to becoming a Cloud Data Engineer - expert insights, a healthy dose of sarcasm, and zero mercy.'
 image: '~/assets/images/post/how-to-become-a-cloud-data-engineer.jpg'
 category: 'Data Platforms'
 metadata:

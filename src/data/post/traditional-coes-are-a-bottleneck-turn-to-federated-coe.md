@@ -8,7 +8,7 @@ category: 'Enterprise Strategies'
 tags: ['CoE', 'Federated CoE', 'Organizational Agility']
 metadata:
   title: 'Traditional CoEs are a bottleneck! Turn to Federated CoE'
-  description: 'Why traditional Centers of Excellence become bottlenecks — and how a Federated CoE model restores organizational agility.'
+  description: 'Why traditional Centers of Excellence become bottlenecks - and how a Federated CoE model restores organizational agility.'
 ---
 
 I have been in COEs for about 14 years, and to be honest here, nobody likes working with a COE or being in a COE. I am speaking for myself too. Today we will cover a trending concept called Federated CoE.

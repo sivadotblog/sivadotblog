@@ -7,7 +7,7 @@ image: '~/assets/images/post/here-is-how-to-build-a-saas-product-from-scratch.jp
 category: 'Techno Bytes'
 metadata:
   title: 'How to Build a SaaS Product from Scratch: A Comprehensive Guide'
-  description: 'Learn how to build a SaaS product from scratch — technical insights with a dose of sarcasm and humor.'
+  description: 'Learn how to build a SaaS product from scratch - technical insights with a dose of sarcasm and humor.'
 ---
 
 ## 1. Find Your Niche

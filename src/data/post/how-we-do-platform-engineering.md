@@ -1,19 +1,19 @@
 ---
 publishDate: 2023-01-15T10:00:00+02:00
 title: 'How We Do Platform Engineering'
-excerpt: 'Five platform engineering problems that derail teams — Terraform complexity, validation failures, environment drift — and how we actually fixed them.'
+excerpt: 'Five platform engineering problems that derail teams - Terraform complexity, validation failures, environment drift - and how we actually fixed them.'
 image: '~/assets/images/post/how-we-do-platform-engineering.jpg'
 category: 'Platform Engineering'
 metadata:
   title: 'How We Do Platform Engineering'
-  description: 'Five platform engineering problems that derail teams — Terraform complexity, validation failures, environment drift — and how we actually fixed them.'
+  description: 'Five platform engineering problems that derail teams - Terraform complexity, validation failures, environment drift - and how we actually fixed them.'
 ---
 
 You'd think that after spending millions on cloud infrastructure and hiring the best engineers money can buy, platform engineering would be... straightforward. It's not.
 
 I've been leading cloud platforms for over a decade, and I'll tell you what nobody mentions in those glossy vendor presentations. The tools work. The engineers are brilliant. But somewhere between strategy and execution, something derails. Not because of technical incompetence, but because we're asking platform engineers to solve problems with tools that weren't designed for the complexity we've created.[^1]
 
-This isn't a story about fixing broken infrastructure. It's about the five challenges that consistently derail platform engineering teams—and how we solved them without rewriting everything from scratch.
+This isn't a story about fixing broken infrastructure. It's about the five challenges that consistently derail platform engineering teams-and how we solved them without rewriting everything from scratch.
 
 ## Challenge 1: When Configuration Becomes Code Soup
 
@@ -94,7 +94,7 @@ Here's a conversation I've had too many times:
 
 **Engineer:** "...Terraform doesn't validate that until apply."
 
-By the time Terraform tells you something is wrong, you've already burned 20 minutes of CI/CD pipeline time, blocked other deployments, and discovered the error in the worst possible way—during execution.[^2]
+By the time Terraform tells you something is wrong, you've already burned 20 minutes of CI/CD pipeline time, blocked other deployments, and discovered the error in the worst possible way-during execution.[^2]
 
 We needed pre-flight checks. Validation before Terraform ever touched our infrastructure.
 
@@ -148,7 +148,7 @@ We needed more than documentation. We needed enforcement. Not through policy tha
 
 **Our Solution: Jinja-Templated Terraform**
 
-We render Terraform configurations from Jinja templates, driven by validated YAML. Every environment generates from the same source of truth. Consistency isn't a goal—it's guaranteed by the system itself.[^1]
+We render Terraform configurations from Jinja templates, driven by validated YAML. Every environment generates from the same source of truth. Consistency isn't a goal-it's guaranteed by the system itself.[^1]
 
 ```jinja
 {% for schema in database.schemas %}
@@ -191,13 +191,13 @@ Your platform doesn't live in one system. It spans GitHub, Argo, Prefect, Entra 
 
 Asking platform engineers to manually orchestrate workflows across these systems is like asking them to conduct an orchestra where every musician speaks a different language.
 
-We built an integration layer. API-driven orchestration for cross-system communication. Prefect and Argo for dependency management. GitHub Actions for CI/CD triggers. Not abstracting away complexity—that's impossible—but handling the translation work so engineers don't have to.[^5][^1]
+We built an integration layer. API-driven orchestration for cross-system communication. Prefect and Argo for dependency management. GitHub Actions for CI/CD triggers. Not abstracting away complexity-that's impossible-but handling the translation work so engineers don't have to.[^5][^1]
 
 The magic isn't in any single tool. It's in how they connect.
 
 ## Challenge 5: Not Everything Belongs in Terraform
 
-As platforms grow, so does the Terraform object count. Roles. Schemas. Permissions. Grants. Tags. Policies. Soon your codebase looks like a hoarder's apartment—technically functional, but impossible to navigate.[^1]
+As platforms grow, so does the Terraform object count. Roles. Schemas. Permissions. Grants. Tags. Policies. Soon your codebase looks like a hoarder's apartment-technically functional, but impossible to navigate.[^1]
 
 We realized something crucial. Not everything deserves to be a Terraform object.
 

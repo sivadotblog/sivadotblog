@@ -1,16 +1,16 @@
 ---
 publishDate: 2021-12-03T10:00:00+02:00
 title: 'The Best Books I Read in 2021'
-excerpt: 'From A Promised Land to The Checklist Manifesto — the six best books I read in 2021, spanning politics, climate, software, and how to live.'
+excerpt: 'From A Promised Land to The Checklist Manifesto - the six best books I read in 2021, spanning politics, climate, software, and how to live.'
 image: '~/assets/images/post/best-reads.jpg'
 category: 'Best Reads'
 tags: ['books', 'best reads', 'reading list', '2021']
 metadata:
   title: 'The Best Books I Read in 2021'
-  description: 'From A Promised Land to The Checklist Manifesto — the six best books I read in 2021, spanning politics, climate, software, and how to live.'
+  description: 'From A Promised Land to The Checklist Manifesto - the six best books I read in 2021, spanning politics, climate, software, and how to live.'
 ---
 
-My six best reads of 2021 were A Promised Land, How to Avoid a Climate Disaster, The Checklist Manifesto, Outliers, Fundamentals of Software Architecture, and Ikigai — politics, climate, surgery, success, software, and how to live, in that order. This was my heaviest reading year by far, and easily my most five-star one. Cutting the list down to six was genuinely hard; a lot of very good books didn't make it.
+My six best reads of 2021 were A Promised Land, How to Avoid a Climate Disaster, The Checklist Manifesto, Outliers, Fundamentals of Software Architecture, and Ikigai - politics, climate, surgery, success, software, and how to live, in that order. This was my heaviest reading year by far, and easily my most five-star one. Cutting the list down to six was genuinely hard; a lot of very good books didn't make it.
 
 Here's what did.
 
@@ -34,13 +34,13 @@ Worth reading if you want a clearer, calmer picture of the climate problem than 
 
 Gawande's argument is disarmingly simple: complex systems fail less often when experts use humble checklists, the same way pilots do before every flight. He shows how a basic surgical checklist cut complications and deaths in hospitals around the world, just by making sure nobody skipped an obvious step under pressure.
 
-This one landed differently for me because I run production data systems for a living, and the parallel is exact — most outages I've seen weren't caused by not knowing what to do, they were caused by skipping a step everyone already knew. Five stars, and a book I think about every time I'm tempted to skip a deployment checklist because "this one's simple."
+This one landed differently for me because I run production data systems for a living, and the parallel is exact - most outages I've seen weren't caused by not knowing what to do, they were caused by skipping a step everyone already knew. Five stars, and a book I think about every time I'm tempted to skip a deployment checklist because "this one's simple."
 
 Read it if you work in any high-stakes, repeatable process, technical or not.
 
 ## [Outliers](https://www.goodreads.com/book/show/3228917-outliers) by Malcolm Gladwell
 
-Gladwell's thesis in Outliers is that success is less about individual talent than about opportunity plus accumulated advantage — the right birth year, the right access, ten thousand hours nobody forced you to log but that circumstance made possible.
+Gladwell's thesis in Outliers is that success is less about individual talent than about opportunity plus accumulated advantage - the right birth year, the right access, ten thousand hours nobody forced you to log but that circumstance made possible.
 
 I rated this five stars because it's a quiet correction to the myth of the self-made genius. The most talented person in the room rarely wins alone; they win because something upstream, often invisible to them, stacked the deck a little in their favor. It's a more honest story about success, and a more useful one.
 
@@ -56,7 +56,7 @@ Read it if you're past the tutorials and want a book that respects how genuinely
 
 ## [Ikigai](https://www.goodreads.com/book/show/40534545-ikigai) by Héctor García
 
-I closed the year on Ikigai, García's gentle survey of the Japanese idea of a reason for being — the overlap between what you love, what you're good at, what the world needs, and what you can be paid for, though the book cares less about the diagram and more about the small daily pleasures that sustain a long life.
+I closed the year on Ikigai, García's gentle survey of the Japanese idea of a reason for being - the overlap between what you love, what you're good at, what the world needs, and what you can be paid for, though the book cares less about the diagram and more about the small daily pleasures that sustain a long life.
 
 After five books about ambition, decisions, and hard trade-offs, this one was a deliberately soft landing. It's less about achieving anything and more about noticing what already makes a day worth living.
 

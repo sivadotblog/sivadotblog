@@ -2,7 +2,7 @@
 publishDate: 2020-01-15T10:00:00+02:00
 updateDate: 2020-01-20T10:00:00+02:00
 title: 'Debunking the Myth: Success Beyond Academic Education'
-excerpt: 'Exploring the relationship between academic education and real-world success — and challenging the idea that formal schooling is the only path there.'
+excerpt: 'Exploring the relationship between academic education and real-world success - and challenging the idea that formal schooling is the only path there.'
 image: '~/assets/images/post/success-based-on-academic-education-is-a-myth.jpg'
 category: 'reflections'
 metadata:
