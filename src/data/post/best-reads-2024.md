@@ -18,7 +18,6 @@ So here's what I noticed only in December, which is when I notice everything. Ev
 
 Eight books, one question, asked eight different ways.
 
-
 ## [Outlive](https://www.goodreads.com/book/show/61153739-outlive) by Peter Attia and Bill Gifford
 
 Attia's frame is that medicine waits. It sits still until one of four things shows up, and he calls them the Four Horsemen. Heart disease. Cancer. Neurodegenerative disease. Metabolic dysfunction.
