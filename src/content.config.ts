@@ -75,6 +75,15 @@ const projectCollection = defineCollection({
     status: z.enum(['prototype', 'wip', 'live', 'archived']).optional(),
     date: z.date().optional(),
     link: z.url().optional(),
+    links: z
+      .array(
+        z.object({
+          label: z.string(),
+          url: z.url(),
+          primary: z.boolean().optional(),
+        })
+      )
+      .optional(),
     draft: z.boolean().optional(),
   }),
 });

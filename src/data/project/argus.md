@@ -12,36 +12,18 @@ links:
     primary: true
 ---
 
-Every platform team I've worked on ends up with the same drawer of junk: a cron job that curls an endpoint, a Lambda that checks a cloud status page, a script someone wrote to watch subnet capacity, three different notification paths, and nobody quite sure which of them still runs. Each one was five minutes of work. Together they're a small unmaintained system that nobody owns.
+Every platform team I have worked on ends up with the same drawer of junk. A cron job that curls an endpoint. A Lambda that checks a cloud status page. A script someone wrote to watch subnet capacity, three separate notification paths, and nobody left who is sure which of them still runs. Each one was five minutes of work. Together they are a small unmaintained system that nobody owns.
 
-What they all actually do is identical: ask something a question on a timer and record the answer. That's one program, not nine. Argus is that one program - named for the giant with a hundred eyes who never closed all of them at once, which is a decent description of a single asyncio process running fifty independent check loops.
+They all do the same thing. Ask something a question on a timer, record the answer. So that is one program.
 
-## The one-line contract
+Argus Panoptes is the giant from Greek myth with a hundred eyes, set to watch one thing, and he never had all of them shut at once. That is a fair description of a single asyncio process running fifty independent check loops.
 
-The whole design falls out of one decision: the output is JSON lines on stdout, and that's the entire interface. One line per check result, periodic heartbeat lines so silence is distinguishable from death, nothing else. No metrics endpoint, no exporter, no push gateway, no alerting rules, no retention policy, no storage. An OTEL collector scrapes it, Splunk ingests it, or you pipe it into `jq` while debugging, and all three work the same way because there's only one output path and it's the boring one.
+The output is JSON lines on stdout. That is the entire interface. One line per check result, plus a periodic heartbeat so that silence reads as death rather than calm. And then nothing else. No metrics endpoint, no exporter, no push gateway, no alert rules, no retention policy. An OTEL collector scrapes it, Splunk ingests it, or you pipe it through `jq` while debugging. And all three work the same way, because there is only one output path and it is the boring one.
 
-That's a subtraction, not a feature. Most of what a monitoring tool normally contains is machinery for getting data somewhere else, and every organization I've worked in already had that machinery, already paid for it, already had people who understood it. Building a second one inside a health checker just means maintaining a worse version of something that already exists next to it.
+So each target type is a plugin, picked by a `type` field in YAML. Public HTTP endpoints, authenticated APIs, cloud provider status feeds, Azure VNet and quota capacity, databases. Each runs on its own interval. A status page every five minutes, a database every thirty seconds, and neither blocks the other.
 
-## What it watches
+A connector implements one coroutine, `async def check(self) -> CheckResult`, and every failure it meets becomes a return value. Timeouts, DNS failures, transport errors, malformed responses. All of it gets caught and emitted as a `DOWN` or `ERROR` line like any other result, enforced by convention and by tests. And a health checker that crashes when the thing it watches breaks has become a second outage.
 
-Each target type is a plugin, chosen by a `type` field in a YAML config: public HTTP endpoints, authenticated APIs, cloud provider status feeds, Azure VNet and quota capacity, databases. Each one runs on its own interval - a status page every five minutes, a database every thirty seconds - and neither blocks the other.
+So should you just use Prometheus? For most of this, yes. That problem is solved, and I am not solving it again. But the gap Argus sits in is narrower. A third-party API that either answers or does not. A status feed that is a JSON document. A quota number behind an authenticated management call. Those expose nothing to scrape, and what comes back from them is an event rather than a time series: a timestamp, a latency, a status, an error string. That last one belongs in the log store, next to the application logs from the same incident.
 
-A connector implements one coroutine, `async def check(self) -> CheckResult`, with one rule enforced by convention and tests: it isn't allowed to raise. Timeouts, DNS failures, transport errors, malformed responses all get caught and mapped to a `DOWN` or `ERROR` result and emitted like any other line. A health checker that can crash because the thing it's checking is broken isn't a health checker, it's a second outage - so making failure a value instead of an exception means the engine has exactly one behavior, emit a line, and no path where a bad target takes down the process watching the good ones.
-
-Auth is deliberately explicit, too. Azure-backed checks use a named service principal wired from a Kubernetes secret rather than falling through the ambient credential chain, and the engine fails fast at startup if credentials are missing. Ambient credential resolution is great on a laptop and a source of genuinely confusing incidents in a cluster, where whatever it silently falls back to is some identity nobody remembers granting.
-
-## Why not just use Prometheus
-
-Fair question, and for most of this, you should. Prometheus and its ecosystem beat this at nearly everything - storage, querying, alerting, and the fact that other people already know how it works. If the problem is "collect metrics from things that expose metrics," that's solved, and I'm not solving it again.
-
-The gap Argus sits in is narrower. Some of what I want checked doesn't expose anything to scrape: a third-party API that either answers or doesn't, a cloud status feed that's a JSON document, a quota number behind an authenticated management-API call. The blackbox exporter covers part of this, and then you're writing exporter modules - which is writing connectors, just in a repo whose actual job is something else.
-
-The output shape differs too. Prometheus wants a time series, a number sampled over time. What I want from these checks is an event - this check, against this target, at this timestamp, with this latency, this status, this error string. That's a log line, and it belongs where logs live, next to the application logs from the same incident. Forcing it through a metrics pipeline loses the one string that tells you what actually went wrong.
-
-So it's not a replacement, just a different shape. If you already send structured logs somewhere - and almost everyone does - this plugs into that instead of asking for a second pipeline.
-
-## Where it stands
-
-Prototype, honestly. It runs, the connectors work, and the test suite mocks every external call so it never needs live credentials or a network. It's packaged with `uv`, containerized, and has Kubernetes manifests - ServiceAccount, a ConfigMap for check definitions, a Deployment - sitting ready in the repo.
-
-It hasn't been deployed to a real cluster, so it hasn't met a real week yet. The interesting failures here are all operational - config reload, credential rotation, what happens when a target hangs instead of failing, whether the heartbeat interval is right - and none of those show up until something's been running unattended longer than my patience. It lives in a `k8s-experiments` monorepo for now, which is an accurate description of where it's at.
+Status is prototype, honestly. It runs. The test suite mocks every external call so it never needs live credentials or a network, it is packaged with `uv` and containerized, and the Kubernetes manifests are already sitting in the repo: a ServiceAccount, a ConfigMap for the check definitions, a Deployment. But it has not met a real week yet. Every interesting failure here is operational: config reload, credential rotation, a target that hangs instead of failing.

@@ -20,6 +20,12 @@ const statusLabels: Record<NonNullable<Project['status']>, string> = {
   live: 'Live',
   archived: 'Archived',
 };
+
+const projectLinks = project.links?.length
+  ? project.links
+  : project.link
+    ? [{ label: 'Visit project', url: project.link, primary: true }]
+    : [];
 ---
 
 <section class="py-8 sm:py-16 lg:py-20 mx-auto">
@@ -87,15 +93,17 @@ const statusLabels: Record<NonNullable<Project['status']>, string> = {
       <slot />
     </div>
     {
-      project.link && (
-        <div class="mx-auto px-6 sm:px-6 max-w-3xl mt-8">
-          <Button
-            variant="primary"
-            href={project.link}
-            target="_blank"
-            text="Visit project"
-            icon="tabler:external-link"
-          />
+      projectLinks.length > 0 && (
+        <div class="mx-auto px-6 sm:px-6 max-w-3xl mt-8 flex flex-wrap gap-4">
+          {projectLinks.map((item) => (
+            <Button
+              variant={item.primary ? 'primary' : 'secondary'}
+              href={item.url}
+              target="_blank"
+              text={item.label}
+              icon="tabler:external-link"
+            />
+          ))}
         </div>
       )
     }

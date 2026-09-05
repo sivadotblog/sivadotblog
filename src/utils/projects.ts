@@ -7,7 +7,7 @@ const getNormalizedProject = async (project: CollectionEntry<'project'>): Promis
   const { id, data } = project;
   const { Content } = await render(project);
 
-  const { title, description, image, status, date, link, draft = false } = data;
+  const { title, description, image, status, date, link, links, draft = false } = data;
 
   return {
     id,
@@ -18,6 +18,7 @@ const getNormalizedProject = async (project: CollectionEntry<'project'>): Promis
     status,
     date,
     link,
+    links,
     draft,
     Content,
   };
