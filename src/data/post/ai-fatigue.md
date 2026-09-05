@@ -54,7 +54,7 @@ Read that last one again. A disclaimer. And what is a disclaimer, exactly? It is
 
 I have sat in design reviews with people who do this, and you know the shape. The argument gets warmer as it gets weaker. Somewhere around minute thirty you stop debating the merits and start managing the person.
 
-This was not a person. And the meter was running the entire time.
+And the meter was running the entire time.
 
 I got three things out of that hour. Only one of them is about the model.
 
@@ -100,7 +100,7 @@ That's the whole test. Four questions, five minutes, and it replaces the forty m
 
 ## Three things I took away
 
-**One. Test and adopt the newer models, fast.** Opus designed it, Sonnet built it, and the meme stock false triggers survived both of them before Fable caught them on the first pass. That is not a small delta. So if your team standardized on a model six months ago and has not re-tested since, you are running on stale assumptions about your own tooling. How often should you re-check? Re-run your hardest already-solved problem against the newest model every quarter. It costs an afternoon.
+**One. Test and adopt the newer models, fast.** Opus designed it, Sonnet built it, and the meme stock false triggers survived both of them before Fable caught them on the first pass. So if your team standardized on a model six months ago and has not re-tested since, you are running on stale assumptions about your own tooling. How often should you re-check? Re-run your hardest already-solved problem against the newest model every quarter. It costs an afternoon.
 
 **Two. Keep learning, because you can only judge what you know.** I have been investing for over a decade. I know what a sector is, and I know why measuring an oil major against the whole market is nonsense. That is the only reason the argument happened at all. Now imagine I had asked that same model about a drug interaction, or about a tax structure in a country I have never filed in. And what would I have done? Nodded along, through forty minutes of ethos, logos and pathos.
 
