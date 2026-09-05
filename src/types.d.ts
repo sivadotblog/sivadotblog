@@ -32,6 +32,12 @@ export interface Post {
   readingTime?: number;
 }
 
+export interface ProjectLink {
+  label: string;
+  url: string;
+  primary?: boolean;
+}
+
 export interface Project {
   /** Unique ID identifying the project. */
   id: string;
@@ -44,6 +50,7 @@ export interface Project {
   status?: 'prototype' | 'wip' | 'live' | 'archived';
   date?: Date;
   link?: string;
+  links?: Array<ProjectLink>;
 
   draft?: boolean;
 
