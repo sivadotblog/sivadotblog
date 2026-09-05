@@ -73,6 +73,7 @@
     "svgo": "^4.0.2",
     "astro-compress": {
       "sharp": "^0.35.3"
-    }
+    },
+    "deepmerge-ts": ">=8.0.0"
   }
 }
