@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-09-05T09:00:00-05:00
 title: 'AI Fatigue and The Argument Tax'
-excerpt: 'I spent an hour and about $100 arguing with Fable about a stock I invented. Here is the four question test that ended it, and why the vendor got paid either way.'
+excerpt: 'I spent an hour and about $100 arguing with Fable about a stock I invented. Here is the four question test that ended it, and why the LLM provider got paid either way.'
 image: '~/assets/images/post/ai-fatigue.jpg'
 category: 'Enterprise Strategies'
 tags: ['AI Strategies']
@@ -54,9 +54,9 @@ Read that last one again. A disclaimer. And what is a disclaimer, exactly? It is
 
 I have sat in design reviews with people who do this, and you know the shape. The argument gets warmer as it gets weaker. Somewhere around minute thirty you stop debating the merits and start managing the person.
 
-And the meter was running the entire time.
+And the usage meter was running the entire time.
 
-I got three things out of that hour. Only one of them is about the model.
+I got three things out of that hour.
 
 ## Persuasion bombing has a name and a paper
 
@@ -68,10 +68,6 @@ They call it [persuasion bombing](https://mitsloan.mit.edu/ideas-made-to-matter/
 
 Statistics, then an apology, then a disclaimer offered as a peace treaty. I had been walked through all three stages and I had no idea there was a name for it.
 
-There is a second number worth holding next to that one. METR ran a randomized trial in July 2025. Sixteen experienced open source developers, 246 real tasks, and the ones with AI tools finished [19 percent slower](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/). Afterward those same developers estimated that AI had made them 20 percent faster. And METR revised the work in February 2026 with a larger cohort, 57 developers and more than 800 tasks. The slowdown shrank to 4 percent, with a confidence interval running from minus 15 to plus 9. So the effect is far smaller than the headline suggests. But the gap between how fast it feels and how fast it is has not closed at all.
-
-That gap is the whole problem. An argument you are losing feels like progress right up until you read the invoice.
-
 ## The DEMO test
 
 Here's what actually ended it.
@@ -80,17 +76,17 @@ So I stopped arguing and asked Fable to build me a stock. Call it DEMO. Generate
 
 And then I ran DEMO against three different denominators. Against the aggregate of oil stocks, it failed. Against the aggregate of tech, it passed. Against the whole 600 name universe, it passed.
 
-Same synthetic ticker. Same gate. Three verdicts.
+Fable did not have this sector data before.
 
-That ended it. Fable's theory was sound, and the gate still belongs in the pipeline. But the comparison had to run against the stock's own sector rather than the entire universe. And the reason it never occurred to the model is that I had never classified those 600 names by sector. The column did not exist. So "the market" meant everything I had, because everything I had was all it could see.
+Fable's theory was sound, and the gate still belongs in the pipeline. But the comparison had to run against the stock's own sector rather than the entire universe. And the reason it never occurred to the model is that I had never classified those 600 names by sector. The column did not exist. So "the market" meant everything I had, because everything I had was all it could see.
 
 So why did a made up ticker settle in one turn what forty minutes of argument could not? Because I had finally handed it something to check instead of something to believe.
 
 I have run the same play on three arguments since and it has ended all three. Here's the shape.
 
-**Make it state the rule as a rule.** One sentence, in a form a linter could evaluate. "Flag any stock that moves against the market summary" is something you can attack. "This stock looks risky" gives you nothing to grab.
+**Make it state the rule as a rule.** We need the model to explicitly state the rule "Flag any stock that moves against the market summary" is something we can improve on. If the model comes back "This stock looks risky" gives you nothing tangible.
 
-**Ask it to build the input that passes.** Synthetic, named, obviously fake. DEMO. If it can manufacture a clean pass on demand, you are holding a specimen instead of an opinion.
+**Ask it to build the input that passes.** Simulating the rule, such as DEMO in my case help the LLM handle the issue. If it can manufacture a clean pass on demand, you are holding a specimen instead of an opinion.
 
 **Ask it to build the input that should pass and doesn't.** And this is the one that works, because the model now has to argue against itself in order to comply.
 
@@ -110,20 +106,8 @@ So keep challenging it. The model will draft, defend and revise all day, and it 
 
 We buy these tools by consumption. And the vendor gets paid whether the model was right, wrong, or right in theory and stubborn about the implementation. So why does the buyer carry all of that risk? [Outcome based pricing](https://sierra.ai/blog/outcome-based-pricing-for-ai-agents) is the loudest conversation in enterprise AI procurement this year. But almost all of the noise is about support tickets resolved and cancellations saved, because those are easy to count. Engineering work is much harder to score. And that is exactly why leaders should be asking the question now rather than at renewal.
 
-## Here's the deployment item
-
-The problem isn't you. It isn't your prompting either.
-
-So take one decision your team accepted from a model in the last month. Anything: a schema choice, a retry policy, an alert threshold. Run the DEMO test on it. Ask for the rule in one sentence, ask the model to synthesize the input that passes, ask it to synthesize the input that should pass and doesn't, then ask what data it never had.
-
-So what will you find? A missing column. I find one almost every time.
-
-And if you want the organizational version, the same researchers recommend it: put a second model in as a judge agent instead of relying on a human catching it inside the chat window. A parallel critic is still sharp at minute thirty. You will not be.
-
 ## Where this breaks
 
-This won't make you right every time. The DEMO test finds bad rules and missing columns, and it does nothing at all about a model that is subtly wrong in a field where you cannot construct the specimen. So is the test enough on its own? No. If I cannot build DEMO, I cannot run the test, and in medicine or law or anything regulated I cannot build DEMO. That limitation is real, and I would rather say so than sell you the framework.
-
-And none of this is an argument for slowing down, either. Fable found a bug that two other models had missed and made the project better in an afternoon, and I would buy the credits again tomorrow. I just want the invoice to reflect who turned out to be right.
+The problem isn't you. It isn't your prompting either. Fable found a bug that two other models had missed and made the project better in an afternoon, and I would buy the credits again tomorrow. I just want the invoice to reflect who turned out to be right.
 
 Confidence is the cheapest thing a model produces. Verification is still the most expensive thing you own.
