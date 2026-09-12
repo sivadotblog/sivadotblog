@@ -50,7 +50,7 @@
     "@types/mdx": "^2.0.13",
     "@typescript-eslint/eslint-plugin": "^8.60.0",
     "@typescript-eslint/parser": "^8.60.0",
-    "astro-compress": "^2.4.1",
+    "astro-compress": "^2.3.8",
     "astro-eslint-parser": "^1.4.0",
     "cspell": "^10.0.1",
     "eslint": "^10.4.0",
@@ -74,6 +74,9 @@
     "astro-compress": {
       "sharp": "^0.35.3"
     },
-    "deepmerge-ts": ">=8.0.0"
+    "deepmerge-ts": ">=8.0.0",
+    "markdownlint-cli2": {
+      "smol-toml": "1.7.1"
+    }
   }
 }
