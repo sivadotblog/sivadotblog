@@ -4,6 +4,7 @@ import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import LatestProjects from '~/components/widgets/LatestProjects.astro';
+import BeehiivSubscribeForm from '~/components/widgets/BeehiivSubscribeForm.astro';
 
 const metadata = {
   title: "Siva's Blog",
@@ -14,7 +15,14 @@ const metadata = {
 <Layout metadata={metadata}>
   <!-- HeroText Widget ******************* -->
 
-  <HeroText tagline="Welcome to Siva's Blog" title="Inspire, Ideate, and Innovate!" />
+  <HeroText tagline="Welcome to Siva's Blog" title="Inspire, Ideate, and Innovate!">
+    <Fragment slot="content">
+      <div class="max-w-md mx-auto mt-2 text-center">
+        <p class="text-sm font-medium mb-2 dark:text-gray-300">Subscribe to my newsletter</p>
+        <BeehiivSubscribeForm />
+      </div>
+    </Fragment>
+  </HeroText>
 
   <!-- One row per nav section: Posts, Projects, Books ************** -->
 
