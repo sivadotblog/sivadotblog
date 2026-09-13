@@ -1,0 +1,13 @@
+---
+export interface Props {
+  formId?: string;
+  class?: string;
+}
+
+const { formId = 'd780a5b3-144a-42d6-b3e2-a043465eac2f', class: className = '' } = Astro.props;
+---
+
+<div class:list={['beehiiv-subscribe-form', className]}>
+  <script is:inline async src="https://subscribe-forms.beehiiv.com/v3/loader.js" data-beehiiv-form={formId}
+  ></script>
+</div>
