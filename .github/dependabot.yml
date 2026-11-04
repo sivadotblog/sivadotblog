@@ -1,0 +1,18 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    labels: [dependencies]
+    ignore:
+      # @astrojs/check only supports TS ^5 || ^6 (withastro/astro#17268).
+      # Remove when migrating to @astrojs/ts-content-mapper on TS 7.1+.
+      - dependency-name: typescript
+        versions: [">=7.0.0"]
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    labels: [dependencies]
